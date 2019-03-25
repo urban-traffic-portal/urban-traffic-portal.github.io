@@ -9,14 +9,6 @@
   <link rel="stylesheet" href="./asset/vendor/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="./asset/css/global.css">
   <link rel="stylesheet" href="./asset/css/style.css">
-  <!--Jquery & Boostrap Script Vendor-->
-  <script src="./asset/vendor/fontawesome/fontawesome.min.js"></script>
-  <script src="./asset/vendor/jquery/jquery.min.js"></script>
-  <script src="./asset/vendor/bootstrap/popper.min.js"></script>
-  <script src="./asset/vendor/bootstrap/bootstrap.min.js"></script>
-  <!--AngularJS Vendor-->
-  <script src="./asset/vendor/angular/angular.js"></script>
-  <script src="./asset/vendor/angular/angular-ui-router.js"></script>
 
   <link rel="icon" href="./asset/img/brand/icon.png">
   <title>Urban Traffic Portal</title>
@@ -26,8 +18,8 @@
 </head>
 
 <body>
-  <!--Start header-->
-  <header id="pageWelcome">
+  <!--Start pageWelcome-->
+  <div id="pageWelcome">
     <div id="pageWelcomeContent">
       <nav class="navbar navbar-expand-sm navbar-light">
         <div class="container-fluid">
@@ -36,21 +28,19 @@
             <span class="d-none d-sm-inline">Urban Traffic Portal</span>
             <span class="d-sm-none">UTP</span>
           </a>
-          <div class="d-none d-sm-block">
-            <ul class="navbar-nav ml-auto text-right">
-              <li class="nav-item">
-                <a class="nav-link text-dark" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark" href="#">Contact us</a>
-              </li>
-            </ul>
-          </div>
+          <ul class="navbar-nav ml-auto d-none d-sm-flex">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Contact us</a>
+            </li>
+          </ul>
           <div class="dropdown ml-auto d-sm-none">
-            <button class="btn btn-dark" id="dropdownSignin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button class="btn btn-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <i class="fas fa-bars"></i>
             </button>
-            <form id="formSignin" class="dropdown-menu dropdown-menu-right p-4 shadow shadow-lg border border-primary mt-3" aria-labelledby="dropdownSignin">
+            <div class="dropdown-navbar dropdown-menu dropdown-menu-right p-4 shadow border border-primary mt-3">
               <h5 class="text-center text-primary">Urban Traffic Portal</h5>
               <div class="dropdown-divider"></div>
               <ul class="navbar-nav ml-auto text-right">
@@ -61,9 +51,8 @@
                   <a class="nav-link text-dark" href="#">Contact us</a>
                 </li>
               </ul>
-            </form>
+            </div>
           </div>
-
         </div>
       </nav>
       <div class="container text-center" id="pageWelcomeHello">
@@ -84,12 +73,11 @@
     </div>
     <div id="frame" class="fixed-bottom">
     </div>
-
     <div class="dropdown dropup mr-3 mb-3" style="position: absolute; bottom: 0; right: 0; z-index: 2;">
-      <button class="btn btn-primary border-light dropdown-toggle" id="dropdownSignin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <button class="btn btn-primary border-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Administrators
       </button>
-      <form id="formSignin" class="dropdown-menu dropdown-menu-right p-4 shadow shadow-lg border border-primary mb-3" aria-labelledby="dropdownSignin">
+      <form id="formSignin" class="dropdown-menu dropdown-menu-right p-4 shadow border border-primary mb-3">
         <h5 class="text-center text-primary">Administrator account</h5>
         <div class="text-center text-secondary">This is the area only for administrators</div>
         <div class="dropdown-divider"></div>
@@ -101,20 +89,95 @@
           <label for="inputPassword">Password</label>
           <input type="password" class="form-control" id="inputPassword" placeholder="Password">
         </div>
-        <div class="text-center">
+        <div class="text-right">
           <button class="btn btn-primary">Sign in</button>
         </div>
       </form>
     </div>
+  </div>
+  <!--End pageWelcome-->
 
-  </header>
-  <!--End Header-->
+  <main id="pageMain">
 
-  <main class="pageMain">
+    <div class="pageTraffic">
+      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand fontHeading text-primary" href="./index.html">
+            <img src="./asset/img/brand/logo.png" height="30" width="auto" class="mr-2" alt="">
+            <span class="d-none d-sm-inline">Urban Traffic Portal</span>
+            <span class="d-sm-none">UTP</span>
+          </a>
+
+          <ul class="navbar-nav d-none d-sm-flex">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Traffic</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Traffic Safety Measures</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Traffic Rules
+              </a>
+              <div class="dropdown-menu shadow border border-primary mb-3">
+                <a class="dropdown-item" href="#">Driving licences and categories of vehicles</a>
+                <a class="dropdown-item" href="#">The learner driver</a>
+                <a class="dropdown-item" href="#">The driving test</a>
+                <a class="dropdown-item" href="#">Rules for motorcyclists</a>
+                <a class="dropdown-item" href="#">Rules for cyclists</a>
+                <a class="dropdown-item" href="#">Rules for pedestrians</a>
+                <a class="dropdown-item" href="#">Respecting other road users</a>
+                <a class="dropdown-item" href="#">Other road users</a>
+                <a class="dropdown-item" href="#">Regulatory traffic signs</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Contact us</a>
+            </li>
+          </ul>
+
+          <div class="dropdown ml-auto mr-2">
+            <button id="buttonUser" class="btn btn-outline-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="d-none d-sm-inline">@Guest: <b class="textGuestName"></b></span>
+              <span class="d-sm-none">Guest</span>
+            </button>
+            <div class="dropdown-navbar dropdown-menu dropdown-menu-right p-4 shadow border border-primary mt-3">
+              <h6 class="text-center text-primary">Guest Account</h6>
+              <div class="text-center text-secondary">You are using as a guest account.</div>
+              <div class="dropdown-divider"></div>
+              <p>
+                Hello Mr/Mrs <b class="textGuestName"></b>, welcome to <span class="text-primary">Urban Traffic Portal</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="dropdown d-sm-none">
+            <button class="btn btn-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="dropdown-navbar dropdown-menu dropdown-menu-right p-4 shadow border border-primary mt-3">
+              <h5 class="text-center text-primary">Urban Traffic Portal</h5>
+              <div class="dropdown-divider"></div>
+              <ul class="navbar-nav ml-auto text-right">
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
 
   </main>
 
-  <!--Modal -->
+  <!-- Modal alert -->
   <div class="modal fade" id="alert" tabindex="-1" role="dialog" aria-labelledby="alertLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
@@ -131,6 +194,15 @@
       </div>
     </div>
   </div>
+
+  <!--Jquery & Boostrap Script Vendor-->
+  <script src="./asset/vendor/fontawesome/fontawesome.min.js"></script>
+  <script src="./asset/vendor/jquery/jquery.min.js"></script>
+  <script src="./asset/vendor/bootstrap/popper.min.js"></script>
+  <script src="./asset/vendor/bootstrap/bootstrap.min.js"></script>
+  <!--AngularJS Vendor-->
+  <script src="./asset/vendor/angular/angular.js"></script>
+  <script src="./asset/vendor/angular/angular-ui-router.js"></script>
 
   <script src="./asset/js/app/mainScript.js"></script>
 </body>

@@ -77,7 +77,7 @@ span
 	width: 100vw;
 }
 
-#formSignin
+#formSignin, .dropdown-navbar
 {
 	width: 350px;
 	max-width: 70vw;
@@ -134,6 +134,11 @@ span
 
 	position: absolute;
 	z-index: 1;
+}
+
+#pageMain
+{
+	display: none;
 }
 
 @media (max-width: 540px)
