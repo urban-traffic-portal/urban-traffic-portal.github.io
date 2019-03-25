@@ -3,6 +3,18 @@ label
 	font-weight: 600;
 }
 
+#pageWelcome
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../img/brand/city.png);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	max-height: 100vh;
+	overflow: hidden;
+	width: 100%;
+}
+
 #formSignin
 {
 	width: 350px;
@@ -12,4 +24,16 @@ label
 #pageHello
 {
 	margin-top: 10vh;
+}
+
+
+#pageWelcomeContent
+{
+	position: relative;
+	z-index: 2;
+}
+
+#pageWelcomeContent>nav
+{
+	background-image: linear-gradient(rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.6));
 }

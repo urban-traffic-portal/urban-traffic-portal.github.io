@@ -23,50 +23,64 @@
 
 <body>
 
-  <header id="pageWelcome" class="container-fluid">
+  <header id="pageWelcome" class="container-transparent">
 
-    <nav class="navbar navbar-expand navbar-light bg-transparent">
-      <a class="navbar-brand" href="#">Logo</a>
+    <div id="pageWelcomeContent">
 
-      <div class="dropdown ml-auto">
-        <button class="btn btn-primary dropdown-toggle" id="dropdownAdministratorsArea" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Administrators
-        </button>
+      <nav class="navbar navbar-expand navbar-light">
+        <div class="container">
 
-        <form id="formSignin" class="dropdown-menu dropdown-menu-right p-4" aria-labelledby="dropdownAdministratorsArea">
 
-          <h5 class="text-center text-primary">Administrator account</h5>
-          <div class="text-center text-mute">This is the area only for administrators</div>
+          <a class="navbar-brand" href="./index.html">
+            <img src="./asset/img/brand/logo.png" width="auto" height="60" class="mr-2" alt="">
+            Urban Traffic Portal
+          </a>
 
-          <div class="dropdown-divider"></div>
+          <div class="dropdown ml-auto">
+            <button class="btn btn-primary dropdown-toggle" id="dropdownAdministratorsArea" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Administrators
+            </button>
 
-          <div class="form-group">
-            <label for="inputUsername">Username</label>
-            <input type="text" class="form-control" id="inputUsername" placeholder="Username">
+            <form id="formSignin" class="dropdown-menu dropdown-menu-right p-4" aria-labelledby="dropdownAdministratorsArea">
+
+              <h5 class="text-center text-primary">Administrator account</h5>
+              <div class="text-center text-secondary">This is the area only for administrators</div>
+
+              <div class="dropdown-divider"></div>
+
+              <div class="form-group">
+                <label for="inputUsername">Username</label>
+                <input type="text" class="form-control" id="inputUsername" placeholder="Username">
+              </div>
+
+              <div class="form-group">
+                <label for="inputPassword">Password</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+              </div>
+
+              <div class="text-center">
+                <button class="btn btn-primary">Sign in</button>
+              </div>
+            </form>
           </div>
+        </div>
+      </nav>
 
-          <div class="form-group">
-            <label for="inputPassword">Password</label>
-            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+
+      <div class="container" id="pageHello">
+        <h3 class="text-center">Hello Mr/Mrs</h3>
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <input id="inputName" class="form-control text-center" placeholder="Yourname" autocomplete="off">
           </div>
-
-          <div class="text-center">
-            <button class="btn btn-primary">Sign in</button>
-          </div>
-
-        </form>
-      </div>
-    </nav>
-
-    <div class="container" id="pageHello">
-      <h3 class="text-center">Hello Mr/Mrs</h3>
-      <div class="row">
-        <div class="col-md-8 offset-md-2">
-          <input id="inputName" type="text" class="form-control text-center" placeholder="Yourname">
         </div>
       </div>
+
     </div>
 
+    <div class="row">
+      <img class="img-fluid" id="frame" src="./asset/img/brand/frames.png" alt="">
+    </div>
   </header>
 
 
