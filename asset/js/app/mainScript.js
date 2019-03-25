@@ -5,6 +5,25 @@ function showAlert(title, message)
   $("#alert").modal("show");
 }
 
+function updateViews()
+{
+  if ($(window).innerWidth() < 335)
+    $("#inputGuestName").removeAttr("placeholder");
+  else if ($(window).innerWidth() < 381)
+    $("#inputGuestName").attr("placeholder", "Type yourname");
+  else $("#inputGuestName").attr("placeholder", "Type yourname here");
+}
+
+$(window).ready(function ()
+{
+  updateViews();
+});
+
+$(window).resize(function ()
+{
+  updateViews();
+});
+
 var guestName = "";
 var regName = /^[a-zA-Z ]{1,30}$/;
 $("#buttonGo").click(function ()

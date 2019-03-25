@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!--Style css-->
+
   <link rel="stylesheet" href="./asset/vendor/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="./asset/css/global.css">
   <link rel="stylesheet" href="./asset/css/style.css">
@@ -18,7 +18,6 @@
 </head>
 
 <body>
-  <!--Start pageWelcome-->
   <div id="pageWelcome">
     <div id="pageWelcomeContent">
       <nav class="navbar navbar-expand-sm navbar-light">
@@ -64,7 +63,7 @@
           <div class="input-group-prepend">
             <div class="input-group-text fontWriting">Mr/Mrs:</div>
           </div>
-          <input id="inputGuestName" class="form-control text-light fontWriting" placeholder="Type yourname" autocomplete="off" autofocus maxlength="30">
+          <input id="inputGuestName" class="form-control text-light fontWriting" autocomplete="off" autofocus maxlength="30">
         </div>
         <button id="buttonGo" class="btn btn-primary border-light my-3 pr-4 pl-4">
           Go
@@ -95,10 +94,10 @@
       </form>
     </div>
   </div>
-  <!--End pageWelcome-->
 
   <main id="pageMain">
 
+    <!--Load navbar into this nav tag-->
     <nav id="mainNavbar" class="navbar navbar-expand-sm navbar-light bg-light">
 
       <div id="navGuest" class="container-fluid">
@@ -107,7 +106,6 @@
           <span class="d-none d-sm-inline d-lg-none d-xl-inline">Urban Traffic Portal</span>
           <span class="d-inline d-sm-none d-lg-inline d-xl-none">UTP</span>
         </a>
-
         <ul class="navbar-nav d-none d-lg-flex">
           <li class="nav-item">
             <a class="nav-link" href="#">Traffic</a>
@@ -125,7 +123,6 @@
             <a class="nav-link" href="#">Contact us</a>
           </li>
         </ul>
-
         <div class="dropdown ml-auto mr-2">
           <button id="buttonUser" class="btn btn-outline-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="d-none d-lg-inline">@Guest: <b class="textGuestName"></b></span>
@@ -140,7 +137,6 @@
             </p>
           </div>
         </div>
-
         <div class="dropdown d-lg-none">
           <button class="btn btn-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-bars"></i>
@@ -170,14 +166,17 @@
       </div>
     </nav>
 
+     <!--Load Content into this div tag-->
     <div id="mainContent">
       <div id="pageTraffic">
+        <div class="container">
+
+        </div>
       </div>
     </div>
 
   </main>
 
-  <!-- Modal alert -->
   <div class="modal fade" id="alert" tabindex="-1" role="dialog" aria-labelledby="alertLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
@@ -195,12 +194,13 @@
     </div>
   </div>
 
-  <!--Jquery & Boostrap Script Vendor-->
   <script src="./asset/vendor/fontawesome/fontawesome.min.js"></script>
+
   <script src="./asset/vendor/jquery/jquery.min.js"></script>
+  
   <script src="./asset/vendor/bootstrap/popper.min.js"></script>
   <script src="./asset/vendor/bootstrap/bootstrap.min.js"></script>
-  <!--AngularJS Vendor-->
+
   <script src="./asset/vendor/angular/angular.js"></script>
   <script src="./asset/vendor/angular/angular-ui-router.js"></script>
 
