@@ -94,7 +94,7 @@ span
 	background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8));
 }
 
-#inputName
+#inputGuestName
 {
 	font-size: 2rem;
 	background-color: rgba(255, 255, 255, 0);
@@ -103,7 +103,7 @@ span
 	padding: 0;
 }
 
-#inputName::placeholder
+#inputGuestName::placeholder
 {
 	color: rgb(179, 192, 204);
 	font-size: 1.3rem;
