@@ -1,0 +1,15 @@
+label
+{
+	font-weight: 600;
+}
+
+#formSignin
+{
+	width: 300px;
+	max-width: 70vw;
+}
+
+#pageHello
+{
+	margin-top: 10vh;
+}

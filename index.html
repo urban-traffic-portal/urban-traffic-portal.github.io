@@ -1,82 +1,73 @@
 <!doctype html>
-<html lang="">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <meta name="author" content="Dao Minh Trung Thuan">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  <link rel="stylesheet" href="">
-  <title></title>
+
+  <link rel="stylesheet" href="./vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/global.css">
+
+  <script src="./vendor/fontawesome/fontawesome.min.js"></script>
+  <script src="./vendor/jquery/jquery.min.js"></script>
+  <script src="./vendor/bootstrap/popper.min.js"></script>
+  <script src="./vendor/bootstrap/bootstrap.min.js"></script>
+
+  <title>Urban traffic portal</title>
+
+  <meta name="author" content="Sigma Team">
   <meta name="keywords" content="">
   <meta name="description" content="">
 </head>
 
 <body>
 
-  <header id="pageWelcome">
+  <header id="pageWelcome" class="container-fluid">
 
-    <nav class="navbar navbar-expand navbar-light bg-light">
+    <nav class="navbar navbar-expand navbar-light bg-transparent">
       <a class="navbar-brand" href="#">Logo</a>
 
       <div class="dropdown ml-auto">
-        <button class="btn btn-outline-dark dropdown-toggle">
-          For Administrators
+        <button class="btn btn-primary dropdown-toggle" id="dropdownAdministratorsArea" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Administrators area
         </button>
 
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown button
-        </button>
+        <form id="formSignin" class="dropdown-menu dropdown-menu-right p-4" aria-labelledby="dropdownAdministratorsArea">
 
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </div>
+          <h5 class="text-center text-primary">Administrator account</h5>
+          <div class="dropdown-divider"></div>
 
-      <button class="btn btn-outline-dark ml-auto">
-        For Administrators
-      </button>
-
-      <form class="dropdown-menu p-4">
-        <div class="form-group">
-          <label for="exampleDropdownFormEmail2">Email address</label>
-          <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
-        </div>
-        <div class="form-group">
-          <label for="exampleDropdownFormPassword2">Password</label>
-          <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
-        </div>
-        <div class="form-group">
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="dropdownCheck2">
-            <label class="form-check-label" for="dropdownCheck2">
-              Remember me
-            </label>
+          <div class="form-group">
+            <label for="inputUsername">Username</label>
+            <input type="text" class="form-control" id="inputUsername" placeholder="Username">
           </div>
-        </div>
-        <button type="submit" class="btn btn-primary">Sign in</button>
-      </form>
+
+          <div class="form-group">
+            <label for="inputPassword">Password</label>
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+          </div>
+
+          <div class="text-center">
+            <button class="btn btn-primary">Sign in</button>
+          </div>
+
+        </form>
+      </div>
     </nav>
 
-    <section id="sectionWelcome" class="container my-4">
-      <h1 class="text-center">
-        Hello Mr/Mrs
-      </h1>
-      <form id="formWelcome">
-        <input id="inputName" type="text" class="form-control" placeholder="Yourname">
-      </form>
-    </section>
-
+    <div class="container" id="pageHello">
+      <h3 class="text-center">Hello Mr/Mrs</h3>
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <input id="inputName" type="text" class="form-control text-center" placeholder="Yourname">
+        </div>
+      </div>
+    </div>
 
   </header>
 
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
 
 </html>

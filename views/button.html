@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Document</title>
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        .btn-group-sm .btn-fab {
+            position: fixed !important;
+            right: 29px;
+        }
+
+        .btn-group .btn-fab {
+            position: fixed !important;
+            right: 20px;
+        }
+
+        #main {
+            bottom: 20px;
+        }
+
+        #mail {
+            bottom: 80px
+        }
+
+        #sms {
+            bottom: 125px
+        }
+
+        #autre {
+            bottom: 170px
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="btn-group-sm hidden" id="mini-fab">
+                    <a href="#" class="btn btn-info btn-fab" data-toggle="tooltip" data-placement="left"
+                        data-original-title="Other" title="" id="autre">
+                        <i class="material-icons">
+                            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="#000000"
+                                    d="M16,12A2,2 0 0,1 18,10A2,2 0 0,1 20,12A2,2 0 0,1 18,14A2,2 0 0,1 16,12M10,12A2,2 0 0,1 12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12M4,12A2,2 0 0,1 6,10A2,2 0 0,1 8,12A2,2 0 0,1 6,14A2,2 0 0,1 4,12Z" />
+                            </svg>
+                        </i>
+                    </a>
+                    <a href="#" class="btn btn-warning btn-fab" data-toggle="tooltip" data-placement="left"
+                        data-original-title="SMS" title="" id="sms">
+                        <i class="material-icons">
+                            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="#000000"
+                                    d="M9,22A1,1 0 0,1 8,21V18H4A2,2 0 0,1 2,16V4C2,2.89 2.9,2 4,2H20A2,2 0 0,1 22,4V16A2,2 0 0,1 20,18H13.9L10.2,21.71C10,21.9 9.75,22 9.5,22V22H9Z" />
+                            </svg>
+                        </i>
+                    </a>
+                    <a href="#" class="btn btn-danger btn-fab" data-toggle="tooltip" data-placement="left"
+                        data-original-title="Mail" title="" id="mail">
+                        <i class="material-icons">
+                            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="#000000"
+                                    d="M4,8L12,13L20,8V8L12,3L4,8V8M22,8V18A2,2 0 0,1 20,20H4A2,2 0 0,1 2,18V8C2,7.27 2.39,6.64 2.97,6.29L12,0.64L21.03,6.29C21.61,6.64 22,7.27 22,8Z" />
+                            </svg>
+                        </i>
+                    </a>
+                </div>
+                <div class="btn-group">
+                    <a href="javascript:void(0)" class="btn btn-success btn-fab" id="main">
+                        <i class="material-icons">
+                            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="#000000"
+                                    d="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z" />
+                            </svg>
+                        </i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+            $("#main").click(function () {
+                $("#mini-fab").toggleClass('hidden');
+            });
+    
+            $(document).ready(function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+            $.material.init();
+        </script>
+</body>
+
+</html>
