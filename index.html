@@ -50,7 +50,7 @@
             <button class="btn btn-dark" id="dropdownSignin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <i class="fas fa-bars"></i>
             </button>
-            <form id="formSignin" class="dropdown-menu dropdown-menu-right p-4 shadow shadow-lg border border-primary mb-4" aria-labelledby="dropdownSignin">
+            <form id="formSignin" class="dropdown-menu dropdown-menu-right p-4 shadow shadow-lg border border-primary mt-3" aria-labelledby="dropdownSignin">
               <h5 class="text-center text-primary">Urban Traffic Portal</h5>
               <div class="dropdown-divider"></div>
               <ul class="navbar-nav ml-auto text-right">
@@ -84,31 +84,29 @@
     </div>
     <div id="frame" class="fixed-bottom">
     </div>
-    <div class="navbar navbar-expand navbar-light fixed-bottom mb-2">
-      <div class="container-fluid">
-        <div class="dropdown dropup ml-auto">
-          <button class="btn btn-primary border-light dropdown-toggle" id="dropdownSignin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Administrators
-          </button>
-          <form id="formSignin" class="dropdown-menu dropdown-menu-right p-4 shadow shadow-lg border border-primary mb-4" aria-labelledby="dropdownSignin">
-            <h5 class="text-center text-primary">Administrator account</h5>
-            <div class="text-center text-secondary">This is the area only for administrators</div>
-            <div class="dropdown-divider"></div>
-            <div class="form-group">
-              <label for="inputUsername">Username</label>
-              <input type="text" class="form-control" id="inputUsername" placeholder="Username">
-            </div>
-            <div class="form-group">
-              <label for="inputPassword">Password</label>
-              <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-            </div>
-            <div class="text-center">
-              <button class="btn btn-primary">Sign in</button>
-            </div>
-          </form>
+
+    <div class="dropdown dropup mr-3 mb-3" style="position: absolute; bottom: 0; right: 0; z-index: 2;">
+      <button class="btn btn-primary border-light dropdown-toggle" id="dropdownSignin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Administrators
+      </button>
+      <form id="formSignin" class="dropdown-menu dropdown-menu-right p-4 shadow shadow-lg border border-primary mb-3" aria-labelledby="dropdownSignin">
+        <h5 class="text-center text-primary">Administrator account</h5>
+        <div class="text-center text-secondary">This is the area only for administrators</div>
+        <div class="dropdown-divider"></div>
+        <div class="form-group">
+          <label for="inputUsername">Username</label>
+          <input type="text" class="form-control" id="inputUsername" placeholder="Username">
         </div>
-      </div>
+        <div class="form-group">
+          <label for="inputPassword">Password</label>
+          <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+        </div>
+        <div class="text-center">
+          <button class="btn btn-primary">Sign in</button>
+        </div>
+      </form>
     </div>
+
   </header>
   <!--End Header-->
 
@@ -118,7 +116,7 @@
 
   <!--Modal -->
   <div class="modal fade" id="alert" tabindex="-1" role="dialog" aria-labelledby="alertLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="alertLabel"></h5>

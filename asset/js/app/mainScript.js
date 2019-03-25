@@ -15,7 +15,7 @@ $(document).ready(function ()
     var guestName = $("#inputGuestName").val();
     if (!regName.test(guestName))
     {
-      showAlert("<span class=\"text-danger\"><i class=\"fas fa-exclamation-triangle\"></i> Alert</span>", "<b class=\"text-danger\">Invalid name</b>, please check again.");
+      showAlert("<span class=\"text-danger\"><i class=\"fas fa-exclamation-triangle\"></i> Alert</span>", "<b class=\"text-danger\">Invalid name</b>. Please check again.");
     }
     else
     {
