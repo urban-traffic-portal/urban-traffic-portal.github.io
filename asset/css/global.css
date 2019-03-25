@@ -59,10 +59,23 @@ span
 	font-family: inherit !important;
 }
 
+.nav-item>.nav-link
+{
+	color: #4d545c !important;
+}
+
 .nav-item:hover>.nav-link
 {
 	font-weight: 600 !important;
+	color: #343a40 !important;
+}
+
+.nav-item.active >.nav-link
+{
+	cursor: default;
+	font-weight: 600 !important;
 	color: #0071AD !important;
+	border-bottom: solid 0.15rem #0071AD;
 }
 
 /*******/
