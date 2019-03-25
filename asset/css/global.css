@@ -46,8 +46,20 @@ label
 
 .btn
 {
-    box-shadow: none !important;
+  box-shadow: none !important;
 }
+
+.btn:hover
+{
+	font-weight: 600;
+}
+
+span
+{
+	font-family: inherit !important;
+}
+
+/*******/
 
 #pageWelcome
 {
@@ -81,7 +93,7 @@ label
 
 #inputName::placeholder
 {
-	color: rgba(248, 249, 250, 0.796);
+	color: rgb(179, 192, 204);
 	font-size: 1.3rem;
 }
 
@@ -100,6 +112,14 @@ label
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 70vh;
+	min-height: 80vh;
 	width: 100vw;
+}
+
+@media (max-width: 540px)
+{
+	#inputName, #pageWelcomeHello .input-group-text
+	{
+		font-size: 1.5rem;
+	}
 }

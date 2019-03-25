@@ -30,9 +30,9 @@
     <div id="pageWelcomeContent">
       <nav class="navbar navbar-expand navbar-light">
         <div class="container">
-          <a class="navbar-brand fontHeading text-primary text-center" href="./index.html">
-            <img src="./asset/img/brand/logo.png" height="60" class="mr-2" alt="">
-            Urban Traffic Portal
+          <a id="navbar-brand" class="fontHeading text-primary" href="./index.html">
+            <img src="./asset/img/brand/logo.png" height="40" width="auto" class="mr-2" alt="">
+            <span class="d-none d-sm-inline">Urban Traffic Portal</span>
           </a>
         </div>
       </nav>
@@ -40,19 +40,26 @@
     </div>
 
     <div id="frame" class="fixed-bottom">
-      <div class="container" id="pageWelcomeHello">
+      <div class="container text-center" id="pageWelcomeHello">
+        <img src="./asset/img/brand/logo.png" height="128" width="auto" alt="" class="mb-2">
+        <h2 id="textLogo" class="fontWriting text-center text-light">
+          Urban Traffic Portal
+        </h2>
         <div class="input-group col-md-8 offset-md-2">
           <div class="input-group-prepend">
             <div class="input-group-text fontWriting">Mr/Mrs:</div>
           </div>
-          <input id="inputName" class="form-control text-light fontWriting" placeholder="Type yourname here" autocomplete="off">
+          <input id="inputName" class="form-control text-light fontWriting" placeholder="Type yourname" autocomplete="off">
         </div>
+        <button id="buttonEnter" class="btn btn-primary border-light my-3 pr-4 pl-4">
+          Go
+        </button>
       </div>
 
       <div class="navbar navbar-expand navbar-light fixed-bottom mb-2">
         <div class="container-fluid">
           <div class="dropdown dropup ml-auto">
-            <button class="btn btn-primary dropdown-toggle" id="dropdownSignin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button class="btn btn-primary border-light dropdown-toggle" id="dropdownSignin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Administrators
             </button>
             <form id="formSignin" class="dropdown-menu dropdown-menu-right p-4 shadow shadow-lg border border-primary mb-4" aria-labelledby="dropdownSignin">
