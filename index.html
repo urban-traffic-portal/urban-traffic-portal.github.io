@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- <!--Style css-->
+  <!--Style css-->
   <link rel="stylesheet" href="./asset/vendor/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="./asset/css/global.css">
   <link rel="stylesheet" href="./asset/css/style.css">
@@ -26,56 +26,55 @@
 
 <body>
   <!--Start header-->
-  <header id="pageWelcome" class="container-transparent">
+  <header id="pageWelcome">
     <div id="pageWelcomeContent">
       <nav class="navbar navbar-expand navbar-light">
         <div class="container">
-          <a class="navbar-brand" href="./index.html">
-            <img src="./asset/img/brand/logo.png" width="auto" height="60" class="mr-2" alt="">
+          <a class="navbar-brand fontHeading text-primary text-center" href="./index.html">
+            <img src="./asset/img/brand/logo.png" height="60" class="mr-2" alt="">
             Urban Traffic Portal
           </a>
+        </div>
+      </nav>
 
-          <div class="dropdown ml-auto">
-            <button class="btn btn-primary dropdown-toggle" id="dropdownAdministratorsArea" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
+    </div>
+
+    <div id="frame" class="fixed-bottom">
+      <div class="container" id="pageWelcomeHello">
+        <div class="input-group col-md-8 offset-md-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text fontWriting">Mr/Mrs:</div>
+          </div>
+          <input id="inputName" class="form-control text-light fontWriting" placeholder="Type yourname here" autocomplete="off">
+        </div>
+      </div>
+
+      <div class="navbar navbar-expand navbar-light fixed-bottom mb-2">
+        <div class="container-fluid">
+          <div class="dropdown dropup ml-auto">
+            <button class="btn btn-primary dropdown-toggle" id="dropdownSignin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Administrators
             </button>
-
-            <form id="formSignin" class="dropdown-menu dropdown-menu-right p-4"
-              aria-labelledby="dropdownAdministratorsArea">
-
+            <form id="formSignin" class="dropdown-menu dropdown-menu-right p-4 shadow shadow-lg border border-primary mb-4" aria-labelledby="dropdownSignin">
               <h5 class="text-center text-primary">Administrator account</h5>
               <div class="text-center text-secondary">This is the area only for administrators</div>
-
               <div class="dropdown-divider"></div>
-
               <div class="form-group">
                 <label for="inputUsername">Username</label>
                 <input type="text" class="form-control" id="inputUsername" placeholder="Username">
               </div>
-
               <div class="form-group">
                 <label for="inputPassword">Password</label>
                 <input type="password" class="form-control" id="inputPassword" placeholder="Password">
               </div>
-
               <div class="text-center">
                 <button class="btn btn-primary">Sign in</button>
               </div>
             </form>
           </div>
         </div>
-      </nav>
-      <div class="container" id="pageHello">
-        <h3 class="text-center">Hello Mr/Mrs</h3>
-        <div class="row">
-          <div class="col-md-8 offset-md-2">
-            <input id="inputName" class="form-control text-center" placeholder="Yourname" autocomplete="off">
-          </div>
-        </div>
       </div>
     </div>
-    <img class="img-fluid" id="frame" src="./asset/img/brand/frames.png" alt="">
 
   </header>
   <!--End Header-->
