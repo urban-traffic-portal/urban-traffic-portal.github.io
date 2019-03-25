@@ -32,16 +32,11 @@
       <nav class="navbar navbar-expand-sm navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand fontHeading text-primary" href="./index.html">
-            <img src="./asset/img/brand/logo.png" height="35" width="auto" class="mr-2" alt="">
-            Urban Traffic Portal
+            <img src="./asset/img/brand/logo.png" height="30" width="auto" class="mr-2" alt="">
+            <span class="d-none d-sm-inline">Urban Traffic Portal</span>
+            <span class="d-sm-none">UTP</span>
           </a>
-
-          <button class="btn btn-dark d-sm-none" type="button" data-toggle="collapse" data-target=".navbarContent" aria-controls="navbarContent" aria-expanded="false">
-            <i class="fas fa-bars"></i>
-          </button>
-
-          <div class="collapse navbar-collapse navbarContent">
-            <hr>
+          <div class="d-none d-sm-block">
             <ul class="navbar-nav ml-auto text-right">
               <li class="nav-item">
                 <a class="nav-link text-dark" href="#">About</a>
@@ -51,13 +46,28 @@
               </li>
             </ul>
           </div>
-
+          <div class="dropdown ml-auto d-sm-none">
+            <button class="btn btn-dark" id="dropdownSignin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-bars"></i>
+            </button>
+            <form id="formSignin" class="dropdown-menu dropdown-menu-right p-4 shadow shadow-lg border border-primary mb-4" aria-labelledby="dropdownSignin">
+              <h5 class="text-center text-primary">Urban Traffic Portal</h5>
+              <div class="dropdown-divider"></div>
+              <ul class="navbar-nav ml-auto text-right">
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">Contact us</a>
+                </li>
+              </ul>
+            </form>
+          </div>
 
         </div>
       </nav>
-
       <div class="container text-center" id="pageWelcomeHello">
-        <img src="./asset/img/brand/logo.png" height="128" width="auto" alt="" class="mb-2">
+        <img src="./asset/img/brand/logo.png" height="100" width="auto" alt="" class="mb-2">
         <h2 id="textLogo" class="fontWriting text-center text-light">
           Urban Traffic Portal
         </h2>
@@ -72,31 +82,30 @@
         </button>
       </div>
     </div>
-
     <div id="frame" class="fixed-bottom">
-      <div class="navbar navbar-expand navbar-light fixed-bottom mb-2">
-        <div class="container-fluid">
-          <div class="dropdown dropup ml-auto">
-            <button class="btn btn-primary border-light dropdown-toggle" id="dropdownSignin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Administrators
-            </button>
-            <form id="formSignin" class="dropdown-menu dropdown-menu-right p-4 shadow shadow-lg border border-primary mb-4" aria-labelledby="dropdownSignin">
-              <h5 class="text-center text-primary">Administrator account</h5>
-              <div class="text-center text-secondary">This is the area only for administrators</div>
-              <div class="dropdown-divider"></div>
-              <div class="form-group">
-                <label for="inputUsername">Username</label>
-                <input type="text" class="form-control" id="inputUsername" placeholder="Username">
-              </div>
-              <div class="form-group">
-                <label for="inputPassword">Password</label>
-                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-              </div>
-              <div class="text-center">
-                <button class="btn btn-primary">Sign in</button>
-              </div>
-            </form>
-          </div>
+    </div>
+    <div class="navbar navbar-expand navbar-light fixed-bottom mb-2">
+      <div class="container-fluid">
+        <div class="dropdown dropup ml-auto">
+          <button class="btn btn-primary border-light dropdown-toggle" id="dropdownSignin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Administrators
+          </button>
+          <form id="formSignin" class="dropdown-menu dropdown-menu-right p-4 shadow shadow-lg border border-primary mb-4" aria-labelledby="dropdownSignin">
+            <h5 class="text-center text-primary">Administrator account</h5>
+            <div class="text-center text-secondary">This is the area only for administrators</div>
+            <div class="dropdown-divider"></div>
+            <div class="form-group">
+              <label for="inputUsername">Username</label>
+              <input type="text" class="form-control" id="inputUsername" placeholder="Username">
+            </div>
+            <div class="form-group">
+              <label for="inputPassword">Password</label>
+              <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+            </div>
+            <div class="text-center">
+              <button class="btn btn-primary">Sign in</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
