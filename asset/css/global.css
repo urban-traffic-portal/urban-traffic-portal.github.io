@@ -59,6 +59,17 @@ span
 	font-family: inherit !important;
 }
 
+.nav-item
+{
+	line-height: 0;
+}
+
+.nav-item:hover>.nav-link
+{
+	font-weight: 600 !important;
+	color: #0071AD !important;
+}
+
 /*******/
 
 #pageWelcome
@@ -95,6 +106,11 @@ span
 {
 	color: rgb(179, 192, 204);
 	font-size: 1.3rem;
+}
+
+#pageWelcomeHello
+{
+	margin-top: 10vh;
 }
 
 #pageWelcomeHello .input-group-text

@@ -28,18 +28,68 @@
   <!--Start header-->
   <header id="pageWelcome">
     <div id="pageWelcomeContent">
-      <nav class="navbar navbar-expand navbar-light">
-        <div class="container">
-          <a id="navbar-brand" class="fontHeading text-primary" href="./index.html">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand fontHeading text-primary" href="./index.html">
             <img src="./asset/img/brand/logo.png" height="40" width="auto" class="mr-2" alt="">
             <span class="d-none d-sm-inline">Urban Traffic Portal</span>
           </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Traffic <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Traffic Safety Measures</a>
+              </li>
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Traffic Rules
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Driving licences and categories of vehicles</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">The learner driver</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">The driving test</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Rules for motorcyclists</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Rules for cyclists</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Rules for pedestrians</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Respecting other road users</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Other road users</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Regulatory traffic signs</a>
+                </div>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">User's Info <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
 
-    </div>
-
-    <div id="frame" class="fixed-bottom">
       <div class="container text-center" id="pageWelcomeHello">
         <img src="./asset/img/brand/logo.png" height="128" width="auto" alt="" class="mb-2">
         <h2 id="textLogo" class="fontWriting text-center text-light">
@@ -55,7 +105,9 @@
           Go
         </button>
       </div>
+    </div>
 
+    <div id="frame" class="fixed-bottom">
       <div class="navbar navbar-expand navbar-light fixed-bottom mb-2">
         <div class="container-fluid">
           <div class="dropdown dropup ml-auto">
