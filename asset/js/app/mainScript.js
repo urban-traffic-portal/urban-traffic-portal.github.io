@@ -101,5 +101,5 @@ $("#widgetOnline").html(Math.floor((Math.random() * 10000) + 10000) + " <small>o
 //--------------------------------------
 $("#buttonSignin").click(function ()
 {
-  checkSignin("admin", "admin");
+  alert(checkSignin("admin", "admin"));
 });
