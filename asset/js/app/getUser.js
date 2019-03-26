@@ -1,13 +1,20 @@
+$(document).ready(function () {
+    var result = checkSignin("admin","admin");
+    console.log(result);
+});
 function checkSignin(username, password)
 {
-    alert(username);
-    alert(password);
+    var data=getJSON();
+    console.log(data);
+};
+function getJSON(){
+    var mydata = [];
     $.getJSON('./asset/data/user.json', { get_param: 'value' }, function (data)
     {
-        $.each(data, function (index, element)
-        {
-            if (username == element.username && password == element.password)
-                return element;
-        });
+        $.each( data, function( key, val ) {
+            mydata.push(val)
+          });
     });
-};
+    //console.log(mydata);
+    return mydata;
+}
