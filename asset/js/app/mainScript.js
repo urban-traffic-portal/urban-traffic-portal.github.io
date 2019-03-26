@@ -88,7 +88,7 @@ function updateDate()
 updateDate();
 window.setInterval(updateDate, 1000);
 //-------------------------------------
-if (localStorage.getItem("views") != null)
+if (localStorage.getItem("views"))
   localStorage.views++;
 else localStorage.views = Math.floor((Math.random() * 1000000) + 100000);
 
