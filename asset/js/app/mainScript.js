@@ -96,9 +96,21 @@ $("#widgetViews").html(localStorage.views + " <small>visited</small>");
 $("#widgetOnline").html(Math.floor((Math.random() * 10000) + 10000) + " <small>online</small>");
 
 //--------------------------------------
+function checkSignin(user, pass)
+{
+  $.getJSON("./asset/data/user.json", function (data)
+  {
+    var items = [];
+    $.each(data, function (key, val)
+    {
+      items.push(key);
+    });
+
+    alert(items);
+  });
+}
+
 $("#buttonSignin").click(function ()
 {
-  if (checkSignin($("#inputUsername").val().toLowerCase(), $("#inputPassword").val()) != null)
-    alert("dung");
-  else alert("sai");
+  checkSignin("admin", "admin");
 });
