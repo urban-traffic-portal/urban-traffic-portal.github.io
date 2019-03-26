@@ -87,11 +87,14 @@ function updateDate()
 }
 updateDate();
 window.setInterval(updateDate, 1000);
-//-------------------------------------
-if (localStorage.getItem("views"))
-  localStorage.views++;
-else localStorage.views = Math.floor((Math.random() * 1000000) + 100000);
-
+//-----------------------------------
+if (localStorage.getItem("views") != null) {
+  var views= localStorage.getItem("views");
+  localStorage.setItem("views",views++) ;
+}
+else {
+  localStorage.setItem("views", Math.floor((Math.random() * 1000000) + 100000));
+}
 $("#widgetViews").html(localStorage.views + " <small>visited</small>");
 $("#widgetOnline").html(Math.floor((Math.random() * 10000) + 10000) + " <small>online</small>");
 
