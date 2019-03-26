@@ -1,0 +1,68 @@
+<!--Load navbar into this nav tag-->
+<nav id="mainNavbar" class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+        <div id="navGuest" class="container-fluid">
+          <a class="navbar-brand fontHeading text-primary" href="./index.html">
+            <img src="./asset/img/brand/logo.png" height="30" width="auto" class="mr-2" alt="">
+            <span class="d-none d-sm-inline d-lg-none d-xl-inline">Urban Traffic Portal</span>
+            <span class="d-inline d-sm-none d-lg-inline d-xl-none">UTP</span>
+          </a>
+          <ul class="navbar-nav d-none d-lg-flex">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Traffic</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Traffic Safety Measures</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Traffic Rules</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+          </ul>
+          <div class="dropdown ml-auto mr-2">
+            <button id="buttonUser" class="btn btn-outline-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="d-none d-lg-inline">@Guest: <b class="textGuestName"></b></span>
+              <span class="d-lg-none">Guest</span>
+            </button>
+            <div class="dropdown-user dropdown-menu dropdown-menu-right p-4 shadow border border-primary mt-3">
+              <h6 class="text-center text-primary">Guest Account</h6>
+              <div class="text-center text-secondary">You are using as a guest account.</div>
+              <div class="dropdown-divider"></div>
+              <p>
+                Hello Mr/Mrs <b class="textGuestName"></b>,<br>Welcome to <b class="text-primary">Urban Traffic Portal</b>
+              </p>
+            </div>
+          </div>
+          <div class="dropdown d-lg-none">
+            <button class="btn btn-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="dropdown-navbar dropdown-menu dropdown-menu-right p-4 shadow border border-primary mt-3">
+              <h5 class="text-right text-primary">Urban Traffic Portal</h5>
+              <div class="dropdown-divider"></div>
+              <ul class="navbar-nav text-right d-block">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Traffic</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Traffic Safety Measures</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Traffic Rules</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+      </nav>

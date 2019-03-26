@@ -4,24 +4,13 @@
         $stateProvider
             .state('home', {
                 url: '/home',
-                templateUrl: './asset/views/map.html'
-            })
-            /*
-            // nested list with custom controller
-            .state('home.list', {
-                url: '/list',
-                templateUrl: 'partial-home-list.html',
-                controller: function ($scope) {
-                    $scope.dogs = ['Bernese', 'Husky', 'Goldendoodle'];
+                views: {
+                    // the main template will be placed here (relatively named)
+                    '': { templateUrl: './asset/views/home.html' },
+                    // the child views will be defined here (absolutely named)
+                    'navbar@home': { templateUrl: './asset/views/navGuest.html' },
                 }
             })
-            // nested list with just some random string data
-            .state('home.paragraph', {
-                url: '/paragraph',
-                template: 'I could sure use a drink right now.'
-            })
-            */
-            // ABOUT PAGE AND MULTIPLE NAMED VIEWS
             .state('about', {
                 url: '/about',
                 views: {
