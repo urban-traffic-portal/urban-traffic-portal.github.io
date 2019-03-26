@@ -1,81 +1,88 @@
-<div id="pageWelcome">
-    <div id="pageWelcomeContent">
-      <nav class="navbar navbar-expand-sm navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand fontHeading text-primary" href="./index.html">
-            <img src="./asset/img/brand/logo.png" height="30" width="auto" class="mr-2" alt="">
-            <span class="d-none d-sm-inline">Urban Traffic Portal</span>
-            <span class="d-sm-none">UTP</span>
-          </a>
-          <ul class="navbar-nav ml-auto d-none d-sm-flex">
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact us</a>
-            </li>
-          </ul>
-          <div class="dropdown ml-auto d-sm-none">
-            <button class="btn btn-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <i class="fas fa-bars"></i>
-            </button>
-            <div class="dropdown-navbar dropdown-menu dropdown-menu-right p-4 shadow border border-primary mt-3">
-              <h5 class="text-right text-primary">Urban Traffic Portal</h5>
-              <div class="dropdown-divider"></div>
-              <ul class="navbar-nav text-right d-block">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact us</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
-      <div class="container text-center" id="pageWelcomeHello">
-        <img src="./asset/img/brand/logo.png" height="100" width="auto" alt="" class="mb-2">
-        <h2 id="textLogo" class="fontWriting text-center text-light">
-          Urban Traffic Portal
-        </h2>
-        <div class="input-group col-md-8 offset-md-2">
-          <div class="input-group-prepend">
-            <div class="input-group-text fontWriting">Mr/Mrs:</div>
-          </div>
-          <input id="inputGuestName" class="form-control text-light fontWriting" autocomplete="off" autofocus maxlength="30">
-        </div>
-        <button id="buttonGo" class="btn btn-primary border-light my-3 pr-4 pl-4">
-          Go
-        </button>
-      </div>
-    </div>
-    <div id="frame" class="fixed-bottom">
-    </div>
-    <div class="dropdown dropup mr-3 mb-3" style="position: absolute; bottom: 0; right: 0; z-index: 2;">
-      <button class="btn btn-primary border-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Administrators
-      </button>
-      <form id="formSignin" class="dropdown-menu dropdown-menu-right p-4 shadow border border-primary mb-3">
-        <h5 class="text-center text-primary">Administrator account</h5>
-        <div class="text-center text-secondary">This is the area only for administrators</div>
-        <div class="dropdown-divider"></div>
-        <div class="form-group">
-          <label for="inputUsername">Username</label>
-          <input type="text" class="form-control" id="inputUsername" placeholder="Username">
-        </div>
-        <div class="form-group">
-          <label for="inputPassword">Password</label>
-          <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-        </div>
-        <div class="text-right">
-          <button class="btn btn-primary">Sign in</button>
-        </div>
-      </form>
-    </div>
-  </div>
-  <script type="text/javascript" src="./asset/js/app/mainScript.js">
-    //<![CDATA[
+<div class="container-fluid">
+        <h2>Section 2: The learner driver</h2>
+        <h4><span class="text-info">Conditions for learner permit holders</span></h4>
+        <p>When you are a learner driver you <span class="text-danger">must</span>, in addition to answering yes to the
+            questions on pages 24–25, comply
+            with the following conditions:</p>
+        <p>1) Accompanied when driving</p>
+        <p>A holder of a learner permit for categories B, BE, C, C1, C1E, CE, D, D1, D1E and DE <span
+                class="text-danger">must</span> <b>be accompanied and
+                supervised at all times</b> by a qualified driver. A qualified driver is a person who has held a full
+            driving
+            licence in the same category for a continuous period of 2 years. It is an offence for a learner driver to
+            drive unaccompanied by a qualified driver. This offence attracts a penalty of a fixed charge and up to 4
+            penalty points.</p>
+        <p>If you hold a learner permit for category AM, A1, A2 and A does not need to be accompanied by a qualified
+            driver. However, you cannot drive a vehicle in this category unsupervised by your Initial Basic Training
+            (IBT) instructor until you have completed the IBT for your relevant category and type of motorcycle.</p>
+        <p>2) ‘L’ Plates</p>
+        <p>Learner permit holders for all categories (except W) <span class="text-danger">must</span> display ‘L’ plates
+            while they are driving. It is an
+            offence for a learner driver to drive without displaying ‘L’ plates. This offence attracts a penalty of a
+            fixed charge fine and up to 4 penalty points.</p>
+        <p>Learner permit holders for categories A, A1, A2 and AM <span class="text-danger">must</span> display ‘L’
+            plates on a yellow fluorescent tabard
+            that are clearly visible on the front and back of the driver’s body.</p>
+        <p>3) Essential Driver Training and Initial Basic Training</p>
+        <p><span class="text-danger">It is illegal to give driving instruction for payment or reward to learner drivers
+                if
+                you are not registered with the Road Safety Authority. A list of all Approved Driving Instructors (ADI)
+                is
+                available on www.rsa.ie.</span></p>
+        <p>4) Car Driver Training</p>
+        <p>All holders of their first learner permit issued from 4 April 2011 must undertake Essential Driver Training
+            (EDT) with an Approved Driving Instructor (ADI). [See www.rsa.ie for an up to date list of ADIs.]</p>
+        <p><span class="text-danger">Be sure to confirm with your ADI what type of lesson you are booking for your next
+                lesson. Not all lessons are EDT.</span></p>
+        <p>5) Motorcycles and Initial Basic Training</p>
+        <p>All new first time learner permit holders for motorcycles must undertake Initial Basic Training (IBT) with an
+            approved IBT instructor, before they can ride a motorcycle unsupervised.</p>
+        <p><span class="text-danger">Until they hold their full licence, motorcyclists must carry their IBT certificate
+                when riding without an IBT trainer.</span></p>
+        <p>Until they hold their full licence, motorcyclists must carry their IBT certificate when riding without an IBT
+            trainer.</p>
+        <p>As a learner permit holder, you <span class="text-danger">must not</span> drive on a motorway. It is an
+            offence to do so.</p>
+        <p>7) Trailers</p>
+        <p>Learner permit holders driving vehicles in Categories B, C, C1, D or D1 (cars, trucks or buses) must not tow
+            a trailer.</p>
+        <p>8) Carrying Passengers</p>
+        <p>A person who holds a learner permit for:
+            Any category <span class="text-danger">must not</span> carry any passenger for payment or reward.
+        </p>
+        <p>A person who holds a learner permit for category W (for example, a work vehicle or land tractor) <span
+                class="text-danger">must not</span>
+            carry a passenger unless the vehicle is constructed or adapted to carry a passenger and the passenger is a
+            qualified driver.</p>
+        <p>A person who holds a learner permit for category A1, A2, A or AM (motorcycle or moped) <span
+                class="text-danger">must not</span> carry a passenger.</p>
+        <p>9) Motorcycles</p>
+        <p>Category A2 learner permit holders are entitled to drive motorcycles with: </p>
+        <p>An engine power output of 35kW or less, or
+            A power to weight ratio of 0.2kW per kg or less.
+        </p>
+        <p>It is your responsibility to check the power of the motorcycle. If you are in any doubt, consult with the
+            dealer or manufacturer.</p>
+        <h4><span class="text-info">If your learner permit runs out</span></h4>
+        <p>If you have not taken the test, you <span class="text-danger">must</span>:
+            give evidence that you applied to sit your driving test for that category of vehicle; or
+            satisfy the NDLS that because of illness (as certified by a registered medical practitioner), you were not
+            in a position to take a driving test.</p>
+        <p>If you are a first time holder of a learner permit for categories A, A2, A1, AM, B or W, that is, if you
+            haven’t held a learner permit in the category before, or a previous permit has expired by more than five
+            years, you are not allowed to take a driving test for at least six months after the start date of the
+            permit. This provision is to allow you to gain experience of driving. Research shows that the longer a
+            learner is supervised while driving, the less likely they are to be involved in a collision.</p>
+        <p>This rule does not apply to: category BE vehicles;
+            a higher category of motorcycle where you have passed Initial Basic Training (IBT) and a driving test on a
+            lower category of motorcycle and you hold the category for a minimum of 2 years;
+            a holder of a current full driving licence in the category from another country for more than six months,
+            provided the holder forwards to the RSA a current original full driving licence and a letter of entitlement
+            from the recognised licensing authority in that country.
+        </p>
+        <h4><span class="text-danger">REMEMBER</span></h4>
+        <p><b>The drink-drive limit for learners, newly qualified drivers (for a period of two years after passing the driving test) and professional drivers such as bus, goods vehicle and public service vehicle drivers (PSV) is 20 milligrams (mg) of alcohol per 100 millilitres of blood.</b></p>
+        <p><b>Never ever drink and drive</b></p>
 
-    //]]>
-    </script>
+
+    </div>

@@ -1,68 +1,135 @@
-<!--Load navbar into this nav tag-->
-<nav id="mainNavbar" class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
-        <div id="navGuest" class="container-fluid">
-          <a class="navbar-brand fontHeading text-primary" href="./index.html">
-            <img src="./asset/img/brand/logo.png" height="30" width="auto" class="mr-2" alt="">
-            <span class="d-none d-sm-inline d-lg-none d-xl-inline">Urban Traffic Portal</span>
-            <span class="d-inline d-sm-none d-lg-inline d-xl-none">UTP</span>
-          </a>
-          <ul class="navbar-nav d-none d-lg-flex">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Traffic</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Traffic Safety Measures</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Traffic Rules</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact us</a>
-            </li>
-          </ul>
-          <div class="dropdown ml-auto mr-2">
-            <button id="buttonUser" class="btn btn-outline-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <span class="d-none d-lg-inline">@Guest: <b class="textGuestName"></b></span>
-              <span class="d-lg-none">Guest</span>
-            </button>
-            <div class="dropdown-user dropdown-menu dropdown-menu-right p-4 shadow border border-primary mt-3">
-              <h6 class="text-center text-primary">Guest Account</h6>
-              <div class="text-center text-secondary">You are using as a guest account.</div>
-              <div class="dropdown-divider"></div>
-              <p>
-                Hello Mr/Mrs <b class="textGuestName"></b>,<br>Welcome to <b class="text-primary">Urban Traffic Portal</b>
-              </p>
-            </div>
-          </div>
-          <div class="dropdown d-lg-none">
-            <button class="btn btn-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <i class="fas fa-bars"></i>
-            </button>
-            <div class="dropdown-navbar dropdown-menu dropdown-menu-right p-4 shadow border border-primary mt-3">
-              <h5 class="text-right text-primary">Urban Traffic Portal</h5>
-              <div class="dropdown-divider"></div>
-              <ul class="navbar-nav text-right d-block">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Traffic</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Traffic Safety Measures</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Traffic Rules</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact us</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-  
-      </nav>
+<h2>Section 1: Driving licences and categories of vehicles </h2>
+        <p>You must hold a current driving licence or a learner permit before driving any motor vehicle in a public
+            place. You can drive only the type of vehicle for which you hold a licence or learner permit. And you must
+            carry your driving licence or learner permit with you at all times when driving. </p>
+        <h4>Categories of vehicles and minimum age for a first learner permit </h4>
+        <img src="./img/sec1pic1.png" alt="">
+        <img src="./img/sec1pic2.png" alt="">
+        <img src="./img/sec1pic3.png" alt="">
+        <h4>Conditions attached to categories </h4>
+        <h5><span class="text-info">Motorcycles</span></h5>
+        <p>Holders of a driving licence for Category A are entitled to drive motorcycles with an engine output of any
+            size.</p>
+        <p>Holders of a driving licence in category A2 are entitled to drive a motorcycle with an engine output of 35kW
+            or less, and a power to weight ratio not exceeding 0.02kW per kg and not derived from a motorcycle of double
+            its power.</p>
+
+        <h5><span class="text-info">Trailers</span></h5>
+        <h5>Cars and trailers</h5>
+        <p>If you hold a full category B licence, you may tow a trailer only if:
+            the total maximum authorised mass (MAM) of the trailer is 750kg or less; or
+            the combined MAM of the vehicle and trailer is no more than 3,500kg.
+
+        </p>
+        <p>When you use a car to tow a heavier trailer, you <span class="text-danger">must</span> hold a category BE
+            licence. A driver with a car, small
+            van or 4x4 and trailer licence category BE can draw a trailer where the MAM of the vehicle and trailer
+            combination is greater than 3500kg but less than 7000kg.</p>
+        <h5>Heavier vehicles and trailers</h5>
+        <p>You <span class="text-danger">must</span> hold a Category CE, C1E, DE or D1E licence if you want to tow a
+            heavier trailer. These are the licences that entitle you to drive the combinations of the towing vehicles
+            and the trailer (see page 12). Equivalent licences are EC, EC1, ED or ED1.</p>
+        <h5><span class="text-info">Heavy goods vehicles and buses</span></h5>
+        <p>You <span class="text-danger">must</span> obey the law on tachographs. For full information please see www.
+            rsa.ie.</p>
+        <h5><span class="text-info">The Driver CPC and you</span></h5>
+        <h5>New Professional Driver</h5>
+        <p>Since 30 September 2014, in order to become a professional bus or truck driver, you must take the following
+            five steps:</p>
+        <p><b>Step 1:</b> Pass a driver theory test and get a driver theory test certificate for category C or D or both
+            as appropriate;</p>
+        <p><b>Step 2:</b> PGet a learner permit in the relevant category;</p>
+        <p><b>Step 3:</b> Pass a 2-hour case study theory test (note Step 2 must be completed before Step 3 if under 21
+            when applying for a C or CE licence or under 24 when applying for a D or DE licence);</p>
+        <p><b>Step 4:</b> Pass a 90-minute practical driving test, including questions and demonstrations on how you
+            would carry out a series of checks; and</p>
+        <p><b>Step 5:</b> Pass a 30-minute practical test.</p>
+        <h5><span class="text-info">Learner permit</span></h5>
+        <p>A learner permit is issued to allow a person to learn to drive. Before you apply for your learner permit you
+            <span class="text-danger">must</span> pass your driver theory test (see pages 17–18).</p>
+        <p>You <span class="text-danger">must</span> have a current learner permit to learn to drive and to take your
+            driving test. Your permit must be for the same category of vehicle as the one you will use in your test.</p>
+        <p>The test is designed to check your knowledge of topics such as:</p>
+        <p>Rules of the Road<br />
+            Risk perception <br />
+            Eco-driving<br />
+            Hazard awareness<br />
+            Good driving behaviour<br />
+        </p>
+        <p><span class="text-danger">All categories of licences are subject to review. To make sure you comply with EU
+                and Irish road safety policy, you are advised to check the websitewww.rsa.ie regularly.</span></p>
+        <h5><span class="text-info">Full driving licence</span></h5>
+        <p>You need a full driving licence for the category of vehicle that you intend to drive. You can drive only the
+            category or categories of vehicle for which the licence is issued.</p>
+        <img src="./img/sec1pic4.png" alt="">
+        <h5><span class="text-info">Applying for your full licence</span>
+            <p>You <span class="text-danger">must</span> apply for your driving licence in person at any one of the
+                National Driver Licence Service (NDLS) centres located around the country. When attending your
+                appointment at the NDLS centre, you <span class="text-danger">must</span> bring with you:</p>
+            <p>a completed application form;
+                the relevant fee;
+                your current or most recent learner permit; and
+                evidence of your PPSN and address (if changed) dated within last 6 months.
+            </p>
+            <h5><span class="text-info">Novice drivers</span></h5>
+            <p>A driving licence is normally valid for 10 years for cars and motorcycles or 5 years for trucks and
+                buses; you should renew your licence before this period passes. To renew your licence, you <span
+                    class="text-danger">must</span> apply in
+                person to one of the NDLS centres . You will need to bring:</p>
+            <p>a completed application form and fee,
+                your current or most recent full licence, and
+                evidence of your PPSN and address (if changed) dated within last 6 months.
+                If you are renewing a category C1, C1E, C, CE, D1, D1E, D or DE licence, you <span
+                    class="text-danger">must</span> include a medical report.
+            </p>
+            <p>You should apply to renew your licence not later than three months before it expires.</p>
+            <h5><span class="text-info">Carrying a driving licence</span></h5>
+            <p>Remember, you <span class="text-danger">must</span> carry your driving licence, or learner permit, with
+                you at all times when you are driving.</p>
+            <h5><span class="text-info">Driving legally</span></h5>
+            <p>Before taking any vehicle on to the road you <span class="text-danger">must</span> be able to answer
+                ‘yes’ to the following questions:</p>
+            <p>Are you carrying your driving licence or learner permit? Is the motor vehicle taxed?
+                Is the tax disc on the windscreen?
+                Is the insurance cover up to date and valid to cover you? Is the insurance disc on the windscreen?
+            </p>
+            <p>Is there an N-plate sign at the front and rear of your vehicle? (if you are a novice driver)</p>
+            <p>s the vehicle roadworthy and does it have an up-to-date National Car Test (NCT) Certificate on the
+                windscreen? (if the vehicle is over four years old but not a taxi)</p>
+            <p>Does the vehicle have a Certificate of Roadworthiness? (if you are using a coach, bus, ambulance, goods
+                vehicle or goods trailer and it is over a year old)</p>
+            <p>Are you carrying your CPC qualification card (as required) and digital tachograph card (as required)? (if
+                you are a professional driver)</p>
+            <h5><span class="text-dangar">IMPORTANT MESSAGE TO OVERSEAS DRIVERS</span></h5>
+            <p>You <span class="text-danger">must</span> drive on the left-hand side of the road in Ireland.</p>
+            <img src="./img/sec1pic5.png" alt="">
+            <h5><span class="text-info">Tax</span></h5>
+            <p>All motor vehicles <span class="text-danger">must</span> be taxed before the vehicle is taken on the
+                road.</p>
+            <h5><span class="text-info">Insurance</span></h5>
+            <p>All drivers must have insurance covering them to drive a vehicle in a public place. By law you <span
+                    class="text-danger">must</span> inform the insurance company of relevant information</p>
+            <h5><span class="text-info">Vehicles that do not need to display an insurance disc</span></h5>
+            <p>Motorcycles (with or without a side car)
+                Tractors
+                Vehicles showing a trade licence
+                Vehicles owned or used by an exempted person as defined by the Road Traffic Acts, for example members of
+                emergency services
+            </p>
+            <p><b>All trailers <span class="text-danger">must</span> be covered by third party motor insurance. This
+                    applies whether the trailer is being towed or parked in a public place.</b></p>
+            <p><b>Even though the trailer does not have to display an insurance disc, you must have valid insurance
+                    cover.</b></p>
+            <h5><span class="text-info">National car test</span></h5>
+            <p>Vehicle testing makes sure your vehicle is safe to use on the road. This is especially important for
+                older vehicles.</p>
+            <p>Passenger cars over 4 years old class="text-danger">must</span> have a valid NCT Certificate and show the
+                NCT disc on the windscreen.</p>
+            <p>Passenger cars between 4 and 10 years old class="text-danger">must</span> be tested every 2 years.
+                Passenger cars over 10 years old must be tested every year.</p>
+            <p>You may also avail of ‘voluntary early testing’ and get your car tested earlier than 90 days before its
+                NCT due date.</p>
+            <p>Further information on the NCT is available on the National Car Testing Service website, www.ncts.ie.</p>
+            <h5><span class="text-info">Certificate of Professional Competence</span></h5>
+            <p>Professional bus and truck drivers must also carry their Driver CPC qualification card.</p>
+            <img src="./img/sec1pic6.png" alt="">
