@@ -101,5 +101,6 @@ $("#widgetOnline").html(Math.floor((Math.random() * 10000) + 10000) + " <small>o
 //--------------------------------------
 $("#buttonSignin").click(function ()
 {
-  alert(checkSignin("admin", "admin"));
+  if (getUser($("#inputUsername").val().toLowerCase(), $("#inputPassword").val()) == undefined)
+    showAlert("<span class=\"text-danger\"><i class=\"fas fa-exclamation-triangle\"></i> Alert</span>", "<b class=\"text-danger\">Username or password incorrect</b>. Please check again.");
 });
