@@ -95,10 +95,10 @@
     </div>
   </div>
 
-  <main id="pageMain">
+  <div id="pageMain">
 
     <!--Load navbar into this nav tag-->
-    <nav id="mainNavbar" class="navbar navbar-expand-sm navbar-light bg-light">
+    <nav id="mainNavbar" class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
 
       <div id="navGuest" class="container-fluid">
         <a class="navbar-brand fontHeading text-primary" href="./index.html">
@@ -164,31 +164,54 @@
           </div>
         </div>
       </div>
+      
     </nav>
 
-     <!--Load Content into this div tag-->
-    <div id="mainContent">
-      <div id="pageTraffic">
-        <div class="container">
 
+
+
+
+    <div class="wrapper">
+      <div id="sidebar">
+        <button id="dismiss" class="btn btn-primary rounded-circle ml-auto mr-2">
+          <i class="fas fa-arrow-left"></i>
+        </button>
+
+        <div class="sidebar-header">
+          <h3 class="text-light">Widget</h3>
         </div>
+
+      </div>
+
+      <div id="content" class="container-fluid">
+
+        <button id="buttonSidebar" class="btn btn-primary rounded-pill">
+          <i class="fas fa-plus"></i> Widget
+        </button>
+
+        <!--Load Content into this div tag-->
+        <div id="loadContent">
+          asjdjsaklfhasljdklasjdkasjdklsajkdljaskljdlksajd
+        </div>
+
       </div>
     </div>
 
-  </main>
+    <div class="overlay"></div>
+  </div>
 
   <div class="modal fade" id="alert" tabindex="-1" role="dialog" aria-labelledby="alertLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="alertLabel"></h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <button class="close" data-dismiss="modal" aria-label="Close">
             <i class="fas fa-times"></i>
           </button>
         </div>
         <div class="modal-body"></div>
         <div class="modal-footer text-center">
-          <button type="button" class="btn btn-dark border-primary" data-dismiss="modal">Close</button>
+          <button class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
@@ -197,9 +220,11 @@
   <script src="./asset/vendor/fontawesome/fontawesome.min.js"></script>
 
   <script src="./asset/vendor/jquery/jquery.min.js"></script>
-  
+
   <script src="./asset/vendor/bootstrap/popper.min.js"></script>
   <script src="./asset/vendor/bootstrap/bootstrap.min.js"></script>
+
+  <script src="./asset/vendor/jquery/scrollbar.min.js"></script>
 
   <script src="./asset/vendor/angular/angular.js"></script>
   <script src="./asset/vendor/angular/angular-ui-router.js"></script>
