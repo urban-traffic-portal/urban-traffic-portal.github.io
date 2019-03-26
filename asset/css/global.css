@@ -129,19 +129,36 @@ span
   opacity: 1;
 }
 
-#sidebar .sidebar-header {
-padding: 1rem;
-padding-bottom: 0.5rem;
-background: rgb(0, 66, 102);
-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+#sidebar .sidebar-header
+{
+  padding: 1rem;
+  padding-bottom: 0.5rem;
+  background: rgb(0, 66, 102);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 #content
 {
-width: 100%;
-padding-top: 60px;
-min-height: 100vh;
-transition: all 0.2s;
-position: absolute;
-z-index: 0;
+  width: 100%;
+  padding-top: 60px;
+  min-height: 100vh;
+  transition: all 0.2s;
+  position: absolute;
+  z-index: 0;
+}
+
+.widget-item
+{
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#widgetViews, #widgetOnline, #widgetTime
+{
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+#widgetDate
+{
+  font-size: 1.2rem;
 }
