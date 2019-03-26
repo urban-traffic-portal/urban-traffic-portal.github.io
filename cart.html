@@ -187,38 +187,146 @@
       </div>
     </div>
     <div id="content" class="container-fluid">
-      <button id="buttonSidebar" class="btn btn-primary rounded-pill">
-        <i class="fas fa-plus"></i> Widget
-      </button>
-      <!--Load Content into this div tag-->
-      <div id="loadContent">
-        <div class="conainer-fluid">
+      <div class="row">
+        <button id="buttonSidebar" class="btn btn-primary rounded-pill ml-4 my-4">
+          <i class="fas fa-plus"></i> Widget
+        </button>
+        <h2 class="my-4 ml-auto mr-auto"><span class="text-primary">Traffic Safety Merchandise</span> Shop</h2>
+      </div>
+
+      <div ng-app="shopApp" ng-controller="shopController">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-6">
-              <div id="map"></div>
+            <div class="col-md-8">
+              <h5>Products</h5>
+              <div class="row">
+                <div ng-repeat="p in products" class="col-md-3 col-sm-6">
+                  <div class="img-thumbnail text-center p-4">
+                    <img ng-src="{{ p.imageUrl }}" class="img-fluid">
+                    <h6>{{ p.name }}</h6>
+                    <p class="text-primary">Price: ${{ p.price }}</p>
+                    <button ng-click="addToCart(p)" class="btn btn-primary">
+                      <i class="fas fa-shopping-cart"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-6 table-responsive">
-              <table class="table table-bordered table-hover table-priamry">
+            <div class="col-md-4">
+              <h5>Selected products</h5>
+              <table class="table table-bordered table-hover">
                 <thead>
                   <tr class="bg-primary text-light">
-                    <th scope="col">#</th>
-                    <th scope="col">Location</th>
-                    <th scope="col">Status</th>
+                    <th>Id</th>
+                    <th style="width: 100%;">Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Sum</th>
+                    <th style="width: 1%"></th>
                   </tr>
                 </thead>
                 <tbody>
+                  <tr ng-repeat="p in selectedItems">
+                    <td>{{ p.id }}</td>
+                    <td>{{ p.name }}</td>
+                    <td class="text-right">
+                      ${{ p.price }}</td>
+                    <td>
+                      <input class="form-control" type="number" min="1" max="999" value="1" ng-model="p.quantity" />
+                    </td>
+                    <td class="text-right">
+                      ${{ p.price * p.quantity }}</td>
+                    <td>
+                      <button ng-click="remove(p)" class="btn btn-sm btn-danger">
+                        <span class="glyphicon glyphicon-trash"></span>
+                      </button>
+                    </td>
+                  </tr>
                   <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
+                    <td class="text-right" style="font-weight: bold" colspan="4">Total:</td>
+                    <td>
+                      ${{ getTotal() }}
+                    </td>
+                    <td></td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
         </div>
-      </div>
+        <script type="text/javascript" src="js/angular.js"></script>
+        <script>
+          var products = [
+            { id: "1", type: "Cars", name: "3/4 helmet head royal M04 carbon", price: "90", imageUrl: "./asset/img/cart/1.jpg" },
+            { id: "2", type: "Cars", name: "Royal M03 helmet", price: "50", imageUrl: "./asset/img/cart/2.jpg" },
+            { id: "3", type: "Placards", name: "Multi-price signage", price: "19.5", imageUrl: "./asset/img/cart/3.jpg" },
+            { id: "4", type: "Placards", name: "Korean A-warning signboard", price: "58", imageUrl: "./asset/img/cart/4.jpg" },
+            { id: "5", type: "flags & paddles", name: "24\" Construction Flags", price: "6.45", imageUrl: "./asset/img/cart/5.jpg" },
+            { id: "6", type: "flags & paddles", name: "36\" Sewn Checkered Airport Flag", price: "19.5", imageUrl: "./asset/img/cart/6.jpg" },
+            { id: "7", type: "flags & paddles", name: "18\" STOP/SLOW Paddles", price: "21.95", imageUrl: "./asset/img/cart/7.jpg" },
+            { id: "8", type: "flags & paddles", name: "Handheld Traffic Flags", price: "11.95", imageUrl: "./asset/img/cart/8.jpg" },
+            { id: "9", type: "flags & paddles", name: "12\" Octagon + 10.5' Handle", price: "17.25", imageUrl: "./asset/img/cart/9.jpg" },
+            { id: "10", type: "safety vest", name: "Lime Brilliant Series", price: "15.95", imageUrl: "./asset/img/cart/10.jpg" },
+            { id: "11", type: "safety vest", name: "Economy Contrasting Class 2", price: "11.75", imageUrl: "./asset/img/cart/11.jpg" },
+            { id: "12", type: "safety vest", name: "5-Point 'Break Away' Safety Vest - Police", price: "32.95", imageUrl: "./asset/img/cart/12.jpg" },
+            { id: "13", type: "safety vest", name: "5-Point 'Break Away' Safety Vest - Police", price: "17.5", imageUrl: "./asset/img/cart/13.jpg" },
+            { id: "14", type: "fsafety vest", name: "Professional Class 2 Surveyors Vest", price: "49.95", imageUrl: "./asset/img/cart/14.jpg" }
+          ];
+          var app = angular.module("shopApp", []);
+          app.controller("shopController", function ($scope)
+          {
+            // Show item to the page
+            $scope.products = products;
+            // Get the select item
+            var selectedItems = [];
+            $scope.selectedItems = selectedItems;
+            // Click select item event
+            $scope.addToCart = function (product)
+            {
+              var existItem = {};
+              // Check an exist item in the ShopCart
+              angular.forEach($scope.selectedItems, function (item, index)
+              {
+                if (item.id === product.id)
+                {
+                  existItem = item;
+                  return false;
+                }
+              });
 
+              // If exist item ++
+              if (existItem.id !== undefined)
+              {
+                existItem.quantity++;
+              }
+              // Else add to catch
+              else
+              {
+                var cartItem = angular.copy(product);
+                cartItem.quantity = 1;
+                $scope.selectedItems.push(cartItem);
+              }
+            };
+
+            // Remove item  from cart
+            $scope.remove = function (cartItem)
+            {
+              var index = $scope.selectedItems.indexOf(cartItem);
+              $scope.selectedItems.splice(index, 1);
+            };
+
+            $scope.getTotal = function ()
+            {
+              var total = 0;
+              angular.forEach($scope.selectedItems, function (item, index)
+              {
+                total += (item.price * item.quantity);
+              })
+              return total;
+            }
+          });
+        </script>
+      </div>
     </div>
     <div class="overlay"></div>
   </div>
