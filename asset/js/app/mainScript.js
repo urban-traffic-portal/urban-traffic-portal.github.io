@@ -98,5 +98,7 @@ $("#widgetOnline").html(Math.floor((Math.random() * 10000) + 10000) + " <small>o
 //--------------------------------------
 $("#buttonSignin").click(function ()
 {
-  checkSignin($("#inputUsername").val().toLowerCase(), $("#inputPassword").val());
+  if (checkSignin($("#inputUsername").val().toLowerCase(), $("#inputPassword").val()) != null)
+    alert("dung");
+  else alert("sai");
 });
