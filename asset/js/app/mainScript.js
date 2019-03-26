@@ -39,22 +39,3 @@ $("#inputGuestName").keyup(function (event)
   if (event.keyCode === 13) $("#buttonGo").click();
 });
 
-
-//-----------------------------------
-$("#sidebar").mCustomScrollbar({
-  theme: "minimal"
-});
-
-$("#dismiss, .overlay").on("click", function ()
-{
-  $("#sidebar").removeClass("active");
-  $(".overlay").removeClass("active");
-});
-
-$("#buttonSidebar").click(function ()
-{
-  $("#sidebar").addClass("active");
-  $(".overlay").addClass("active");
-  $(".collapse.in").toggleClass("in");
-  $("a[aria-expanded=true]").attr("aria-expanded", "false");
-});

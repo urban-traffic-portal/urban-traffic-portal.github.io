@@ -7,8 +7,10 @@
                 views: {
                     // the main template will be placed here (relatively named)
                     '': { templateUrl: './asset/views/home.html' },
-                    // the child views will be defined here (absolutely named)
                     'navbar@home': { templateUrl: './asset/views/navGuest.html' },
+                    'sidebar@home': { templateUrl: './asset/views/sidebar.html' },
+                    'pageTraffic@home': { templateUrl: './asset/views/pageTraffic.html' },
+                    'overlay@home': { templateUrl: './asset/views/overlay.html' },
                 }
             })
             .state('about', {
