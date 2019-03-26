@@ -89,12 +89,13 @@ updateDate();
 window.setInterval(updateDate, 1000);
 //----------------------------------
 
-if (localStorage.views == null)
-  localStorage.views = Math.floor((Math.random() * 1000000) + 100000);
+var views = localStorage.getItem("views");
+if (views == null || views == "")
+  localStorage.setItem("views", Math.floor((Math.random() * 1000000) + 100000));
 else
-  localStorage.views++;
+  localStorage.setItem("views", ++views);
 
-$("#widgetViews").html(localStorage.views + " <small>visited</small>");
+$("#widgetViews").html(views + " <small>visited</small>");
 $("#widgetOnline").html(Math.floor((Math.random() * 10000) + 10000) + " <small>online</small>");
 
 //--------------------------------------
