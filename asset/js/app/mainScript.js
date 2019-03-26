@@ -88,9 +88,15 @@ function updateDate()
 updateDate();
 window.setInterval(updateDate, 1000);
 //-------------------------------------
-if (localStorage.views == null)
+if (localStorage.getItem("views") == "")
   localStorage.views = Math.floor((Math.random() * 1000000) + 100000);
 else localStorage.views++;
 
 $("#widgetViews").html(localStorage.views + " <small>visited</small>");
 $("#widgetOnline").html(Math.floor((Math.random() * 10000) + 10000) + " <small>online</small>");
+
+//--------------------------------------
+$("#buttonSignin").click(function ()
+{
+  checkSignin($("#inputUsername").val().toLowerCase(), $("#inputPassword").val());
+});
