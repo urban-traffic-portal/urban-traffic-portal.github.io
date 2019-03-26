@@ -191,70 +191,68 @@
         <button id="buttonSidebar" class="btn btn-primary rounded-pill ml-4 my-4">
           <i class="fas fa-plus"></i> Widget
         </button>
-        <h2 class="my-4 ml-auto mr-auto"><span class="text-primary">Traffic Safety Merchandise</span> Shop</h2>
+        <div class="my-4 ml-auto mr-4 text-center">
+          <h2 class="my-2"><span class="text-primary">Traffic Safety Merchandise</span> Shop</h2>
+        </div>
       </div>
 
-      <div ng-app="shopApp" ng-controller="shopController">
-        <div class="container-fluid">
+      <div ng-app="shopApp" ng-controller="shopController" class="row">
+        <div class="col-lg-7">
+          <h5>Products</h5>
           <div class="row">
-            <div class="col-md-8">
-              <h5>Products</h5>
-              <div class="row">
-                <div ng-repeat="p in products" class="col-md-3 col-sm-6">
-                  <div class="img-thumbnail text-center p-4">
-                    <img ng-src="{{ p.imageUrl }}" class="img-fluid">
-                    <h6>{{ p.name }}</h6>
-                    <p class="text-primary">Price: ${{ p.price }}</p>
-                    <button ng-click="addToCart(p)" class="btn btn-primary">
-                      <i class="fas fa-shopping-cart"></i>
-                    </button>
-                  </div>
-                </div>
+            <div ng-repeat="p in products" class="col-sm-4 col-6 my-2">
+              <div class="h-100 img-thumbnail text-center p-4">
+                <img ng-src="{{ p.imageUrl }}" class="img-fluid">
+                <h6>{{ p.name }}</h6>
+                <p class="text-primary">Price: ${{ p.price }}</p>
+                <button ng-click="addToCart(p)" class="btn btn-primary">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
               </div>
-            </div>
-            <div class="col-md-4">
-              <h5>Selected products</h5>
-              <table class="table table-bordered table-hover">
-                <thead>
-                  <tr class="bg-primary text-light">
-                    <th>Id</th>
-                    <th style="width: 100%;">Name</th>
-                    <th>Price</th>
-                    <th>Quantity</th>
-                    <th>Sum</th>
-                    <th style="width: 1%"></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr ng-repeat="p in selectedItems">
-                    <td>{{ p.id }}</td>
-                    <td>{{ p.name }}</td>
-                    <td class="text-right">
-                      ${{ p.price }}</td>
-                    <td>
-                      <input class="form-control" type="number" min="1" max="999" value="1" ng-model="p.quantity" />
-                    </td>
-                    <td class="text-right">
-                      ${{ p.price * p.quantity }}</td>
-                    <td>
-                      <button ng-click="remove(p)" class="btn btn-sm btn-danger">
-                        <span class="glyphicon glyphicon-trash"></span>
-                      </button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="text-right" style="font-weight: bold" colspan="4">Total:</td>
-                    <td>
-                      ${{ getTotal() }}
-                    </td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
             </div>
           </div>
         </div>
-        <script type="text/javascript" src="js/angular.js"></script>
+        <div class="col-lg-5">
+          <h5>Selected products</h5>
+          <table class="table table-bordered table-hover">
+            <thead>
+              <tr class="bg-primary text-light">
+                <th>Id</th>
+                <th style="width: 100%;">Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Sum</th>
+                <th style="width: 1%"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="p in selectedItems">
+                <td>{{ p.id }}</td>
+                <td>{{ p.name }}</td>
+                <td class="text-right">
+                  ${{ p.price }}</td>
+                <td>
+                  <input class="form-control" type="number" min="1" max="999" value="1" ng-model="p.quantity" />
+                </td>
+                <td class="text-right">
+                  ${{ p.price * p.quantity }}</td>
+                <td>
+                  <button ng-click="remove(p)" class="btn btn-sm btn-danger">
+                    <i class="fas fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td class="text-right" style="font-weight: bold" colspan="4">Total:</td>
+                <td>
+                  ${{ getTotal() }}
+                </td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
         <script>
           var products = [
             { id: "1", type: "Cars", name: "3/4 helmet head royal M04 carbon", price: "90", imageUrl: "./asset/img/cart/1.jpg" },
