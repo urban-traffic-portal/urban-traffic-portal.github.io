@@ -4,7 +4,7 @@ var mymap, infoWindow;
 var markers = [];
 $(document).ready(function ()
 {
-
+  $("#map").css("min-height", $(window).innerHeight() - $("#loadContent").offset().top - 170);
 });
 function initMap(userlat, userlong, userzoom)
 {
