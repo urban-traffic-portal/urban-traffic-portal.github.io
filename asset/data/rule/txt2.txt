@@ -1,4 +1,4 @@
-<div class="container-fluid">
+
         <h2>Section 2: The learner driver</h2>
         <h4><span class="text-info">Conditions for learner permit holders</span></h4>
         <p>When you are a learner driver you <span class="text-danger">must</span>, in addition to answering yes to the
@@ -83,6 +83,3 @@
         <h4><span class="text-danger">REMEMBER</span></h4>
         <p><b>The drink-drive limit for learners, newly qualified drivers (for a period of two years after passing the driving test) and professional drivers such as bus, goods vehicle and public service vehicle drivers (PSV) is 20 milligrams (mg) of alcohol per 100 millilitres of blood.</b></p>
         <p><b>Never ever drink and drive</b></p>
-
-
-    </div>

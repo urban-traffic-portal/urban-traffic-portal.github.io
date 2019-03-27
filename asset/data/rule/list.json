@@ -1,34 +1,38 @@
 [
-    {
-       "Name" : "Driving licences and categories of vehicle",
-       "File" : "txt1.txt"
+   {
+      "Name" : "Driving licences and categories of vehicle",
+      "File" : "txt1.txt"
+   },
+   {
+       "Name" : "The learner driver",
+       "File" : "txt2.txt"
     },
     {
-        "Name" : "The learner driver",
-        "File" : "txt2.txt"
-     },
-     {
-        "Name" : "The driving test",
-        "File" : "txt3.txt"
-     },
-     {
-        "Name" : "Rulle for motorcyclist",
-        "File" : "txt4.txt"
-     },
-     {
-       "Name" : "Driving licences and categories of vehicle",
-       "File" : "txt1.txt"
+       "Name" : "The driving test",
+       "File" : "txt3.txt"
     },
     {
-        "Name" : "The learner driver",
-        "File" : "txt2.txt"
-     },
-     {
-        "Name" : "The driving test",
-        "File" : "txt3.txt"
-     },
-     {
-        "Name" : "Rulle for motorcyclist",
-        "File" : "txt4.txt"
-     }
- ]
+       "Name" : "Rulle for motorcyclist",
+       "File" : "txt4.txt"
+    },
+    {
+      "Name" : "Rules for cyclists",
+      "File" : "txt5.txt"
+   },
+   {
+       "Name" : "Rules for pedestrians",
+       "File" : "txt6.txt"
+    },
+    {
+       "Name" : "Respecting other road users",
+       "File" : "txt7.txt"
+    },
+    {
+       "Name" : "Other road users",
+       "File" : "txt8.txt"
+    },
+    {
+     "Name" : "Regulatory traffic signs",
+     "File" : "txt9.txt"
+  }
+]
