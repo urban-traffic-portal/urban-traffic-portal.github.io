@@ -127,7 +127,7 @@ var views = localStorage.getItem("views");
 if (views == null || views == "" || localStorage.views == undefined)
 {
   localStorage.setItem("views", Math.floor((Math.random() * 1000000) + 100000));
-  $("#widgetViews").html(views + " <small>visited</small>");
+  $("#widgetViews").html(localStorage.getItem("views") + " <small>visited</small>");
 }
 else
 {
