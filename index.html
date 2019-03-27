@@ -10,6 +10,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js" integrity="sha256-23hi0Ag650tclABdGCdMNSjxvikytyQ44vYGo9HyOrU=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.22/angular-ui-router.min.js" integrity="sha256-h/82i+45nj45rnRUHrB7A7OVqYZgkUVL2cuklteNW+o=" crossorigin="anonymous"></script>
 
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyCSubYv-dodChGE5VVij33kMAOKEql2xQw&sensor=false&callback=initializeMap&libraries=places"></script>
+
   <link rel="stylesheet" href="./asset/css/global.css">
   <link rel="stylesheet" href="./asset/css/style.css">
 
@@ -20,7 +22,7 @@
   <meta name="description" content="">
 </head>
 
-<body>
+<body ng-app="routerApp">
   <div id="pageWelcome">
     <div id="pageWelcomeContent">
       <nav class="navbar navbar-expand-sm navbar-light">
@@ -110,22 +112,22 @@
         </a>
         <ul class="navbar-nav d-none d-lg-flex">
           <li class="nav-item">
-            <a class="nav-link" href="#">Traffic</a>
+            <a class="nav-link" ui-sref="pageTraffic@hme">Traffic</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Traffic Safety Measures</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Traffic Rules</a>
+            <a class="nav-link" ui-sref="rule">Traffic Rules</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Shop</a>
+            <a class="nav-link" ui-sref="shop">Shop</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" ui-sref="about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact us</a>
+            <a class="nav-link" ui-sref="contact">Contact us</a>
           </li>
         </ul>
 
@@ -194,16 +196,16 @@
                 <a class="nav-link" href="#">Traffic Safety Measures</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Traffic Rules</a>
+                <a class="nav-link" ui-sref="rule">Traffic Rules</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Shop</a>
+                <a class="nav-link" ui-sref="shop">Shop</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" ui-sref="about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact us</a>
+                <a class="nav-link" ui-sref="contact">Contact us</a>
               </li>
             </ul>
           </div>
@@ -236,34 +238,8 @@
         <i class="fas fa-plus"></i> Widget
       </button>
       <!--Load Content into this div tag-->
-      <div id="loadContent">
-        <div class="conainer-fluid">
-          <div class="row">
-            <div class="col-lg-6">
-              <div id="map"></div>
-            </div>
-            <div class="col-lg-6 table-responsive">
-              <table class="table table-bordered table-hover table-priamry">
-                <thead>
-                  <tr class="bg-primary text-light">
-                    <th scope="col">#</th>
-                    <th scope="col">Location</th>
-                    <th scope="col">Status</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
+      <div ui-view id="loadContent">
       </div>
-
     </div>
     <div class="overlay"></div>
   </div>
@@ -294,6 +270,9 @@
 
   <script src="./asset/js/app/user.js"></script>
   <script src="./asset/js/app/mainScript.js"></script>
+  <script src="./asset/js/app/mainRoute.js"></script>
+  <script src="./asset/js/controller/map.js"></script>
+  <script src="./asset/js/controller/shop.js"></script>
 </body>
 
 </html>
