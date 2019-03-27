@@ -12,7 +12,10 @@ function activeLink(link)
 
 $(".nav-link").click(function ()
 {
-  activeLink("." + ($(this).parent().attr("class").replace("nav-item ", "")));
+  activeLink("." + $(this).parent().attr("class").replace("nav-item ", ""));
+  if ($(this).text() == "Home")
+    $("#pageName").html("<h2 class=\"text-primary\">Traffic</h2>");
+  else $("#pageName").html("<h2 class=\"text-primary\">" + $(this).text() + "</h2>");
 });
 
 function showAlert(idAlert, message)

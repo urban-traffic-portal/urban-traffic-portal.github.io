@@ -238,9 +238,14 @@
       </div>
     </div>
     <div id="content" class="container-fluid">
-      <button type="button" id="buttonSidebar" class="btn btn-primary rounded-pill">
-        <i class="fas fa-plus"></i> Widget
-      </button>
+      <div class="row p-2 mt-2 mb-2">
+        <button type="button" id="buttonSidebar" class="btn btn-primary rounded-pill ml-4">
+          <i class="fas fa-plus"></i> Widget
+        </button>
+        <div id="pageName" class="fontHeading ml-auto mr-4 d-none d-md-block border border-primary border-top-0 border-left-0 border-right-0">
+          <h2 class="text-primary">Traffic</h2>
+        </div>
+      </div>
       <!--Load Content into this div tag-->
       <div ui-view id="loadContent">
       </div>
