@@ -1,4 +1,4 @@
-<div class="container-fluid">
+
         <h2>Section 3: The driving test</h2>
         <h4><span class="text-info">How to apply for your driving test</span></h4>
         <p>To take a Driving Test you <span class="text-danger">must</span>:</p>
@@ -61,4 +61,3 @@
                 ‘progressive access’.</span></p>
         <p><span class="text-danger">At the age of 24 years, a rider may also proceed directly to a large unrestricted
                 motorcycle. This is known as ‘direct access’.</span></p>
-    </div>

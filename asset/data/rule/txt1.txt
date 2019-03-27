@@ -1,4 +1,4 @@
-<h2>Section 1: Driving licences and categories of vehicles </h2>
+        <h2>Section 1: Driving licences and categories of vehicles </h2>
         <p>You must hold a current driving licence or a learner permit before driving any motor vehicle in a public
             place. You can drive only the type of vehicle for which you hold a licence or learner permit. And you must
             carry your driving licence or learner permit with you at all times when driving. </p>
@@ -133,3 +133,4 @@
             <h5><span class="text-info">Certificate of Professional Competence</span></h5>
             <p>Professional bus and truck drivers must also carry their Driver CPC qualification card.</p>
             <img src="./img/sec1pic6.png" alt="">
+ 

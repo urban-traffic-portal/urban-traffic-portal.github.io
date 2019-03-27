@@ -1,2 +1,57 @@
-<p>This is a paragraph.</p>
-<p>This is another paragraph.</p>
+﻿
+            <h2>Section 5: <h2 class="text-danger">Rules for cyclists</h2></h2>
+            <h3 class="text-info">Keeping your bicycle roadworthy</h3>
+            <p>Your brakes, tyres, chain, lights, reflector and bell <span class="text-danger">must</span> all be in good working order.</p>
+            <p>Your bicycle <span class="text-info">should</span> be the right size to allow you to touch the ground with both feet.</p>
+            <p>When carrying goods, you <span class="text-info">should</span> use a proper carrier or basket and take care that nothing is hanging loose.</p>
+            <p>At night you <span class="text-danger">must</span> carry a lamp showing a white or yellow light to the front and a lamp showing a red light to the back. These are the minimum lighting requirements laid down by law. However, to be even more visible to motorists at night, you <span class="text-info">should</span>:</p>
+            <ul>
+                <li>• add strips of reflective material to the bike (white to the front and red to the back);</li>
+                <li>• wear a reflective armband; and</li>
+                <li>• wear a ‘Sam Browne’ reflective belt or reflective vest.</li>
+            </ul>
+            <h4 class="text-danger">REMEMBER</h4>
+            <b>Check your gear, be seen, wear a helmet and listen – <span class="text-danger">never</span> listen to music or use radios or mobile phones when cycling.</b>
+            <img src="Rules/Pictures/Screen Shot 2019-03-25 at 10.58.32 AM.png" alt="">
+            <h3 class="text-info">Bicycle checklist</h3>
+            <p>Handlebars <span class="text-primary">should</span> be square with the frame and level with the saddle. Movement <span class="text-primary">should</span> be neither too stiff nor too loose.</p>
+            <p>When on the saddle, both feet <span class="text-primary">should</span> just touch the ground.	
+                    Your wheels <span class="text-primary">should</span> be straight and in line. Replace wheels if they are buckled or out of alignment.
+                    </p>
+            <p>Tighten loose spokes and replace any that are damaged.</p>
+            <p>Make sure your tyres are properly inflated, with a good tread.</p>
+            <P>Make sure mudguards are secure and well clear of the wheels.</P>
+            <P>Check your gears and get them adjusted when necessary</P>
+            <P>Check your brake cables and adjust them when necessary. Replace them when frayed.</P>
+            <P>Make sure the closed ends of brake shoes face the front.</P>
+            <P>Make sure brake blocks are close to the rim of the wheel. Replace worn blocks.</P>
+            <P>Check pedals and replace them when worn or broken.</P>
+            <P>Make sure your lamps are white or yellow to the front, and red at the back. Use a red reflector. Replace batteries when necessary and clean lenses.</P>
+            <P>Make sure your bell is within easy reach of your thumb. Oil all moving parts.
+                    Wear a cycle helmet at all times.
+                    </P>
+            <P>A bicycle <SPan class="text-primary"></SPan> have the following braking system:
+                    If it has one fixed wheel or is designed for a child under 7 years of age, it
+                    <span class="tetx-primary">must</span> have at least one brake.
+                    </P>
+            <p>If it is designed for an older child or an adult, or if neither wheel is fixed, it <span class="tetx-primary">must</span> have two brakes – one brake acting on the front wheel and another for the back wheel.</p>
+            <h4 class="text-primary">Cycle tracks</h4>
+            <p>A cycle track or lane is a reserved part of a roadway for bicycles and wheelchairs, but not motorcycles</p>
+            <p>Some cycle tracks are bordered by a continuous white line on the right-hand side. These are only for bicycles and motorised wheelchairs, so no other drivers may use them or park in them.</p>
+            <p>Other cycle tracks have a broken white line on the right-hand side. Other drivers may make temporary use of this type of track if there is no cyclist on it.</p>
+            <p> A Cycle tracks are reserved 24 hours a day, unless an upright information sign at the start of or the side of the track shows another period of time.</p>
+            <p>If a cycle track is two-way, meaning bicycles travelling in opposite directions at the same time can use it, cyclists <span class="text-primary">should</span> stay as near as possible to the left- hand side of their track.</p>
+            <p>You must obey cycle track lights.</p>
+           <img src="Rules/Pictures/Screen Shot 2019-03-25 at 11.02.13 AM.png" alt="">
+            <h4 class="text-danger">REMEMBER</h4>
+            <p><p class="text-danger">Cyclists must </p>use any cycle track provided.</p>
+            <h3 class="text-info">Rules on cycle tracks for other road users</h3>
+            <h4 class="text-primary">Driving</h4>
+            <p>No vehicle (other than a motorised wheelchair) may cross into or over a mandatory cycle track unless the driver is entering or leaving a place or a side road.</p>
+            <h4 class="text-primary">Parking</h4>
+            <p>No driver may park a vehicle in a mandatory cycle track.</p>
+            <p>A driver may park in a non-mandatory cycle track for up to 30 minutes, but only if they are loading or unloading their vehicle and there is no alternative parking available. Remember the basic duty of care and do not obstruct a cycle track.</p>
+            <p>If a driver parks their vehicle in a cycle track that operates for only some of the day (shown on an information plate under the cycle track sign), they <span class="text-danger">must</span> move the vehicle by the time the next operating period starts.</p>
+            <p>If there is no information plate, it means the cycle track operates all the time and no parking is allowed.</p>
+            <img src="Rules/Pictures/Screen Shot 2019-03-25 at 11.03.18 AM.png" alt="">
+       
