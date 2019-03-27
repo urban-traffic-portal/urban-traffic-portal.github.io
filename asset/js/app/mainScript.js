@@ -1,9 +1,19 @@
-function showModal(title, message)
+window.onload = function ()
 {
-  $("#alert .modal-title").html(title);
-  $("#alert .modal-body").html(message);
-  $("#alert").modal("show");
+  var href = location.href.substr((location.href.lastIndexOf("/") + 1));
+  if (href != "home") location.href = "./index.html";
 }
+
+function activeLink(link)
+{
+  $(".nav-item").not(link).removeClass("active");
+  $(link).addClass("active");
+}
+
+$(".nav-link").click(function ()
+{
+  activeLink("." + ($(this).parent().attr("class").replace("nav-item ", "")));
+});
 
 function showAlert(idAlert, message)
 {
@@ -28,11 +38,17 @@ function reString(str)
 }
 
 updateViews();
-$(window).resize(function ()
+$(window).resize(function () { updateViews(); });
+
+$(".navbar-brand").click(function ()
 {
-  updateViews();
+  location.href = "./index.html";
 });
 
+$(".nav-link").on("click", function ()
+{
+  alert($(this).class());
+});
 
 var role = "";
 var regName = /^[a-zA-Z ]{1,30}$/;
@@ -52,7 +68,7 @@ $("#buttonGo").click(function ()
   else
   {
     role = "Guest";
-    $("#mainNavbar .navbar-nav .nav-item:nth-child(1)").addClass("active");
+    activeLink(".linkHome");
     $(".textGuestName").text(guestName);
     $("#pageWelcome").fadeOut(function ()
     {
@@ -169,6 +185,9 @@ $("#buttonSignin").click(function ()
       $("#dropdownUser").fadeIn();
     });
   }
+
+  $("#inputUsername").val("");
+  $("#inputPassword").val("");
 });
 
 $("#buttonLogout").click(function ()
