@@ -29,7 +29,7 @@
                 gloves and boots – all properly fitting). A rider <span class="text-dager">must</span> not carry more than one pillion passenger, who
                 <span class="text-dager">must</span> sit on a proper seat. They <span class="text-dager">must</span> face forward and be capable of resting both both feet on the
                 footrests. Riders <span class="text-dager">must</span> not carry a pillion passenger unless their motorcycle is designed to do so.</p>
-            <img src="./Rules/Pictures/Screen Shot 2019-03-25 at 10.47.53 AM.png" alt="">
+            <img src="./asset/img/law_content/sec4pic1.png" alt="">
             <h4 class="text-info">Daylight riding</h4>
             <p>Make yourself as visible as possible from the side, as well as the front and rear.
                 Wear a white helmet and fluorescent clothing or strips.
@@ -63,7 +63,7 @@
             <p>You class="text-info">should</span> wear a good reflective jacket, to make you more visible on the road.</p>
             <p>Wear protective gloves, and footwear that comes above the ankle at least.</p>
 
-            <img src="Rules/Pictures/Screen Shot 2019-03-25 at 10.53.00 AM.png" alt="">
+            <img src="./asset/img/law_content/sec4pic2.png" alt="">
 
             <h4 class="text-danger">REMEMBER</h4>
             <b>It is a fixed charge offence of €80 to use a motorcycle without wearing a helmet or to permit a
@@ -99,7 +99,7 @@
                 a motorcycle provides. The ability to sense danger in a situation develops only with experience, so you
                 class="text-info">should</span> always ride within your abilities.</p>
 
-            <img src="Rules/Pictures/Screen Shot 2019-03-25 at 10.55.25 AM.png" alt="">
+            <img src="./asset/img/law_content/sec4pic3.png" alt="">
             <p>Follow the rules below.</p>
             <p>Avoid riding between traffic lanes.</p>
             <p>Keep well clear of other vehicles when passing them. Remember that drivers might not always see you in
@@ -112,6 +112,6 @@
                 your shoulders and check any ‘blind spots’.</p>
             <p>Your motorcycle tyres <span class="text-dager">must</span> have a tread depth of at least 1 mm, but you class="text-info">should</span> replace them before they
                 become this worn.</p>
-            <img src="Rules/Pictures/Screen Shot 2019-03-25 at 10.56.47 AM.png" alt="">
+            <img src="./asset/img/law_content/sec4pic4.png" alt="">
 
 

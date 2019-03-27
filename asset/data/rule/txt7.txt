@@ -1,4 +1,4 @@
-    <p>section18: <h2 class="text-danger">Respecting other road users</h2>
+    <p>section7: <h2 class="text-danger">Respecting other road users</h2>
     </p>
     <p>Your vehicle does not have greater right of way than any other road user, so, for safety reasons, you <span
             class="text-primary">should</span> drive defensively. This means expecting the unexpected and making way
@@ -37,7 +37,7 @@
             <p>It is an offence if your vehicle blocks a footpath or a cycle track.</p>
             <p>You <span class="text-info"></span> also take care near school buses, especially if overtaking a bus that children are boarding or leaving. School buses are clearly marked with stickers.</p>
             <p>Do not leave any room for doubt. If you see school children, particularly young children, you may use your horn to let them know you are there.</p>
-            <img src="Rules/Pictures/Screen Shot 2019-03-25 at 11.13.55 AM.png" alt="">
+            <img src="./asset/img/law_content/sec7pic1.png" alt="">
             <p>Be careful near children who are cycling. Take extra care near a school, where cyclists may emerge in groups. Remember, it is hard to predict a young cyclist’s balance and behaviour.</p>
             <h4 class="text-primary">School wardens</h4>
             <p>Adult school wardens provide safe road crossing places for children outside or near schools. They wear a hat and an overcoat, which include reflective material. Wardens carry a special sign and are allowed by law to stop traffic.</p>
@@ -47,11 +47,11 @@
                 <li>the sign is lowered; and</li>
                 <li>the school warden has safely returned to the footpath.</li>
             </ul>
-                <img src="Rules/Pictures/Screen Shot 2019-03-25 at 11.14.34 AM.png" alt="">
+                <img src="./asset/img/law_content/sec7pic2.png" alt="">
             <h4 class="text-primary">Junior school wardens</h4>
             <p>All vehicles <span class="text-danger">must</span> remain stopped until all the junior wardens have returned to the footpath.</p>
             <p>Never park in a place that blocks a warden’s view. School wardens must be able to see the road clearly to do their work properly and safely.</p>
-            <img src="Rules/Pictures/Screen Shot 2019-03-25 at 11.16.11 AM.png" alt="">
+            <img src="./asset/img/law_content/sec7pic3.png" alt="">
             <h3 class="text-info">Cyclists and motorcyclists</h3>
             <p>Never put a cyclist or motorcyclist at risk and know your duty to be aware of them. They are especially vulnerable if there is a crash.</p>
             <p>In particular, watch for cyclists and motorcyclists: at junctions;</p>
@@ -75,9 +75,9 @@
             <p>When turning right through a gap in oncoming traffic (for example at a yellow box junction), watch out for cyclists who might be moving up on the inside or might be travelling in a cycle or bus lane running in the opposite direction at the far side of the road. Also, use your mirrors to check for any motorcyclists who may be overtaking you as you approach the turn.</p>
             <h3 class="text-info">Cycle tracks and parking</h3>
             <p>Do not park or drive on cycle tracks. Before you open the door of a parked vehicle, use your mirrors to check for cyclists and motorcyclists coming up on your right and give them enough room to pass.</p>
-            <img src="Rules/Pictures/Screen Shot 2019-03-25 at 11.17.13 AM.png" alt="">
+            <img src="./asset/img/law_content/sec7pic4.png" alt="">
             <h3 class="text-info">Animal traffic</h3>
             <p>Always slow down and be prepared to stop when approaching or overtaking animals. If a person in charge of animals gives a signal to slow down or stop, you <span class="text-danger">must</span> obey it. Avoid using your horn if animals are in front of you, as it might frighten them.</p>
             <p>If you are travelling on a road where animals are common, you will see a warning sign like the ones below.</p>
-            <img src="Rules/Pictures/Screen Shot 2019-03-25 at 11.17.43 AM.png" alt="">
+            <img src="./asset/img/law_content/sec7pic5.png" alt="">
 

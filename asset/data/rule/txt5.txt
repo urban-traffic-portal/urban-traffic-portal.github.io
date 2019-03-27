@@ -12,7 +12,7 @@
             </ul>
             <h4 class="text-danger">REMEMBER</h4>
             <b>Check your gear, be seen, wear a helmet and listen – <span class="text-danger">never</span> listen to music or use radios or mobile phones when cycling.</b>
-            <img src="Rules/Pictures/Screen Shot 2019-03-25 at 10.58.32 AM.png" alt="">
+            <img src="./asset/img/law_content/sec5pic1.png" alt="">
             <h3 class="text-info">Bicycle checklist</h3>
             <p>Handlebars <span class="text-primary">should</span> be square with the frame and level with the saddle. Movement <span class="text-primary">should</span> be neither too stiff nor too loose.</p>
             <p>When on the saddle, both feet <span class="text-primary">should</span> just touch the ground.	
@@ -42,7 +42,7 @@
             <p> A Cycle tracks are reserved 24 hours a day, unless an upright information sign at the start of or the side of the track shows another period of time.</p>
             <p>If a cycle track is two-way, meaning bicycles travelling in opposite directions at the same time can use it, cyclists <span class="text-primary">should</span> stay as near as possible to the left- hand side of their track.</p>
             <p>You must obey cycle track lights.</p>
-           <img src="Rules/Pictures/Screen Shot 2019-03-25 at 11.02.13 AM.png" alt="">
+           <img src="./asset/img/law_content/sec5pic2.png" alt="">
             <h4 class="text-danger">REMEMBER</h4>
             <p><p class="text-danger">Cyclists must </p>use any cycle track provided.</p>
             <h3 class="text-info">Rules on cycle tracks for other road users</h3>
@@ -53,5 +53,5 @@
             <p>A driver may park in a non-mandatory cycle track for up to 30 minutes, but only if they are loading or unloading their vehicle and there is no alternative parking available. Remember the basic duty of care and do not obstruct a cycle track.</p>
             <p>If a driver parks their vehicle in a cycle track that operates for only some of the day (shown on an information plate under the cycle track sign), they <span class="text-danger">must</span> move the vehicle by the time the next operating period starts.</p>
             <p>If there is no information plate, it means the cycle track operates all the time and no parking is allowed.</p>
-            <img src="Rules/Pictures/Screen Shot 2019-03-25 at 11.03.18 AM.png" alt="">
+            <img src="./asset/img/law_content/sec5pic3.png" alt="">
        

@@ -17,7 +17,7 @@
 When leading a horse, you should walk so as to ensure that you are between the
 horse and the traffic, so as to prevent the horse from interfering with the traffic.</p>
 <p>When riding one horse and leading a second horse, you must remain on the left- hand side of the road. You should ensure the led horse is on the left-hand side of the ridden horse, to ensure that you are positioned between the horse and the traffic. This is in order to control the led horse, in the interest of the safety of other users of the road.</p>
- 
+<img src="./asset/img/law_content/sec8pic1.png" alt="">
 <p>Drivers should take special care when:</p>
 <ul>
 <li>approaching riding schools or places where horses are likely to appear</li>

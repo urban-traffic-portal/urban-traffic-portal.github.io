@@ -3,9 +3,9 @@
             place. You can drive only the type of vehicle for which you hold a licence or learner permit. And you must
             carry your driving licence or learner permit with you at all times when driving. </p>
         <h4>Categories of vehicles and minimum age for a first learner permit </h4>
-        <img src="./img/sec1pic1.png" alt="">
-        <img src="./img/sec1pic2.png" alt="">
-        <img src="./img/sec1pic3.png" alt="">
+        <img src="./asset/img/law_content/sec1pic1.png" alt="">
+        <img src="./asset/img/law_content/sec1pic2.png" alt="">
+        <img src="./asset/img/law_content/sec1pic3.png" alt="">
         <h4>Conditions attached to categories </h4>
         <h5><span class="text-info">Motorcycles</span></h5>
         <p>Holders of a driving licence for Category A are entitled to drive motorcycles with an engine output of any
@@ -61,7 +61,7 @@
         <h5><span class="text-info">Full driving licence</span></h5>
         <p>You need a full driving licence for the category of vehicle that you intend to drive. You can drive only the
             category or categories of vehicle for which the licence is issued.</p>
-        <img src="./img/sec1pic4.png" alt="">
+        <img src="./asset/img/law_content/sec1pic4.png" alt="">
         <h5><span class="text-info">Applying for your full licence</span>
             <p>You <span class="text-danger">must</span> apply for your driving licence in person at any one of the
                 National Driver Licence Service (NDLS) centres located around the country. When attending your
@@ -102,7 +102,7 @@
                 you are a professional driver)</p>
             <h5><span class="text-dangar">IMPORTANT MESSAGE TO OVERSEAS DRIVERS</span></h5>
             <p>You <span class="text-danger">must</span> drive on the left-hand side of the road in Ireland.</p>
-            <img src="./img/sec1pic5.png" alt="">
+            <img src="./asset/img/law_content/sec1pic5.png" alt="">
             <h5><span class="text-info">Tax</span></h5>
             <p>All motor vehicles <span class="text-danger">must</span> be taxed before the vehicle is taken on the
                 road.</p>
@@ -132,5 +132,5 @@
             <p>Further information on the NCT is available on the National Car Testing Service website, www.ncts.ie.</p>
             <h5><span class="text-info">Certificate of Professional Competence</span></h5>
             <p>Professional bus and truck drivers must also carry their Driver CPC qualification card.</p>
-            <img src="./img/sec1pic6.png" alt="">
+            <img src="./asset/img/law_content/sec1pic6.png" alt="">
  
