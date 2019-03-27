@@ -2,12 +2,34 @@
         <div ng-app="contentApp" ng-controller="contentController" class="container-fluid">
             <div class="row bhoechie-tab-container" >
                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 bhoechie-tab-menu">
-                  <div class="list-group"  ng-repeat="content in contents">
-                    <a ng-click="load(content.File);up()" class="list-group-item  text-center">
-                      <h4 class="glyphicon glyphicon-plane"></h4><br />{{ content.Name }}
-                      <img src="./asset/data/rule/ima law/ilaw_1.png" alt="" width="50" height="50">
+                  <div class="list-group">
+                    <a ng-click="load('txt1.txt')" class="list-group-item  text-center">
+                      <h4 class="glyphicon glyphicon-plane"></h4><br />Driving licences and categories of vehicles
                     </a>
-                    
+                    <a ng-click="load('txt2.txt')" class="list-group-item  text-center">
+                      <h4 class="glyphicon glyphicon-plane"></h4><br />The learner driver
+                    </a>
+                    <a ng-click="load('txt3.txt')" class="list-group-item  text-center">
+                      <h4 class="glyphicon glyphicon-plane"></h4><br />The driving test
+                    </a>
+                    <a ng-click="load('txt4.txt')" class="list-group-item  text-center">
+                      <h4 class="glyphicon glyphicon-plane"></h4><br />Rulle for motorcyclist
+                    </a>
+                    <a ng-click="load('txt5.txt')" class="list-group-item  text-center">
+                      <h4 class="glyphicon glyphicon-plane"></h4><br />Rules for cyclists
+                    </a>
+                    <a ng-click="load('txt6.txt')" class="list-group-item  text-center">
+                      <h4 class="glyphicon glyphicon-plane"></h4><br />Rules for pedestrians
+                    </a>
+                    <a ng-click="load('txt7.txt')" class="list-group-item  text-center">
+                      <h4 class="glyphicon glyphicon-plane"></h4><br />Rules for pedestrians
+                    </a>
+                    <a ng-click="load('txt8.txt')" class="list-group-item  text-center">
+                      <h4 class="glyphicon glyphicon-plane"></h4><br />Other road users
+                    </a>
+                    <a ng-click="load('txt9.txt')" class="list-group-item  text-center">
+                      <h4 class="glyphicon glyphicon-plane"></h4><br />Regulatory traffic signs
+                    </a>
                   </div>
                 </div>
                 <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 bhoechie-tab">
