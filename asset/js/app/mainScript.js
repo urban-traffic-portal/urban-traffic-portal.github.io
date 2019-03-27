@@ -110,11 +110,16 @@ window.setInterval(updateDate, 1000);
 
 var views = localStorage.getItem("views");
 if (views == null || views == "" || localStorage.views == undefined)
+{
   localStorage.setItem("views", Math.floor((Math.random() * 1000000) + 100000));
+  $("#widgetViews").html(views + " <small>visited</small>");
+}
 else
+{
   localStorage.setItem("views", ++views);
+  $("#widgetViews").html(views + " <small>visited</small>");
+}
 
-$("#widgetViews").html(views + " <small>visited</small>");
 $("#widgetOnline").html(Math.floor((Math.random() * 10000) + 10000) + " <small>online</small>");
 
 //--------------------------------------
