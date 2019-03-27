@@ -1,8 +1,13 @@
-function showAlert(title, message)
+function showModal(title, message)
 {
   $("#alert .modal-title").html(title);
   $("#alert .modal-body").html(message);
   $("#alert").modal("show");
+}
+
+function showAlert(idAlert, message)
+{
+  $(idAlert).html(message).fadeIn();
 }
 
 function updateViews()
@@ -33,8 +38,16 @@ var regName = /^[a-zA-Z ]{1,30}$/;
 $("#buttonGo").click(function ()
 {
   guestName = reString($("#inputGuestName").val());
-  if (!regName.test(guestName))
-    showAlert("<span class=\"text-danger\"><i class=\"fas fa-exclamation-triangle\"></i> Alert</span>", "<b class=\"text-danger\">Invalid name</b>. Please check again.");
+  if (guestName == "")
+  {
+    $("#inputGuestName").val("").focus();
+    showAlert("#alertInputGuestName", "Please type yourname to continue.");
+  }
+  else if (!regName.test(guestName))
+  {
+    $("#inputGuestName").val("").focus();
+    showAlert("#alertInputGuestName", "Sorry, yourname is <strong>invalid</strong>. Please check again.");
+  }
   else
   {
     $("#mainNavbar .navbar-nav .nav-item:nth-child(1)").addClass("active");
@@ -44,7 +57,7 @@ $("#buttonGo").click(function ()
 });
 $("#inputGuestName").keyup(function (event)
 {
-  if (event.keyCode === 13) $("#buttonGo").click();
+  if (event.keyCode == 13) $("#buttonGo").click();
 });
 
 //----------------------------------------
@@ -99,8 +112,26 @@ $("#widgetViews").html(views + " <small>visited</small>");
 $("#widgetOnline").html(Math.floor((Math.random() * 10000) + 10000) + " <small>online</small>");
 
 //--------------------------------------
+$("#buttonDropdownSignin").click(function () {
+  $("#inputUsername").focus();
+});
+
+$("#inputUsername").keyup(function (event)
+{
+  if (event.keyCode == 13) $("#buttonSignin").click();
+});
+
+$("#inputPassword").keyup(function (event)
+{
+  if (event.keyCode == 13) $("#buttonSignin").click();
+});
+
 $("#buttonSignin").click(function ()
 {
   if (getUser($("#inputUsername").val().toLowerCase(), $("#inputPassword").val()) == undefined)
-    showAlert("<span class=\"text-danger\"><i class=\"fas fa-exclamation-triangle\"></i> Alert</span>", "<b class=\"text-danger\">Username or password incorrect</b>. Please check again.");
+  {
+    showAlert("#alertSignin", "<strong>Login failed!</strong>.");
+    $("#buttonDropdownSignin").click();
+    $("#buttonDropdownSignin").click();
+  }
 });

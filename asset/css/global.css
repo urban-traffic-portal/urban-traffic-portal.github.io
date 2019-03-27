@@ -37,7 +37,124 @@ h1, h2, h3, h4, h5, h6, .fontHeading
 	font-family: 'Sriracha', cursive !important;
 }
 
-/*** Style ***/
+/*** Custom ***/
+.a {
+  color: #0071AD;
+}
+
+.btn-primary {
+  background-color: #0071AD;
+  border-color: #0071AD;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  background-color: #0071AD;
+  border-color: #0071AD;
+}
+
+.btn-outline-primary {
+  color: #0071AD;
+  border-color: #0071AD;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0071AD;
+  border-color: #0071AD;
+}
+
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+  color: #0071AD;
+  background-color: transparent;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
+.show > .btn-outline-primary.dropdown-toggle {
+  background-color: #0071AD;
+  border-color: #0071AD;
+}
+
+.btn-link {
+  font-weight: 400;
+  color: #0071AD;
+  text-decoration: none;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  text-decoration: none;
+  background-color: #0071AD;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  border-color: #0071AD;
+  background-color: #0071AD;
+}
+
+.custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
+  border-color: #0071AD;
+  background-color: #0071AD;
+}
+
+.custom-range::-webkit-slider-thumb {
+  background-color: #0071AD;
+}
+
+.custom-range::-moz-range-thumb {
+  background-color: #0071AD;
+}
+
+.custom-range::-ms-thumb {
+  background-color: #0071AD;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #0071AD;
+}
+
+.page-link {
+  color: #0071AD;
+}
+
+.page-item.active .page-link {
+  background-color: #0071AD;
+  border-color: #0071AD;
+}
+
+.badge-primary {
+  background-color: #0071AD;
+}
+
+.progress-bar {
+  background-color: #0071AD;
+}
+
+.list-group-item.active {
+  background-color: #0071AD;
+  border-color: #0071AD;
+}
+
+.bg-primary {
+  background-color: #0071AD !important;
+}
+
+.border-primary {
+  border-color: #0071AD !important;
+}
+
+.text-primary {
+  color: #0071AD !important;
+}
+
+.btn-primary:hover {
+  background-color: #098FD0;
+  border-color: #005786;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #005786;
+  border-color: #005786;
+}
 
 label
 {
@@ -76,6 +193,11 @@ span
 	font-weight: 600 !important;
 	color: #0071AD !important;
 	border-bottom: solid 0.15rem #0071AD;
+}
+
+.alert
+{
+  display: none;
 }
 
 /*******/
