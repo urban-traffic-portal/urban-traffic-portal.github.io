@@ -3,7 +3,7 @@
   var mymap,infoWindow;
   var markers = [];
 $(document).ready(function () {
-  mymap= initMap(-34.397, 150.644, 16);
+
 });
 function initMap(userlat, userlong, userzoom) {
   // The location of Uluru
