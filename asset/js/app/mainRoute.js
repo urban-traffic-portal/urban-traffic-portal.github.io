@@ -1,12 +1,23 @@
 var routerApp = angular.module('routerApp', ['ui.router']);
-routerApp.controller('mapcontroller', function ($scope, $http) {
+routerApp.controller('mapcontroller', function ($scope, $http,$interval) {
+  $scope.events = "";
+  $scope.data="";
   $scope.mainmap = "";
   $scope.mainmap = initMap(-34.397, 150.644, 16);
   var url = "./asset/data/roadevent/event.json";
   $http.get(url).then(function (response) {
     console.log(response.data);
-    $scope.events= response.data;
+    $scope.events = response.data;
+    $scope.data= response.data;
   });
+  $scope.add = function () {
+    $scope.events.push(value);
+  }
+  $scope.removeRow = function () {
+    $scope.events.pop();
+  };
+  $interval($scope.add, 2000); 
+  $interval($scope.removeRow, 4000); 
 });
 routerApp.controller('shopController', function ($scope) {
   // Show item to the page
@@ -101,4 +112,5 @@ routerApp.config(function ($stateProvider, $urlRouterProvider) {
       url: '/contact',
       templateUrl: './asset/views/contact.html'
     })
-}); 
+});
+

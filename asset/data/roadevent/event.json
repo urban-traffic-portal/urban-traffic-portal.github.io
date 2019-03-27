@@ -1,26 +1,42 @@
 [
     {
-       "location" : "Area 1",
+       "location" : "Road 21",
        "status" : "Pending",
        "lat":"",
        "long":""
     },
     {
-        "location" : "Area 1",
+        "location" : "Road 19",
        "status" : "Pending",
        "lat":"",
        "long":""
      },
      {
-        "location" : "Area 1",
+        "location" : "Road 18",
+       "status" : "Done",
+       "lat":"",
+       "long":""
+     },
+     {
+        "location" : "Road 17",
        "status" : "Pending",
        "lat":"",
        "long":""
      },
      {
-        "location" : "Area 1",
-       "status" : "Pending",
-       "lat":"",
-       "long":""
-     }
+      "location" : "Road 16",
+     "status" : "Pending",
+     "lat":"",
+     "long":""
+   },{
+      "location" : "Road 15",
+     "status" : "Done",
+     "lat":"",
+     "long":""
+   },{
+      "location" : "Road 12",
+      "status" : "Pending",
+      "lat":"",
+      "long":""
+   }
  ]
