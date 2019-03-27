@@ -1,117 +1,121 @@
-﻿	
-        <H4> Rulle for motorcyclist </H4>
-	  <div>
-            <h3 class="text-info">Licence</h3>
+﻿<h2>Section 4: Rulle for motorcyclist </h2>
 
-            <p>You <span class="text-danger">Must</span> hold a current driving licence or learner permit for a
-                motorcycle or moped. See section 1 for information on licences and permits and the categories of
-                vehicle they cover.</p>
-            <p>As a motorcyclist on a learner permit you <span class="text-dager">must</span> display an ‘L’ on a
-                yellow fluorescent tabard to give greater awareness to other road users that you are a learner and that
-                additional care may be required. The ‘L’ <span class="text-dager">must</span> conform in size and
-                colour to the normal ‘L’ plate</p>
-            <p>If you have recently obtained your first driving licence (full driving licence) you will be classified
-                as a ‘Novice’ driver and <p class="text-dager">must</p> display N plates on a yellow fluorescent
-                tabard. This tabard <span class="text-dager">must</span> be worn over your clothes and the plates <span
-                    class="text-info">should</span> be clearly visible on the front and rear of your body.</p>
+<h3 class="text-info">Licence</h3>
 
-            <h3 class="text-info">Insurance and tax</h3>
-            <p>You <span class="text-dager">must</span> display a current motor tax disc and have insurance cover before you can take your motorcycle
-                or moped on a public road.</p>
-            <p>All new first time learner permit holders for motorcycles <span class="text-dager">must</span> undertake Initial Basic Training (IBT)
-                with an approved IBT instructor, before they can ride a motorcycle unsupervised.</p>
+<p>You <span class="text-danger">Must</span> hold a current driving licence or learner permit for a
+    motorcycle or moped. See section 1 for information on licences and permits and the categories of
+    vehicle they cover.</p>
+<p>As a motorcyclist on a learner permit you <span class="text-dager">must</span> display an ‘L’ on a
+    yellow fluorescent tabard to give greater awareness to other road users that you are a learner and that
+    additional care may be required. The ‘L’ <span class="text-dager">must</span> conform in size and
+    colour to the normal ‘L’ plate</p>
+<p>If you have recently obtained your first driving licence (full driving licence) you will be classified
+    as a ‘Novice’ driver and <p class="text-dager">must</p> display N plates on a yellow fluorescent
+    tabard. This tabard <span class="text-dager">must</span> be worn over your clothes and the plates <span class="text-info">should</span> be clearly visible on the front and rear of your body.</p>
 
-            <h3 class="text-info">Carrying passengers</h3>
-            <p>You <span class="text-dager">must</span> not carry a passenger if you hold a learner permit as this is illegal. If you wish to carry a
-                passenger, make sure your full licence and your insurance policy allows you to do so. The rider <span class="text-dager">must</span>
-                make certain the passenger is wearing a properly fitted crash helmet. The rider class="text-info">should</span> make certain the
-                passenger wears appropriate PPE (Personal Protection Equipment, that is, motorcycle jacket, trousers,
-                gloves and boots – all properly fitting). A rider <span class="text-dager">must</span> not carry more than one pillion passenger, who
-                <span class="text-dager">must</span> sit on a proper seat. They <span class="text-dager">must</span> face forward and be capable of resting both both feet on the
-                footrests. Riders <span class="text-dager">must</span> not carry a pillion passenger unless their motorcycle is designed to do so.</p>
-            <img src="./asset/img/law_content/sec4pic1.png" alt="">
-            <h4 class="text-info">Daylight riding</h4>
-            <p>Make yourself as visible as possible from the side, as well as the front and rear.
-                Wear a white helmet and fluorescent clothing or strips.
-                Use dipped headlights. Even in good daylight, they may make you more visible.
-            </p>
-            <h4 class="text-info">Night-time riding</h4>
-            <p>Wear reflective clothing or strips to improve your chance of being seen in the dark. These reflect light
-                from the headlamps of other vehicles, making you more visible from a long distance.</p>
-            <h4 class="text-info">Lights</h4>
-            <p>You <span class="text-dager">must</span> have on your motorcycle or moped: a white or yellow head lamp;
-                a red rear lamp;
-                a red rear reflector; and
-                a number plate light on the back.
-            </p>
-            <h4 class="text-info">To be seen at all times, bear the points below in mind:</h4>
-            <p>Use your dipped headlights at all times.</p>
-            <p>Use headlights at night and during the day when visibility is seriously reduced.</p>
-            <p>Slow down, and if necessary stop, if you are dazzled by oncoming headlights.</p>
-            <p>Use full headlights when appropriate to do so. </p>
-            <p>Use your hazard warning lights when your motorcycle or moped is stopped in a dangerous place.</p>
-            <p>Make sure all sidelights and rear number plate lights are lit at night.</p>
+<h3 class="text-info">Insurance and tax</h3>
+<p>You <span class="text-dager">must</span> display a current motor tax disc and have insurance cover before you can take your motorcycle
+    or moped on a public road.</p>
+<p>All new first time learner permit holders for motorcycles <span class="text-dager">must</span> undertake Initial Basic Training (IBT)
+    with an approved IBT instructor, before they can ride a motorcycle unsupervised.</p>
 
-            <h3 class="text-primary">Personal protective equipment</h3>
-            <p>Wear appropriate clothing and a secure helmet every time you get on\ your bike.</p>
+<h3 class="text-info">Carrying passengers</h3>
+<p>You <span class="text-dager">must</span> not carry a passenger if you hold a learner permit as this is illegal. If you wish to carry a
+    passenger, make sure your full licence and your insurance policy allows you to do so. The rider <span class="text-dager">must</span>
+    make certain the passenger is wearing a properly fitted crash helmet. The rider class="text-info">should</span> make certain the
+    passenger wears appropriate PPE (Personal Protection Equipment, that is, motorcycle jacket, trousers,
+    gloves and boots – all properly fitting). A rider <span class="text-dager">must</span> not carry more than one pillion passenger, who
+    <span class="text-dager">must</span> sit on a proper seat. They <span class="text-dager">must</span> face forward and be capable of resting both both feet on the
+    footrests. Riders <span class="text-dager">must</span> not carry a pillion passenger unless their motorcycle is designed to do so.</p>
+<figure class="text-center">
+    <img class="img-fluid" src="./asset/img/law_content/sec4pic1.png" alt=""><br>
+</figure>
+<h4 class="text-info">Daylight riding</h4>
+<p>Make yourself as visible as possible from the side, as well as the front and rear.
+    Wear a white helmet and fluorescent clothing or strips.
+    Use dipped headlights. Even in good daylight, they may make you more visible.
+</p>
+<h4 class="text-info">Night-time riding</h4>
+<p>Wear reflective clothing or strips to improve your chance of being seen in the dark. These reflect light
+    from the headlamps of other vehicles, making you more visible from a long distance.</p>
+<h4 class="text-info">Lights</h4>
+<p>You <span class="text-dager">must</span> have on your motorcycle or moped: a white or yellow head lamp;
+    a red rear lamp;
+    a red rear reflector; and
+    a number plate light on the back.
+</p>
+<h4 class="text-info">To be seen at all times, bear the points below in mind:</h4>
+<p>Use your dipped headlights at all times.</p>
+<p>Use headlights at night and during the day when visibility is seriously reduced.</p>
+<p>Slow down, and if necessary stop, if you are dazzled by oncoming headlights.</p>
+<p>Use full headlights when appropriate to do so. </p>
+<p>Use your hazard warning lights when your motorcycle or moped is stopped in a dangerous place.</p>
+<p>Make sure all sidelights and rear number plate lights are lit at night.</p>
 
-            <h4 class="text-info">Protective clothes</h4>
-            <p>Jackets and trousers class="text-info">should</span> give you enough protection from impact, abrasion, cold and weather
-                conditions.</p>
-            <p>Use body armour on exposed areas such as the back, knees, elbows, shoulders, hips and shins. This class="text-info">should</span>
-                be adjustable so it fits snugly and does not move in a crash.</p>
-            <p>You class="text-info">should</span> wear a good reflective jacket, to make you more visible on the road.</p>
-            <p>Wear protective gloves, and footwear that comes above the ankle at least.</p>
+<h3 class="text-primary">Personal protective equipment</h3>
+<p>Wear appropriate clothing and a secure helmet every time you get on\ your bike.</p>
 
-            <img src="./asset/img/law_content/sec4pic2.png" alt="">
+<h4 class="text-info">Protective clothes</h4>
+<p>Jackets and trousers class="text-info">should</span> give you enough protection from impact, abrasion, cold and weather
+    conditions.</p>
+<p>Use body armour on exposed areas such as the back, knees, elbows, shoulders, hips and shins. This class="text-info">should</span>
+    be adjustable so it fits snugly and does not move in a crash.</p>
+<p>You class="text-info">should</span> wear a good reflective jacket, to make you more visible on the road.</p>
+<p>Wear protective gloves, and footwear that comes above the ankle at least.</p>
 
-            <h4 class="text-danger">REMEMBER</h4>
-            <b>It is a fixed charge offence of €80 to use a motorcycle without wearing a helmet or to permit a
-                passenger to ride on a motorcycle without wearing a helmet.</b>
+<figure class="text-center">
+    <img class="img-fluid" src="./asset/img/law_content/sec4pic2.png" alt=""><br>
+</figure>
 
-            <h4 class="text-info">
-                Helmets
-            </h4>
-            <p>Buy from reputable dealers. Try several different sizes and makes. Make sure the dealer knows how to
-                assess fit.</p>
-            <p>Never buy or use second-hand helmets.</p>
-            <p>Never lend your helmet to someone else.</p>
-            <p>If your helmet is damaged, replace it.</p>
-            <p>Read the manual for your helmet and follow the care instructions. Clean your visor gently with warm
-                soapy water.</p>
-            <p>Use a helmet with a clear visor. If you use a dark visor, it will be almost impossible for you to see
-                oil on a wet road.</p>
-            <p>Replace the visor if it is scratched.</p>
-            <p>Make sure your helmet is securely fastened. An unsecured helmet is illegal and useless in a crash.</p>
-            <p>Do your research before you buy. Ensure all equipment meets EU standards.</p>
+<h4 class="text-danger">REMEMBER</h4>
+<b>It is a fixed charge offence of €80 to use a motorcycle without wearing a helmet or to permit a
+    passenger to ride on a motorcycle without wearing a helmet.</b>
 
-            <h4 class="text-primary">Eye and ear protection</h4>
-            <p>Use ear protection on long journeys.</p>
-            <p>if you wear an open-face helmet (one without a chin bar), make sure you wear eye protection.</p>
-            <p>When riding a motorcycle, do not use a personal entertainment system.</p>
+<h4 class="text-info">
+    Helmets
+</h4>
+<p>Buy from reputable dealers. Try several different sizes and makes. Make sure the dealer knows how to
+    assess fit.</p>
+<p>Never buy or use second-hand helmets.</p>
+<p>Never lend your helmet to someone else.</p>
+<p>If your helmet is damaged, replace it.</p>
+<p>Read the manual for your helmet and follow the care instructions. Clean your visor gently with warm
+    soapy water.</p>
+<p>Use a helmet with a clear visor. If you use a dark visor, it will be almost impossible for you to see
+    oil on a wet road.</p>
+<p>Replace the visor if it is scratched.</p>
+<p>Make sure your helmet is securely fastened. An unsecured helmet is illegal and useless in a crash.</p>
+<p>Do your research before you buy. Ensure all equipment meets EU standards.</p>
 
-            <h4 class="text-primary">Riding a motorcycle</h4>
-            <p>As a motorcyclist you <span class="text-dager">must</span> obey the law governing traffic. You need to develop: a high level of
-                attention;
-                an awareness of likely hazards; good anticipation; and excellent observational skills.
-            </p>
-            <p>You also need to make the most of the advantages of height, positioning, flexibility and manoeuvrability
-                a motorcycle provides. The ability to sense danger in a situation develops only with experience, so you
-                class="text-info">should</span> always ride within your abilities.</p>
+<h4 class="text-primary">Eye and ear protection</h4>
+<p>Use ear protection on long journeys.</p>
+<p>if you wear an open-face helmet (one without a chin bar), make sure you wear eye protection.</p>
+<p>When riding a motorcycle, do not use a personal entertainment system.</p>
 
-            <img src="./asset/img/law_content/sec4pic3.png" alt="">
-            <p>Follow the rules below.</p>
-            <p>Avoid riding between traffic lanes.</p>
-            <p>Keep well clear of other vehicles when passing them. Remember that drivers might not always see you in
-                their ‘blind spots’.</p>
-            <p>If your machine is fitted with indicators and a brake light, use them. However, if other road users
-                cannot see these signals, or if you think they might not be working, you class="text-info">should</span> give clear hand signals
-                as well. See section 7 on hand signals.</p>
-            <p>Use rear-view mirrors if your motorcycle or moped is fitted with them. Remember, though, not to rely on
-                your mirrors when moving off, changing lane, turning right and overtaking. You class="text-info">should</span> also look over
-                your shoulders and check any ‘blind spots’.</p>
-            <p>Your motorcycle tyres <span class="text-dager">must</span> have a tread depth of at least 1 mm, but you class="text-info">should</span> replace them before they
-                become this worn.</p>
-            <img src="./asset/img/law_content/sec4pic4.png" alt="">
+<h4 class="text-primary">Riding a motorcycle</h4>
+<p>As a motorcyclist you <span class="text-dager">must</span> obey the law governing traffic. You need to develop: a high level of
+    attention;
+    an awareness of likely hazards; good anticipation; and excellent observational skills.
+</p>
+<p>You also need to make the most of the advantages of height, positioning, flexibility and manoeuvrability
+    a motorcycle provides. The ability to sense danger in a situation develops only with experience, so you
+    class="text-info">should</span> always ride within your abilities.</p>
 
-
+<figure class="text-center">
+    <img class="img-fluid" src="./asset/img/law_content/sec4pic3.png" alt=""><br>
+</figure>
+<p>Follow the rules below.</p>
+<p>Avoid riding between traffic lanes.</p>
+<p>Keep well clear of other vehicles when passing them. Remember that drivers might not always see you in
+    their ‘blind spots’.</p>
+<p>If your machine is fitted with indicators and a brake light, use them. However, if other road users
+    cannot see these signals, or if you think they might not be working, you class="text-info">should</span> give clear hand signals
+    as well. See section 7 on hand signals.</p>
+<p>Use rear-view mirrors if your motorcycle or moped is fitted with them. Remember, though, not to rely on
+    your mirrors when moving off, changing lane, turning right and overtaking. You class="text-info">should</span> also look over
+    your shoulders and check any ‘blind spots’.</p>
+<p>Your motorcycle tyres <span class="text-dager">must</span> have a tread depth of at least 1 mm, but you class="text-info">should</span> replace them before they
+    become this worn.</p>
+<figure class="text-center">
+    <img class="img-fluid" src="./asset/img/law_content/sec4pic4.png" alt=""><br>
+</figure>

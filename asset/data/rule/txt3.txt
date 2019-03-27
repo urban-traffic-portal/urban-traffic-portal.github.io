@@ -1,63 +1,61 @@
-
-        <h2>Section 3: The driving test</h2>
-        <h4><span class="text-info">How to apply for your driving test</span></h4>
-        <p>To take a Driving Test you <span class="text-danger">must</span>:</p>
-        <p>Hold a learner permit for the vehicle in which you wish to be tested; Have use of a suitable vehicle;</p>
-        <p>Comply with the six-month rule – that is, you must have held a valid learner permit for at least six months
-            on the day of the test (this applies to cars, motorcycles and work vehicles);</p>
-        <p>There are certain exceptions to the six-month rule. For example, learner permit holders in category BE (car
-            or van and trailer) do not need to wait 6 months before doing a practical driving test in that category. See
-            further exceptions to the six-month rule at page 32.</p>
-        <p>Also, if your first Category B learner permit was issued on or after 4 April 2011 you <span
-                class="text-danger">must</span>:</p>
-        <p>have completed an Essential Driver Training (EDT) course;</p>
-        <p>have completed an Initial Basic Training (IBT) course if your first Category A type learner permit was issued
-            on or after 6 December 2010.</p>
-        <h4><span class="class-info">The driving test</span></h4>
-        <p>The driving test will evaluate your driving skills under various headings, including:</p>
-        <p>positioning the vehicle correctly and in good time;</p>
-        <p>taking proper observation;</p>
-        <p>reacting promptly and properly to hazards;</p>
-        <p>using mirrors properly, in good time and before signalling;</p>
-        <p>allowing sufficient clearance to pedestrians, cyclists, other traffic, and other road users;</p>
-        <p>giving correct signals in good time;</p>
-        <p>maintaining reasonable progress and avoiding undue hesitancy when moving off, at roundabouts and when
-            changing lanes;</p>
-        <p>making proper use of vehicle controls; adjusting speed appropriately;</p>
-        <p>complying with traffic controls, for example, traffic lights, traffic signs and road markings;</p>
-        <p>yielding right of way as required; reversing;
-            turnabout; and
-            parking.
-        </p>
-        <h4><span class="class-info">Secondary controls and technical checks</span></h4>
-        <p>At your test, you will have to:</p>
-        <p>work the secondary controls, such as windscreen wipers and washers, de-misters, rear window heater, lights
-            and air-conditioning, fans, rear foglights, air vents and temperature control.</p>
-        <p>demonstrate technical checks such as air pressure and the condition of tyres, oil, fuel, windscreen washer
-            fluid level, coolant, brakes (including handbrake), steering, lights, indicators, reflectors and horn.</p>
-        <p><span class="text-danger">Motorcyclists are further tested on: control of speed, control when braking and
-                avoiding obstacles.</span></p>
-        <h4><span class="class-info">How long does the test last?</span></h4>
-        <p>The test for categories A, A1, A2, AM, B, BE and W vehicles lasts about 40 minutes and assesses your driving
-            skills over a distance of about 8 to 10 kilometres.</p>
-        <p>The test for vehicles in other categories lasts about 70 minutes and assesses your driving skills over about
-            20 kilometres.</p>
-        <h4><span class="class-info">What happens when your test is finished?</span></h4>
-        <p>Your Certificate of Competency will list any restrictions to be applied to your licence. Any restrictions
-            will be shown on your driving licence by using a particular code. Further information on potential
-            restrictions on a driving licence is available on the RSA website, www.rsa.ie.</p>
-        <p>If you are not successful in your driving test, you will receive a detailed report on the faults that
-            occurred during the test. When you are preparing for your next test, pay particular attention to these
-            faults while continuing to work on other areas of your driving.</p>
-        <h4><span class="class-info">What to do if you are not happy with your test result</span></h4>
-        <p>If you were not successful and believe that your driving test was not conducted properly or fairly, you may
-            appeal the tester’s decision to the District Court. The District Court may either refuse the appeal or, if
-            it finds that the test was not properly conducted, it can direct the Road Safety Authority to give you
-            another test free of charge.</p>
-        <p>For more information on the driving test, please read the leaflet <b>Preparing for your Driving Test</b>.
-            This is available at www.rsa.ie.</p>
-        <p><span class="text-danger">In certain circumstances, it may be possible to progress to a higher category of
-                driving licence for motorcycles without having to take an additional driving test. This is known as
-                ‘progressive access’.</span></p>
-        <p><span class="text-danger">At the age of 24 years, a rider may also proceed directly to a large unrestricted
-                motorcycle. This is known as ‘direct access’.</span></p>
+<h2>Section 3: The driving test</h2>
+<h4><span class="text-info">How to apply for your driving test</span></h4>
+<p>To take a Driving Test you <span class="text-danger">must</span>:</p>
+<p>Hold a learner permit for the vehicle in which you wish to be tested; Have use of a suitable vehicle;</p>
+<p>Comply with the six-month rule – that is, you must have held a valid learner permit for at least six months
+    on the day of the test (this applies to cars, motorcycles and work vehicles);</p>
+<p>There are certain exceptions to the six-month rule. For example, learner permit holders in category BE (car
+    or van and trailer) do not need to wait 6 months before doing a practical driving test in that category. See
+    further exceptions to the six-month rule at page 32.</p>
+<p>Also, if your first Category B learner permit was issued on or after 4 April 2011 you <span class="text-danger">must</span>:</p>
+<p>have completed an Essential Driver Training (EDT) course;</p>
+<p>have completed an Initial Basic Training (IBT) course if your first Category A type learner permit was issued
+    on or after 6 December 2010.</p>
+<h4><span class="class-info">The driving test</span></h4>
+<p>The driving test will evaluate your driving skills under various headings, including:</p>
+<p>positioning the vehicle correctly and in good time;</p>
+<p>taking proper observation;</p>
+<p>reacting promptly and properly to hazards;</p>
+<p>using mirrors properly, in good time and before signalling;</p>
+<p>allowing sufficient clearance to pedestrians, cyclists, other traffic, and other road users;</p>
+<p>giving correct signals in good time;</p>
+<p>maintaining reasonable progress and avoiding undue hesitancy when moving off, at roundabouts and when
+    changing lanes;</p>
+<p>making proper use of vehicle controls; adjusting speed appropriately;</p>
+<p>complying with traffic controls, for example, traffic lights, traffic signs and road markings;</p>
+<p>yielding right of way as required; reversing;
+    turnabout; and
+    parking.
+</p>
+<h4><span class="class-info">Secondary controls and technical checks</span></h4>
+<p>At your test, you will have to:</p>
+<p>work the secondary controls, such as windscreen wipers and washers, de-misters, rear window heater, lights
+    and air-conditioning, fans, rear foglights, air vents and temperature control.</p>
+<p>demonstrate technical checks such as air pressure and the condition of tyres, oil, fuel, windscreen washer
+    fluid level, coolant, brakes (including handbrake), steering, lights, indicators, reflectors and horn.</p>
+<p><span class="text-danger">Motorcyclists are further tested on: control of speed, control when braking and
+        avoiding obstacles.</span></p>
+<h4><span class="class-info">How long does the test last?</span></h4>
+<p>The test for categories A, A1, A2, AM, B, BE and W vehicles lasts about 40 minutes and assesses your driving
+    skills over a distance of about 8 to 10 kilometres.</p>
+<p>The test for vehicles in other categories lasts about 70 minutes and assesses your driving skills over about
+    20 kilometres.</p>
+<h4><span class="class-info">What happens when your test is finished?</span></h4>
+<p>Your Certificate of Competency will list any restrictions to be applied to your licence. Any restrictions
+    will be shown on your driving licence by using a particular code. Further information on potential
+    restrictions on a driving licence is available on the RSA website, www.rsa.ie.</p>
+<p>If you are not successful in your driving test, you will receive a detailed report on the faults that
+    occurred during the test. When you are preparing for your next test, pay particular attention to these
+    faults while continuing to work on other areas of your driving.</p>
+<h4><span class="class-info">What to do if you are not happy with your test result</span></h4>
+<p>If you were not successful and believe that your driving test was not conducted properly or fairly, you may
+    appeal the tester’s decision to the District Court. The District Court may either refuse the appeal or, if
+    it finds that the test was not properly conducted, it can direct the Road Safety Authority to give you
+    another test free of charge.</p>
+<p>For more information on the driving test, please read the leaflet <b>Preparing for your Driving Test</b>.
+    This is available at www.rsa.ie.</p>
+<p><span class="text-danger">In certain circumstances, it may be possible to progress to a higher category of
+        driving licence for motorcycles without having to take an additional driving test. This is known as
+        ‘progressive access’.</span></p>
+<p><span class="text-danger">At the age of 24 years, a rider may also proceed directly to a large unrestricted
+        motorcycle. This is known as ‘direct access’.</span></p>

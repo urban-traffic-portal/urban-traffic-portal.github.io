@@ -1,20 +1,19 @@
-﻿
-            <p>section 6: <h2 class="text-danger">Rules for pedestrians</h2></p>
-            <h3 class="text-info">Rules for pedestrians</h3>
-            <p>If there is a footpath, you <span class="text-danger">must</span> use it.</p>
-            <p>If there is no footpath, you <span class="text-danger">must</span> walk as near as possible to the right-
-                    hand side of the road (facing oncoming traffic).
-                    </p>
-            <p>Do not walk more than two abreast. If the road is narrow or carries heavy
-                    traffic, you <span class="text-primary">should</span> walk in single file.
-                    </p>
-            <p>You <span class="text-primary">should</span> always wear bright and hi-viz clothing during the day and</p>
-            <p>reflective clothing at night when walking outside built-up areas. You <span class="text-primary">should</span> always carry a torch when walking at night time. You <span class="text-primary">should</span> always be aware of other road users.</p>
-            <h3 class="text-info">Crossing the road</h3>
-            <p>Follow the DOs and DON’Ts below to make sure you cross the road safely.</p>
-            <img src="./asset/img/law_content/sec6pic1.png" alt="">
-            <img src="./asset/img/law_content/sec6pic2.png" alt="">
-            <h4 class="text-danger">REMEMBER</h4>
-            <b>Never cross in front of a stopped bus.</b>
-            
-   
+﻿<h2>Section 6: Rules for pedestrians</h2>
+<h3 class="text-info">Rules for pedestrians</h3>
+<p>If there is a footpath, you <span class="text-danger">must</span> use it.</p>
+<p>If there is no footpath, you <span class="text-danger">must</span> walk as near as possible to the right-
+        hand side of the road (facing oncoming traffic).
+</p>
+<p>Do not walk more than two abreast. If the road is narrow or carries heavy
+        traffic, you <span class="text-primary">should</span> walk in single file.
+</p>
+<p>You <span class="text-primary">should</span> always wear bright and hi-viz clothing during the day and</p>
+<p>reflective clothing at night when walking outside built-up areas. You <span class="text-primary">should</span> always carry a torch when walking at night time. You <span class="text-primary">should</span> always be aware of other road users.</p>
+<h3 class="text-info">Crossing the road</h3>
+<p>Follow the DOs and DON’Ts below to make sure you cross the road safely.</p>
+<figure class="text-center">
+        <img class="img-fluid" src="./asset/img/law_content/sec6pic1.png" alt=""><br>
+        <img class="img-fluid" src="./asset/img/law_content/sec6pic2.png" alt=""><br>
+</figure>
+<h4 class="text-danger">REMEMBER</h4>
+<b>Never cross in front of a stopped bus.</b>

@@ -1,4 +1,5 @@
 [
+<<<<<<< HEAD
     {
        "location" : "Road 21",
        "status" : "Pending",
@@ -40,3 +41,30 @@
       "long":""
    }
  ]
+=======
+   {
+      "location": "Area 1",
+      "status": "Pending",
+      "lat": "",
+      "long": ""
+   },
+   {
+      "location": "Area 1",
+      "status": "Pending",
+      "lat": "",
+      "long": ""
+   },
+   {
+      "location": "Area 1",
+      "status": "Pending",
+      "lat": "",
+      "long": ""
+   },
+   {
+      "location": "Area 1",
+      "status": "Pending",
+      "lat": "",
+      "long": ""
+   }
+]
+>>>>>>> b6d3a29f094950afdd646172abafa8aedbfd8a7b

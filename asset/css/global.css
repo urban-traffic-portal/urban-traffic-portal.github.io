@@ -38,8 +38,13 @@ h1, h2, h3, h4, h5, h6, .fontHeading
 }
 
 /*** Custom ***/
-.a {
+a {
   color: #0071AD;
+}
+
+a:hover
+{
+  color: #098FD0;
 }
 
 .btn-primary {
