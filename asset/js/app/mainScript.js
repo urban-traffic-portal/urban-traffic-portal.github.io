@@ -49,11 +49,6 @@ $(".navbar-brand").click(function ()
   location.href = "./index.html";
 });
 
-$(".nav-link").on("click", function ()
-{
-  alert($(this).class());
-});
-
 var role = "";
 var regName = /^[a-zA-Z ]{1,30}$/;
 $("#buttonGo").click(function ()
