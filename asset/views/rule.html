@@ -1,0 +1,54 @@
+<div id="loadContent">
+        <div ng-app="contentApp" ng-controller="contentController" class="container-fluid">
+            <div class="row bhoechie-tab-container" >
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 bhoechie-tab-menu">
+                  <div class="list-group"  ng-repeat="content in contents">
+                    <a ng-click="load(content.File);up()" class="list-group-item  text-center">
+                      <h4 class="glyphicon glyphicon-plane"></h4><br />{{ content.Name }}
+                      <img src="./asset/data/rule/ima law/ilaw_1.png" alt="" width="50" height="50">
+                    </a>
+                    
+                  </div>
+                </div>
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 bhoechie-tab">
+                    <div ng-bind-html="loadProgress"></div>
+                  <!-- flight section -->
+                  <div class="bhoechie-tab-content active">
+                    <center>
+                      <h1 class="glyphicon glyphicon-plane" style="font-size:14em;color:#55518a"></h1>
+                      <h3 style="margin-top: 0;color:#55518a">Flight Reservation</h3>
+                      <div ng-bind-html="loadContent"></div>
+                    </center>
+                  </div>
+                  <!-- train section -->
+                </div>
+              </div>
+            </div>
+        </div>
+        <script>
+          var app = angular.module("contentApp", []);
+          app.controller("contentController", function ($scope, $http, $sce) {
+            $scope.percent=0;
+            $scope.loadContent = "";
+            $scope.loadProgress="";
+            var url = "./asset/data/rule/list.json";
+            $http.get(url).then(function (response) {
+              console.log(response.data);
+              $scope.contents = response.data;
+            });
+            //Load select to content
+            $scope.load = function (textname) {
+              
+              var link = $scope.target = "./asset/data/rule/" + textname;
+              $http.get(link).then(function (response) {
+                $scope.contents = response.data;
+                $scope.loadContent = $sce.trustAsHtml(response.data);
+              });
+            }
+            $scope.up= function(){
+              $scope.percent= $scope.percent+11.11;
+              var html='<div class="progress"><div class="progress-bar" role="progressbar" value="'+ $scope.percent +'%" style="width:'+ $scope.percent +'%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div></div>';
+              $scope.loadProgress = $sce.trustAsHtml(html);
+            }
+          });
+        </script>

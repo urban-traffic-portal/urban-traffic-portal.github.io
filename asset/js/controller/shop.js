@@ -1,47 +1,3 @@
-var myapp = angular.module("shopApp", []);
-myapp.controller("shopController", function ($scope) {
-    // Show item to the page
-    $scope.products = products;
-    // Get the select item
-    var selectedItems = [];
-    $scope.selectedItems = selectedItems;
-    // Click select item event
-    $scope.addToCart = function (product) {
-        var existItem = {};
-        // Check an exist item in the ShopCart
-        angular.forEach($scope.selectedItems, function (item, index) {
-            if (item.id === product.id) {
-                existItem = item;
-                return false;
-            }
-        });
-
-        // If exist item ++
-        if (existItem.id !== undefined) {
-            existItem.quantity++;
-        }
-        // Else add to catch
-        else {
-            var cartItem = angular.copy(product);
-            cartItem.quantity = 1;
-            $scope.selectedItems.push(cartItem);
-        }
-    };
-
-    // Remove item  from cart
-    $scope.remove = function (cartItem) {
-        var index = $scope.selectedItems.indexOf(cartItem);
-        $scope.selectedItems.splice(index, 1);
-    };
-
-    $scope.getTotal = function () {
-        var total = 0;
-        angular.forEach($scope.selectedItems, function (item, index) {
-            total += (item.price * item.quantity);
-        })
-        return total;
-    }
-});
 var products = [
     { id: "1", type: "Cars", name: " Royal M04 carbon", price: "90", imageUrl: "./asset/img/cart/1.jpg" },
     { id: "2", type: "Cars", name: "Royal M03 helmet", price: "50", imageUrl: "./asset/img/cart/2.jpg" },
@@ -57,4 +13,57 @@ var products = [
     { id: "12", type: "safety vest", name: " Safety Vest - Police", price: "32.95", imageUrl: "./asset/img/cart/12.jpg" },
     { id: "13", type: "safety vest", name: " Safety Vest - Police", price: "17.5", imageUrl: "./asset/img/cart/13.jpg" },
     { id: "14", type: "fsafety vest", name: " Surveyors Vest", price: "49.95", imageUrl: "./asset/img/cart/14.jpg" }
-];
+  ];
+  var app = angular.module("shopApp", []);
+  app.controller("shopController", function ($scope)
+  {
+    // Show item to the page
+    $scope.products = products;
+    // Get the select item
+    var selectedItems = [];
+    $scope.selectedItems = selectedItems;
+    // Click select item event
+    $scope.addToCart = function (product)
+    {
+      var existItem = {};
+      // Check an exist item in the ShopCart
+      angular.forEach($scope.selectedItems, function (item, index)
+      {
+        if (item.id === product.id)
+        {
+          existItem = item;
+          return false;
+        }
+      });
+
+      // If exist item ++
+      if (existItem.id !== undefined)
+      {
+        existItem.quantity++;
+      }
+      // Else add to catch
+      else
+      {
+        var cartItem = angular.copy(product);
+        cartItem.quantity = 1;
+        $scope.selectedItems.push(cartItem);
+      }
+    };
+
+    // Remove item  from cart
+    $scope.remove = function (cartItem)
+    {
+      var index = $scope.selectedItems.indexOf(cartItem);
+      $scope.selectedItems.splice(index, 1);
+    };
+
+    $scope.getTotal = function ()
+    {
+      var total = 0;
+      angular.forEach($scope.selectedItems, function (item, index)
+      {
+        total += (item.price * item.quantity);
+      })
+      return total;
+    }
+  });

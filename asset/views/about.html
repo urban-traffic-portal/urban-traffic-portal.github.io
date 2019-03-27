@@ -1,21 +1,72 @@
-<!-- partial-about.html -->
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="jumbotron text-center">
-    <h1>The About Page</h1>
-    <p>This page demonstrates <span class="text-danger">multiple</span> and <span class="text-danger">named</span> views.</p>
-</div>
+<head>
+    <title>about</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
 
-<div class="row">
+<body>
 
-    <!-- COLUMN ONE NAMED VIEW -->
-    <div class="col-sm-6">
-        <div ui-view="columnOne"></div>
+    <div class="container">
+        <div class="row">
+            <p>The amount of traffic is ever-increasing these days in urban cities across the world.
+                Handy information regarding <em class="text-primary"> rules, safety measures, and blockages traffic</em> in important
+                areas of a city on any given day can help people.
+                This can impact day-to-day lives of individuals as 
+                well as emergency facilities.. Other changes, such as an increase in the number of
+                 vehicles per housing unit, increases in tourism and sprawl
+                 development are factors leading to traffic congestion. 
+                Drivers lose an immense amount of time and money navigating through traffic
+                This can impact day-to-day lives of individuals as well as emergency facilities.
+            </p>
+        </div>
+        <div class="row">
+            <p>
+                In tandem, governments and businesses struggle to manage growing congestion levels and related safety risks.
+                 Intelligently predicting and reacting to changing road conditions is essential in solving these problems. 
+                 What if drivers had access to more accurate information about congestion and incidents.
+                Information such as construction zones, accidents, traffic routes and estimated time of arrivals.
+                 Here, <strong class="text-danger">Real-Time Traffic</strong> delivers this precise information to create a smarter and safer driving experience, wherever the destination.
+            </p>
+        </div>
+        <div class="row">
+            <p>
+                So our website has created a <strong class="text-primary"> GIS interactive map</strong> of local traffic counts within the city. 
+                Traffic data is collected by the Urban Traffic Portal Engineering Department.
+                 Other layers include  annual average daily traffic  and average daily traffic  counts on maintained roads.
+            </p>
+        </div>
+        <div class="row">
+            <p>
+                <strong class="text-danger">'Urban Traffic Portal' (UTP)</strong> and should be an informational guide to its users regarding traffic safety
+                measures,
+                rules, and daily blockages inside the city.
+            </p>
+        </div>
+        <div class="row">
+            <p>
+                Urban traffic portal will reports in a way that is easy for the driver to understand. They are logically
+                organized by grouping similar traffic incidents together, like traffic jams and road closures. These are
+                then delivered based on the driver’s location and destination. Provide greater value to your customers
+                by offering customized, pertinent information within the driver’s chosen applications or services.
+            </p>
+        </div>
+        <div class="row">
+            <h3 class = "text-primary">Functional of UTP web:</h3>
+            <ul>
+                <li>Traffic Safety Measures: traffic safety measures in the form of audio and video displayed to users</li>
+                <li>Traffic Rules: providing international traffic law</li>
+                <li>View Traffic Blockage Information: you will see traffic blockage information for the day provided by city traffic department.</li>
+                <li>Traffic Safety Merchandise: caps, placards, banners, flags</li>
+            </ul>
+        </div>
     </div>
+</body>
 
-    <!-- COLUMN TWO NAMED VIEW -->
-    <div class="col-sm-6">
-        <div ui-view="columnTwo"></div>
-    </div>
-
-</div>    
-
+</html>
