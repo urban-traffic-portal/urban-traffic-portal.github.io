@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="stylesheet" href="./asset/vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js" integrity="sha256-23hi0Ag650tclABdGCdMNSjxvikytyQ44vYGo9HyOrU=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.22/angular-ui-router.min.js" integrity="sha256-h/82i+45nj45rnRUHrB7A7OVqYZgkUVL2cuklteNW+o=" crossorigin="anonymous"></script>
 
@@ -203,7 +203,7 @@
             <div ng-repeat="p in products" class="col-sm-4 col-6 my-2">
               <div class="h-100 img-thumbnail text-center p-4">
                 <img ng-src="{{ p.imageUrl }}" class="img-fluid">
-                <h6>{{ p.name }}</h6>
+                <h6 style="height:70px">{{ p.name }}</h6>
                 <p class="text-primary">Price: ${{ p.price }}</p>
                 <button ng-click="addToCart(p)" class="btn btn-primary">
                   <i class="fas fa-shopping-cart"></i>
@@ -255,10 +255,10 @@
         </div>
         <script>
           var products = [
-            { id: "1", type: "Cars", name: "3/4 helmet head royal M04 carbon", price: "90", imageUrl: "./asset/img/cart/1.jpg" },
+            { id: "1", type: "Cars", name: " Royal M04 carbon", price: "90", imageUrl: "./asset/img/cart/1.jpg" },
             { id: "2", type: "Cars", name: "Royal M03 helmet", price: "50", imageUrl: "./asset/img/cart/2.jpg" },
             { id: "3", type: "Placards", name: "Multi-price signage", price: "19.5", imageUrl: "./asset/img/cart/3.jpg" },
-            { id: "4", type: "Placards", name: "Korean A-warning signboard", price: "58", imageUrl: "./asset/img/cart/4.jpg" },
+            { id: "4", type: "Placards", name: " A-warning signboard", price: "58", imageUrl: "./asset/img/cart/4.jpg" },
             { id: "5", type: "flags & paddles", name: "24\" Construction Flags", price: "6.45", imageUrl: "./asset/img/cart/5.jpg" },
             { id: "6", type: "flags & paddles", name: "36\" Sewn Checkered Airport Flag", price: "19.5", imageUrl: "./asset/img/cart/6.jpg" },
             { id: "7", type: "flags & paddles", name: "18\" STOP/SLOW Paddles", price: "21.95", imageUrl: "./asset/img/cart/7.jpg" },
@@ -266,9 +266,9 @@
             { id: "9", type: "flags & paddles", name: "12\" Octagon + 10.5' Handle", price: "17.25", imageUrl: "./asset/img/cart/9.jpg" },
             { id: "10", type: "safety vest", name: "Lime Brilliant Series", price: "15.95", imageUrl: "./asset/img/cart/10.jpg" },
             { id: "11", type: "safety vest", name: "Economy Contrasting Class 2", price: "11.75", imageUrl: "./asset/img/cart/11.jpg" },
-            { id: "12", type: "safety vest", name: "5-Point 'Break Away' Safety Vest - Police", price: "32.95", imageUrl: "./asset/img/cart/12.jpg" },
-            { id: "13", type: "safety vest", name: "5-Point 'Break Away' Safety Vest - Police", price: "17.5", imageUrl: "./asset/img/cart/13.jpg" },
-            { id: "14", type: "fsafety vest", name: "Professional Class 2 Surveyors Vest", price: "49.95", imageUrl: "./asset/img/cart/14.jpg" }
+            { id: "12", type: "safety vest", name: " Safety Vest - Police", price: "32.95", imageUrl: "./asset/img/cart/12.jpg" },
+            { id: "13", type: "safety vest", name: " Safety Vest - Police", price: "17.5", imageUrl: "./asset/img/cart/13.jpg" },
+            { id: "14", type: "fsafety vest", name: " Surveyors Vest", price: "49.95", imageUrl: "./asset/img/cart/14.jpg" }
           ];
           var app = angular.module("shopApp", []);
           app.controller("shopController", function ($scope)
@@ -353,6 +353,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 
+  <script src="./asset/js/app/user.js"></script>
   <script src="./asset/js/app/mainScript.js"></script>
 </body>
 

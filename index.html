@@ -27,10 +27,10 @@
         <div class="container-fluid">
           <a class="navbar-brand fontHeading text-primary" href="./index.html">
             <img src="./asset/img/brand/logo.png" height="30" width="auto" class="mr-2" alt="">
-            <span class="d-none d-sm-inline">Urban Traffic Portal</span>
-            <span class="d-sm-none">UTP</span>
+            <span class="d-none d-md-inline">Urban Traffic Portal</span>
+            <span class="d-md-none">UTP</span>
           </a>
-          <ul class="navbar-nav ml-auto d-none d-sm-flex">
+          <ul class="navbar-nav ml-sm-auto d-none d-sm-flex">
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
             </li>
@@ -38,7 +38,31 @@
               <a class="nav-link" href="#">Contact us</a>
             </li>
           </ul>
-          <div class="dropdown ml-auto d-sm-none">
+          <div class="dropdown ml-auto ml-sm-4 ml-4">
+            <button id="buttonDropdownSignin" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admin
+            </button>
+            <div id="formSignin" class="dropdown-menu dropdown-menu-right p-4 shadow border border-primary mt-3">
+              <h5 class="text-center text-primary">Administrator account</h5>
+              <div class="text-center text-secondary">This is the area only for administrators</div>
+              <div class="dropdown-divider"></div>
+              <form>
+                <div id="alertSignin" class="alert alert-danger w-100 my-1" role="alert"></div>
+                <div class="form-group">
+                  <label for="inputUsername">Username</label>
+                  <input type="text" class="form-control" id="inputUsername" placeholder="Username">
+                </div>
+                <div class="form-group">
+                  <label for="inputPassword">Password</label>
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+                <div class="text-right">
+                  <button type="button" id="buttonSignin" class="btn btn-primary">Sign in</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="dropdown ml-2 d-sm-none">
             <button type="button" class="btn btn-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <i class="fas fa-bars"></i>
             </button>
@@ -58,44 +82,20 @@
         </div>
       </nav>
       <div class="container text-center" id="pageWelcomeHello">
-        <img src="./asset/img/brand/logo.png" height="100" width="auto" alt="" class="mb-2">
-        <h2 id="textLogo" class="fontHeading text-center text-light mb-5">
+        <img src="./asset/img/brand/logo.png" height="100" width="auto" alt="" class="mb-4">
+        <h2 id="textLogo" class="fontHeading text-light text-center mb-5">
           Urban Traffic Portal
         </h2>
-        <div class="col-md-8 offset-md-2">
+        <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3 border border-primary shadow rounded" id="bgPageWelcomeHello">
           <div id="alertInputGuestName" class="alert alert-danger w-100 my-1" role="alert"></div>
           <div class="input-group">
             <div class="input-group-prepend">
-              <div class="input-group-text fontHeading">Mr/Mrs:</div>
+              <div class="input-group-text text-dark fontWriting">Mr/Mrs:</div>
             </div>
-            <input id="inputGuestName" class="form-control text-light fontHeading" autocomplete="off" autofocus maxlength="30">
+            <input id="inputGuestName" class="form-control text-dark fontWriting" autocomplete="off" autofocus maxlength="30">
           </div>
+          <button type="button" id="buttonGo" class="btn btn-primary mt-2 pr-5 pl-5">Go</button>
         </div>
-        <button type="button" id="buttonGo" class="btn btn-primary border-light my-3 pr-4 pl-4">Go</button>
-      </div>
-    </div>
-    <div id="frame" class="fixed-bottom">
-    </div>
-    <div class="dropdown dropup mr-3 mb-3" style="position: absolute; bottom: 0; right: 0; z-index: 2;">
-      <button id="buttonDropdownSignin" type="button" class="btn btn-primary border-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Administrators</button>
-      <div id="formSignin" class="dropdown-menu dropdown-menu-right p-4 shadow border border-primary my-2">
-        <h5 class="text-center text-primary">Administrator account</h5>
-        <div class="text-center text-secondary">This is the area only for administrators</div>
-        <div class="dropdown-divider"></div>
-        <form>
-          <div id="alertSignin" class="alert alert-danger w-100 my-1" role="alert"></div>
-          <div class="form-group">
-            <label for="inputUsername">Username</label>
-            <input type="text" class="form-control" id="inputUsername" placeholder="Username">
-          </div>
-          <div class="form-group">
-            <label for="inputPassword">Password</label>
-            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-          </div>
-          <div class="text-right">
-            <button type="button" id="buttonSignin" class="btn btn-primary">Sign in</button>
-          </div>
-        </form>
       </div>
     </div>
   </div>

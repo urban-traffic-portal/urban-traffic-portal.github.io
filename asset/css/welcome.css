@@ -1,6 +1,6 @@
 #pageWelcome
 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.7)), url(../img/brand/city.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../img/brand/city.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -8,9 +8,15 @@
 	width: 100vw;
 }
 
-#formSignin, .dropdown-user, .dropdown-navbar
+.dropdown-user, .dropdown-navbar
 {
 	width: 350px;
+	max-width: 70vw;
+}
+
+#formSignin
+{
+	width: 400px;
 	max-width: 70vw;
 }
 
@@ -18,6 +24,12 @@
 {
 	position: relative;
 	z-index: 2;
+}
+
+#bgPageWelcomeHello
+{
+	padding: 1.5em;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8));
 }
 
 #pageWelcomeContent>nav
@@ -52,17 +64,4 @@
 	color: #f8f9fa;
 	box-shadow: none !important;
 	border: none !important;
-}
-
-#frame
-{
-	background-image: url(../img/brand/frames.png);
-	background-position: top;
-	background-repeat: no-repeat;
-	background-size: cover;
-	min-height: 80vh;
-	width: 100vw;
-
-	position: absolute;
-	z-index: 1;
 }
