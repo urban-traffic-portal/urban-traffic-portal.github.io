@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="stylesheet" href="./asset/vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js" integrity="sha256-23hi0Ag650tclABdGCdMNSjxvikytyQ44vYGo9HyOrU=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.22/angular-ui-router.min.js" integrity="sha256-h/82i+45nj45rnRUHrB7A7OVqYZgkUVL2cuklteNW+o=" crossorigin="anonymous"></script>
 
@@ -39,7 +39,7 @@
             </li>
           </ul>
           <div class="dropdown ml-auto d-sm-none">
-            <button class="btn btn-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button type="button" class="btn btn-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <i class="fas fa-bars"></i>
             </button>
             <div class="dropdown-navbar dropdown-menu dropdown-menu-right p-4 shadow border border-primary mt-3">
@@ -59,41 +59,43 @@
       </nav>
       <div class="container text-center" id="pageWelcomeHello">
         <img src="./asset/img/brand/logo.png" height="100" width="auto" alt="" class="mb-2">
-        <h2 id="textLogo" class="fontHeading text-center text-light">
+        <h2 id="textLogo" class="fontHeading text-center text-light mb-5">
           Urban Traffic Portal
         </h2>
-        <div class="input-group col-md-8 offset-md-2">
-          <div class="input-group-prepend">
-            <div class="input-group-text fontWriting">Mr/Mrs:</div>
+        <div class="col-md-8 offset-md-2">
+          <div id="alertInputGuestName" class="alert alert-danger w-100 my-1" role="alert"></div>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <div class="input-group-text fontHeading">Mr/Mrs:</div>
+            </div>
+            <input id="inputGuestName" class="form-control text-light fontHeading" autocomplete="off" autofocus maxlength="30">
           </div>
-          <input id="inputGuestName" class="form-control text-light fontWriting" autocomplete="off" autofocus maxlength="30">
         </div>
-        <button id="buttonGo" class="btn btn-primary border-light my-3 pr-4 pl-4">
-          Go
-        </button>
+        <button type="button" id="buttonGo" class="btn btn-primary border-light my-3 pr-4 pl-4">Go</button>
       </div>
     </div>
     <div id="frame" class="fixed-bottom">
     </div>
     <div class="dropdown dropup mr-3 mb-3" style="position: absolute; bottom: 0; right: 0; z-index: 2;">
-      <button class="btn btn-primary border-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Administrators
-      </button>
-      <div id="formSignin" class="dropdown-menu dropdown-menu-right p-4 shadow border border-primary mb-3">
+      <button id="buttonDropdownSignin" type="button" class="btn btn-primary border-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Administrators</button>
+      <div id="formSignin" class="dropdown-menu dropdown-menu-right p-4 shadow border border-primary my-2">
         <h5 class="text-center text-primary">Administrator account</h5>
         <div class="text-center text-secondary">This is the area only for administrators</div>
         <div class="dropdown-divider"></div>
-        <div class="form-group">
-          <label for="inputUsername">Username</label>
-          <input type="text" class="form-control" id="inputUsername" placeholder="Username">
-        </div>
-        <div class="form-group">
-          <label for="inputPassword">Password</label>
-          <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-        </div>
-        <div class="text-right">
-          <button id="buttonSignin" class="btn btn-primary">Sign in</button>
-        </div>
+        <form>
+          <div id="alertSignin" class="alert alert-danger w-100 my-1" role="alert"></div>
+          <div class="form-group">
+            <label for="inputUsername">Username</label>
+            <input type="text" class="form-control" id="inputUsername" placeholder="Username">
+          </div>
+          <div class="form-group">
+            <label for="inputPassword">Password</label>
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+          </div>
+          <div class="text-right">
+            <button type="button" id="buttonSignin" class="btn btn-primary">Sign in</button>
+          </div>
+        </form>
       </div>
     </div>
   </div>
@@ -127,7 +129,7 @@
           </li>
         </ul>
         <div class="dropdown ml-auto mr-2">
-          <button id="buttonUser" class="btn btn-outline-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <button type="button" id="buttonUser" class="btn btn-outline-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="d-none d-lg-inline">@Guest: <b class="textGuestName"></b></span>
             <span class="d-lg-none">Guest</span>
           </button>
@@ -141,7 +143,7 @@
           </div>
         </div>
         <div class="dropdown d-lg-none">
-          <button class="btn btn-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <button type="button" class="btn btn-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-bars"></i>
           </button>
           <div class="dropdown-navbar dropdown-menu dropdown-menu-right p-4 shadow border border-primary mt-3">
@@ -172,7 +174,7 @@
       </div>
     </nav>
     <div id="sidebar">
-      <button id="dismiss" class="btn btn-primary rounded-circle ml-auto mr-2">
+      <button type="button" id="dismiss" class="btn btn-primary rounded-circle ml-auto mr-2">
         <i class="fas fa-arrow-left"></i>
       </button>
       <div class="sidebar-header">
@@ -193,7 +195,7 @@
       </div>
     </div>
     <div id="content" class="container-fluid">
-      <button id="buttonSidebar" class="btn btn-primary rounded-pill">
+      <button type="button" id="buttonSidebar" class="btn btn-primary rounded-pill">
         <i class="fas fa-plus"></i> Widget
       </button>
       <!--Load Content into this div tag-->
@@ -233,13 +235,13 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="alertLabel"></h5>
-          <button class="close" data-dismiss="modal" aria-label="Close">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <i class="fas fa-times"></i>
           </button>
         </div>
         <div class="modal-body"></div>
         <div class="modal-footer text-center">
-          <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
