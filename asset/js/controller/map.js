@@ -8,7 +8,6 @@ $(document).ready(function () {
 function initMap(userlat, userlong, userzoom) {
   // The location of Uluru
   var uluru = { lat: userlat, lng: userlong };
-    sessionStorage.setItem("key","ok");
   // The map, centered at Uluru
   var thisMap = new google.maps.Map(
   document.getElementById('map'), { zoom: userzoom, center: uluru ,mapTypeId: 'roadmap'});
@@ -74,16 +73,15 @@ function initMap(userlat, userlong, userzoom) {
         });
   infoWindow = new google.maps.InfoWindow;
   // Try HTML5 geolocation.
-   var pos = JSON.parse(sessionStorage.getItem("pos"));
-   console.log(pos);
+   var position = JSON.parse(sessionStorage.getItem("pos"));
    if(pos!=null){
     infoWindow.setPosition(pos);
     infoWindow.setContent('Location found.');
     infoWindow.open(thisMap);
     thisMap.setCenter(pos);
     var pos = {
-      lat: pos[0]["lat"],
-      lng: pos[0]["long"]
+      lat: position[0]["lat"],
+      lng: position[0]["long"]
     };
    } else{
       if (navigator.geolocation) {
