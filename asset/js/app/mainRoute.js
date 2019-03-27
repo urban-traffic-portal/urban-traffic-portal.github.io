@@ -11,13 +11,16 @@ routerApp.controller('mapcontroller', function ($scope, $http,$interval) {
     $scope.data= response.data;
   });
   $scope.add = function () {
-    $scope.events.push(value);
+    for (x=0;x<5;x++){
+      var obj = $scope.data[x];
+      $scope.events.push(x);
+    }
   }
   $scope.removeRow = function () {
     $scope.events.pop();
   };
-  $interval($scope.add, 2000); 
-  $interval($scope.removeRow, 4000); 
+  $interval($scope.add, 3000); 
+  $interval($scope.removeRow, 2000); 
 });
 routerApp.controller('shopController', function ($scope) {
   // Show item to the page
