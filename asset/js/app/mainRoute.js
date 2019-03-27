@@ -1,26 +1,175 @@
 var routerApp = angular.module('routerApp', ['ui.router']);
-routerApp.controller('mapcontroller', function ($scope, $http,$interval) {
+routerApp.controller("measureControl",function($scope,$http,$sce){
+    $scope.load = function (textname)
+    {
+
+      var link = $scope.target = "./asset/data/rule/measure/" + textname;
+      $http.get(link).then(function (response)
+      {
+        $scope.contents = response.data;
+        $scope.loadContent = $sce.trustAsHtml(response.data);
+      });
+    }
+
+});
+routerApp.controller('mapcontroller', function ($scope, $http, $interval) {
+  $scope.count = 0;
+  $scope.arrray1 = [
+    {
+      "location": "Road 01",
+      "status": "Done",
+      "lat": "",
+      "long": ""
+    },
+    {
+      "location": "Road 05",
+      "status": "Done",
+      "lat": "",
+      "long": ""
+    },
+    {
+      "location": "Road 06",
+      "status": "Done",
+      "lat": "",
+      "long": ""
+    },
+    {
+      "location": "Road 15",
+      "status": "Pending",
+      "lat": "",
+      "long": ""
+    }
+  ]
+  $scope.array2 = [
+    {
+      "location": "Road 21",
+      "status": "Pending",
+      "lat": "",
+      "long": ""
+    },
+    {
+      "location": "Road 19",
+      "status": "Pending",
+      "lat": "",
+      "long": ""
+    },
+    {
+      "location": "Road 18",
+      "status": "Done",
+      "lat": "",
+      "long": ""
+    },
+    {
+      "location": "Road 17",
+      "status": "Pending",
+      "lat": "",
+      "long": ""
+    }
+  ]
+  $scope.arrray3 = [
+    {
+      "location": "Road 05",
+      "status": "Pending",
+      "lat": "",
+      "long": ""
+    },
+    {
+      "location": "Road 06",
+      "status": "Pending",
+      "lat": "",
+      "long": ""
+    },
+    {
+      "location": "Road 07",
+      "status": "Done",
+      "lat": "",
+      "long": ""
+    },
+    {
+      "location": "Road 08",
+      "status": "Pending",
+      "lat": "",
+      "long": ""
+    }
+  ]
+  $scope.arrray4 = [
+    {
+      "location": "Road 05",
+      "status": "Pending",
+      "lat": "",
+      "long": ""
+    },
+    {
+      "location": "Road 06",
+      "status": "Pending",
+      "lat": "",
+      "long": ""
+    },
+    {
+      "location": "Road 07",
+      "status": "Done",
+      "lat": "",
+      "long": ""
+    },
+    {
+      "location": "Road 08",
+      "status": "Pending",
+      "lat": "",
+      "long": ""
+    }
+  ]
   $scope.events = "";
-  $scope.data="";
+  $scope.data = "";
   $scope.mainmap = "";
   $scope.mainmap = initMap(-34.397, 150.644, 16);
   var url = "./asset/data/roadevent/event.json";
   $http.get(url).then(function (response) {
     console.log(response.data);
     $scope.events = response.data;
-    $scope.data= response.data;
+    $scope.data = response.data;
   });
   $scope.add = function () {
-    for (x=0;x<5;x++){
-      var obj = $scope.data[x];
-      $scope.events.push(x);
+    var random = Math.floor((Math.random() * 4) + 1);
+    switch (random) {
+      case 1:
+     
+        $scope.events = $scope.arrray1;
+        break;
+      case 2:
+     
+        $scope.events = $scope.arrray2;
+        break;
+      case 3:
+      
+        $scope.events = $scope.arrray3;
+        break;
+      case 4:
+      
+        $scope.events = $scope.arrray4;
+        break;
     }
-  }
-  $scope.removeRow = function () {
-    $scope.events.pop();
+    $scope.remove = function(){
+      for (i=1;i<4;i++){
+        setTimeout(function () {
+          $scope.$apply(function () {
+            $scope.displayErrorMsg = false;
+            $scope.events.pop();
+          });
+        }, 100);
+      }
+    }
+    /*
+    $scope.removeRow();
+    setTimeout(function () {
+      $scope.$apply(function () {
+        $scope.displayErrorMsg = false;
+        $scope.events = $scope.arrray1;
+        console.log(1);
+      });
+    }, 10000);
+    */
   };
-  $interval($scope.add, 3000); 
-  $interval($scope.removeRow, 2000); 
+  $interval($scope.add, 3000);
 });
 routerApp.controller('shopController', function ($scope) {
   // Show item to the page
@@ -114,6 +263,11 @@ routerApp.config(function ($stateProvider, $urlRouterProvider) {
     .state('contact', {
       url: '/contact',
       templateUrl: './asset/views/contact.html'
+    })
+    .state('measures', {
+      url: '/measures',
+      templateUrl: './asset/views/measures.html',
+      controller: 'measureControl'
     })
 });
 

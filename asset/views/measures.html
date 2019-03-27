@@ -1,0 +1,42 @@
+<div ng-app="measureApp" ng-controller="measureControl" class="container-fluid mb-4">
+  <div class="row">
+    <div class="col-md-2">
+      <div class="row">
+        <div class="col-6 col-md-12 btn-rules p-2 my-2 shadow border border-dark rounded">
+          <a ng-click="load('audio.txt')">
+            Audio
+          </a>
+        </div>
+        <div class="col-6 col-md-12 btn-rules p-2 my-2 shadow border border-dark rounded">
+          <a ng-click="load('video.txt')">
+            Video
+          </a>
+        </div>
+        
+      </div>
+    </div>
+    <div class="col-md-10">
+      <div class="border border-primary shadow rounded my-2">
+        <div id="ruleContent" class="p-4" ng-bind-html="loadContent"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  var app = angular.module("measureApp", []);
+  app.controller("measureControl", function ($scope, $http, $sce)
+  {
+    //Load select to content
+    $scope.load = function (textname)
+    {
+
+      var link = $scope.target = "./asset/data/rule/measure/" + textname;
+      $http.get(link).then(function (response)
+      {
+        $scope.contents = response.data;
+        $scope.loadContent = $sce.trustAsHtml(response.data);
+      });
+    }
+  });
+</script>

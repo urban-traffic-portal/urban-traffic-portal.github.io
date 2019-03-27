@@ -1,0 +1,107 @@
+
+    <div class="container-fluid">
+        <h1>Traffic Safety Measures</h1>
+        <p>Resize the browser window to see the effect.</p>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="row ">
+                    <iframe width="100%" height="315px" src="https://www.youtube.com/embed/kOneFGnmqC4" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="row">Be Smart. Drive Smart.  Didn't See That Coming.</div>
+            </div>
+            <div class="col-lg-4">
+                <div class="row">
+                    <iframe width="100%" height="315px" src="https://www.youtube.com/embed/d1cYppF8zb0" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="row">It's Your Community - It's Your Call.</div>
+            </div>
+            <div class="col-lg-4">
+                <div class="row">
+                    <iframe width="100%" height="315px" src="https://www.youtube.com/embed/yLABJ6Z5If4" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+
+                </div>
+                <div class="row">Stuck with a Ticket.</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="row">
+                    <iframe width="100%" height="315px" src="https://www.youtube.com/embed/XS27TyewwBA" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="row">Drugged Driving.</div>
+            </div>
+            <div class="col-lg-4">
+                <div class="row">
+                    <iframe width="100%" height="315px" src="https://www.youtube.com/embed/sSj5EpWl_2c" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="row">GTSC Drugged Driving.</div>
+            </div>
+            <div class="col-lg-4">
+                <div class="row">
+                    <iframe width="100%" height="315px" src="https://www.youtube.com/embed/LNoI7cWcMFA" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="row">NYS DMV Impaired Drivers Take Lives. Think!</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="row">
+                    <iframe width="100%" height="315px" src="https://www.youtube.com/embed/B1x1EXOAAxw" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="row">See! Be Seen! Distractions and Pedestrian Safety.</div>
+            </div>
+            <div class="col-lg-4">
+                <div class="row">
+                    <iframe width="100%" height="315px" src="https://www.youtube.com/embed/l7ljxDjwDjU" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="row">Dramatic Texting and Driving.</div>
+            </div>
+            <div class="col-lg-4">
+                <div class="row">
+                    <iframe width="100%" height="315px" src="https://www.youtube.com/embed/0EKzGftcpDk" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="row">Drowsy Driving.</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="row">
+                    <iframe width="100%" height="315px" src="https://www.youtube.com/embed/_NeEF1fwT4k" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="row">Traffic Rules And Signs.</div>
+            </div>
+            <div class="col-lg-4">
+                <div class="row">
+                    <iframe width="100%" height="315px" src="https://www.youtube.com/embed/ntn4SKgpjwY" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="row">SAFE STEPS Road Safety: Pedestrians</div>
+            </div>
+            <div class="col-lg-4">
+                <div class="row">
+
+                </div>
+            </div>
+        </div>
+    </div>
