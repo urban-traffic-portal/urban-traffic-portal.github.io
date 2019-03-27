@@ -138,7 +138,7 @@ $("#buttonSignin").click(function ()
 {
   var user = getUser($("#inputUsername").val().toLowerCase(), $("#inputPassword").val());
   if (user == undefined)
-    showAlert("#alertSignin", "<strong>Login failed!</strong><br>Username or password is incorrect.");
+    showAlert("#alertSignin", "<strong>Login failed!</strong>");
   else
   {
     username = user.username;
