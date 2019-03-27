@@ -284,3 +284,8 @@ span
 {
   font-size: 1.2rem;
 }
+
+#dropdownGuest, #dropdownUser
+{
+  display: none;
+}

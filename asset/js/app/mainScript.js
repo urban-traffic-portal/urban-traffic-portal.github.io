@@ -33,11 +33,12 @@ $(window).resize(function ()
   updateViews();
 });
 
-var guestName = "";
+
+var role = "";
 var regName = /^[a-zA-Z ]{1,30}$/;
 $("#buttonGo").click(function ()
 {
-  guestName = reString($("#inputGuestName").val());
+  var guestName = reString($("#inputGuestName").val());
   if (guestName == "")
   {
     $("#inputGuestName").val("").focus();
@@ -50,9 +51,14 @@ $("#buttonGo").click(function ()
   }
   else
   {
+    role = "Guest";
     $("#mainNavbar .navbar-nav .nav-item:nth-child(1)").addClass("active");
     $(".textGuestName").text(guestName);
-    $("#pageWelcome").fadeOut(function () { $("#pageMain").fadeIn(); });
+    $("#pageWelcome").fadeOut(function ()
+    {
+      $("#pageMain").fadeIn();
+      $("#dropdownGuest").fadeIn();
+    });
   }
 });
 $("#inputGuestName").keyup(function (event)
@@ -112,10 +118,6 @@ $("#widgetViews").html(views + " <small>visited</small>");
 $("#widgetOnline").html(Math.floor((Math.random() * 10000) + 10000) + " <small>online</small>");
 
 //--------------------------------------
-$("#buttonDropdownSignin").click(function () {
-  $("#inputUsername").focus();
-});
-
 $("#inputUsername").keyup(function (event)
 {
   if (event.keyCode == 13) $("#buttonSignin").click();
@@ -126,12 +128,49 @@ $("#inputPassword").keyup(function (event)
   if (event.keyCode == 13) $("#buttonSignin").click();
 });
 
+var username = "";
+var fullname = "";
+var birthday = "";
+var email = "";
+var phone = "";
+var address = "";
 $("#buttonSignin").click(function ()
 {
-  if (getUser($("#inputUsername").val().toLowerCase(), $("#inputPassword").val()) == undefined)
+  var user = getUser($("#inputUsername").val().toLowerCase(), $("#inputPassword").val());
+  if (user == undefined)
   {
     showAlert("#alertSignin", "<strong>Login failed!</strong>.");
     $("#buttonDropdownSignin").click();
     $("#buttonDropdownSignin").click();
   }
+  else
+  {
+    username = user.username;
+    role = user.role;
+    fullname = user.fullname;
+    birthday = user.birthday;
+    email = user.email;
+    phone = user.phone;
+    address = user.address;
+    $("#mainNavbar .navbar-nav .nav-item:nth-child(1)").addClass("active");
+    $("#pageWelcome").fadeOut(function ()
+    {
+      $("#pageMain").fadeIn();
+
+      $(".userUsername").text(username);
+      $(".userRole").text(role);
+      $(".userFullname").text(fullname);
+      $(".userBirthday").text(birthday);
+      $(".userEmail").text(email);
+      $(".userPhone").text(phone);
+      $(".userAddress").text(address);
+
+      $("#dropdownUser").fadeIn();
+    });
+  }
+});
+
+$("#buttonLogout").click(function ()
+{
+  location.reload();
 });

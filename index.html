@@ -128,20 +128,57 @@
             <a class="nav-link" href="#">Contact us</a>
           </li>
         </ul>
-        <div class="dropdown ml-auto mr-2">
+
+        <div id="dropdownGuest" class="dropdown ml-auto mr-2">
           <button type="button" id="buttonUser" class="btn btn-outline-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="d-none d-lg-inline">@Guest: <b class="textGuestName"></b></span>
             <span class="d-lg-none">Guest</span>
           </button>
           <div class="dropdown-user dropdown-menu dropdown-menu-right p-4 shadow border border-primary mt-3">
-            <h6 class="text-center text-primary">Guest Account</h6>
-            <div class="text-center text-secondary">You are using as a guest account.</div>
+            <h6 class="text-center text-primary">Guest account</h6>
+            <div class="text-center text-secondary">You are using as Guest account.</div>
             <div class="dropdown-divider"></div>
             <p>
               Hello Mr/Mrs <b class="textGuestName"></b>,<br>Welcome to <b class="text-primary">Urban Traffic Portal</b>
             </p>
           </div>
         </div>
+
+        <div id="dropdownUser" class="dropdown ml-auto mr-2">
+          <button type="button" id="buttonUser" class="btn btn-outline-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="d-none d-lg-inline">@<span class="userRole"></span>:
+              <b class="userUsername"></b>
+            </span>
+            <span class="d-lg-none">@<span class="userRole"></span></span>
+          </button>
+          <div class="dropdown-user dropdown-menu dropdown-menu-right p-4 shadow border border-primary mt-3">
+            <h6 class="text-center text-primary"><span class="userRole"></span> account</h6>
+            <div class="text-center text-secondary">You are using as <span class="userRole"></span> account.</div>
+            <div class="dropdown-divider"></div>
+            <dl>
+              <dt>Username</dt>
+              <dd class="userUsername"></dd>
+              <dt>Fullname</dt>
+              <dd class="userFullname"></dd>
+              <dt>Birthday</dt>
+              <dd class="userBirthday"></dd>
+              <dt>Email</dt>
+              <dd class="userEmail"></dd>
+              <dt>Phone</dt>
+              <dd class="userPhone"></dd>
+              <dt>Address</dt>
+              <dd class="userAddress"></dd>
+            </dl>
+            <div class="dropdown-divider"></div>
+            <small>
+              If there is any error information please contact to administrator.
+            </small>
+            <div class="text-right">
+              <button id="buttonLogout" type="button" class="btn btn-danger">Logout</button>
+            </div>
+          </div>
+        </div>
+
         <div class="dropdown d-lg-none">
           <button type="button" class="btn btn-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-bars"></i>
