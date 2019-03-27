@@ -1,54 +1,60 @@
 <div id="contact">
     <div class="container-fluid">
-        <div class="text-h3 text-center">
-            <h3>Contact US</h3>
-        </div>
-        <form action="#" class="was-validated">
-            <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter name" name="name" required pattern="^[a-zA-Z ]{1,30}$">
-            </div>
-            <div class="form-group">
-                <label for="mail">Mail:</label>
-                <input type="text" class="form-control" id="mail" placeholder="Enter your mail" required pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$">
-            </div>
-            <div class="form-group">
-                <label for="number">Subject</label>
-                <input type="text" class="form-control" id="inputtext" placeholder="Input Your Phone number" required pattern="^[\w ]{1,30}$">
-            </div>
-            <div class="form-group">
-                <label for="feedback">Message</label>
-                <textarea class="form-control" id="feedback" rows="4" placeholder="Enter your comment" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-        <div class="row">
-            <div class="col-7">
-                <div class="Map">
-
-                </div>
-
-            </div>
-            <div class="col-5">
-                <div class="add-info">
-                    <p><span class="contact-right-icon"><i class="fas fa-map-marker"></i></span>
-                        <a href="https://www.google.com/maps/place/Trung+t%C3%A2m+C%C3%B4ng+ngh%E1%BB%87+Ph%E1%BA%A7n+m%E1%BB%81m+%C4%90%E1%BA%A1i+h%E1%BB%8Dc+C%E1%BA%A7n+Th%C6%A1/@10.0339107,105.7776834,17z/data=!3m1!4b1!4m5!3m4!1s0x31a0881fa301aa5d:0x27e73181695218ab!8m2!3d10.0339107!4d105.7798721"> Address: No 1, Ly Tu Trong street, Ninh Kieu District,Can Tho city.</a></p>
-                </div>
-                <div class="add-info">
-                    <p><span class="contact-right-icon"><i class="fas fa-at"></i>
-                        </span> <a href="https://aptech.cusc.vn">Aptech.cusc.vn</a></p>
-                </div>
-                <div class="add-info">
-                    <p><span class="contact-right-icon"><i class="fas fa-phone"></i>
-                        </span> <a href="tel:+84 292 373 1071">Fax: +84 292 373 1071</a></p>
-                </div>
-                <div class="add-info">
-                    <p><span class="contact-right-icon"><i class="fas fa-mobile"></i>
-                        </span> <a href="tel:+84 292 383 5581">Phone: +84 292 383 5581 </a></p>
-                </div>
-            </div>
-        </div>
-
-
+        div
     </div>
+
+    <div class="container border border-primary shadow rounded p-4">
+        <h3 class="text-center">Feedback</h3>
+        <form class="was-validated">
+            <div class="form-group">
+                <label for="fbName">Name:</label>
+                <input type="text" class="form-control" id="fbName" placeholder="Enter yourname" name="name" required pattern="^[a-zA-Z ]{1,30}$">
+            </div>
+            <div class="form-group">
+                <label for="fbMail">Mail:</label>
+                <input type="text" class="form-control" id="fbMail" placeholder="Enter your email address" required pattern="^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$">
+            </div>
+            <div class="form-group">
+                <label for="fbPhone">Subject</label>
+                <input type="text" class="form-control" id="fbPhone" placeholder="Enter subject" required pattern="^[\w ]{1,30}$">
+            </div>
+            <div class="form-group">
+                <label for="fbMess">Message</label>
+                <textarea class="form-control" id="fbMess" rows="4" placeholder="Enter message" required></textarea>
+            </div>
+            <div class="text-center">
+                <button id="buttonSendFeedback" class="btn btn-primary">Send</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="row">
+        <div class="col-7">
+            <div class="Map">
+
+            </div>
+
+        </div>
+        <div class="col-5">
+            <div class="add-info">
+                <p><span class="contact-right-icon"><i class="fas fa-map-marker"></i></span>
+                    <a href="https://www.google.com/maps/place/Trung+t%C3%A2m+C%C3%B4ng+ngh%E1%BB%87+Ph%E1%BA%A7n+m%E1%BB%81m+%C4%90%E1%BA%A1i+h%E1%BB%8Dc+C%E1%BA%A7n+Th%C6%A1/@10.0339107,105.7776834,17z/data=!3m1!4b1!4m5!3m4!1s0x31a0881fa301aa5d:0x27e73181695218ab!8m2!3d10.0339107!4d105.7798721"> Address: No 1, Ly Tu Trong street, Ninh Kieu District,Can Tho city.</a></p>
+            </div>
+            <div class="add-info">
+                <p><span class="contact-right-icon"><i class="fas fa-at"></i>
+                    </span> <a href="https://aptech.cusc.vn">Aptech.cusc.vn</a></p>
+            </div>
+            <div class="add-info">
+                <p><span class="contact-right-icon"><i class="fas fa-phone"></i>
+                    </span> <a href="tel:+84 292 373 1071">Fax: +84 292 373 1071</a></p>
+            </div>
+            <div class="add-info">
+                <p><span class="contact-right-icon"><i class="fas fa-mobile"></i>
+                    </span> <a href="tel:+84 292 383 5581">Phone: +84 292 383 5581 </a></p>
+            </div>
+        </div>
+    </div>
+
+
+
 </div>
