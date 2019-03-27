@@ -200,6 +200,11 @@ span
   display: none;
 }
 
+.navbar-brand:hover
+{
+  cursor: pointer;
+}
+
 /*******/
 
 #pageMain
