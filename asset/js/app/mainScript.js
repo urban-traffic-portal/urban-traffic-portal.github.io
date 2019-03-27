@@ -58,7 +58,7 @@ $("#buttonGo").click(function ()
   if (guestName == "")
   {
     $("#inputGuestName").val("").focus();
-    showAlert("#alertInputGuestName", "Please type yourname to continue.");
+    showAlert("#alertInputGuestName", "Please type <strong>yourname</strong> to continue.");
   }
   else if (!regName.test(guestName))
   {
