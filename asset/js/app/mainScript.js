@@ -42,7 +42,11 @@ function reString(str)
 }
 
 updateViews();
-$(window).resize(function () { updateViews(); });
+$(window).resize(function ()
+{
+  updateViews();
+  $("#map").css("min-height", $(window).innerHeight() - $("#loadContent").offset().top - 170);
+});
 
 $(".navbar-brand").click(function ()
 {
@@ -196,7 +200,12 @@ $("#buttonLogout").click(function ()
 
 //----------------------------
 
-$("#btn-rules").children("a").click(function ()
+//$("#btn-rules").children("a").click(function ()
+//{//
+//  $("html, body").stop().animate({ scrollTop: $("#ruleContent").offset().top }, 500);
+//});
+
+$("#buttonScrollup").click(function ()
 {
-  $("html, body").stop().animate({ scrollTop: $("#ruleContent").offset().top }, 500);
+  $("html, body").stop().animate({ scrollTop: 0 }, 600);
 });

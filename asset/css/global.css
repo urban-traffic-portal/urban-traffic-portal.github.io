@@ -28,6 +28,7 @@
 {
 	font-family: "Noto Sans", sans-serif !important;
 }
+
 h1, h2, h3, h4, h5, h6, .fontHeading
 {
 	font-family: "Righteous", cursive !important;
@@ -298,4 +299,10 @@ span
 #dropdownGuest, #dropdownUser
 {
   display: none;
+}
+
+#buttonScrollup
+{
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
 }

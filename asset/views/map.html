@@ -2,9 +2,9 @@
 <div ng-app="mapapp" ng-controller="mapcontroller" class="container-fluid">
   <div class="col-lg-8">
     <div style="display: none">
-      <input id="origin-input" class="controls" type="text" placeholder="Enter an origin location">
-      <input id="destination-input" class="controls" type="text" placeholder="Enter a destination location">
-      <div id="mode-selector" class="controls">
+      <input id="origin-input" class="controls form-control" type="text" placeholder="Enter an origin location">
+      <input id="destination-input" class="controls form-control" type="text" placeholder="Enter a destination location">
+      <div id="mode-selector" class="controls form-control">
         <input type="radio" name="type" id="changemode-walking" checked="checked">
         <label for="changemode-walking">Walking</label>
         <input type="radio" name="type" id="changemode-transit">
@@ -16,11 +16,11 @@
   </div>
   <div class="row">
     <div class="col-lg-8">
-      <input id="pac-input" class="controls" type="text" placeholder="Search Box">
-      <div id="map"></div>
+      <input id="pac-input" class="controls form-control" type="text" placeholder="Search Box">
+      <div id="map" class="border border-primary shadow"></div>
     </div>
     <div class="col-lg-4 table-responsive">
-      <table class="table table-bordered table-hover table-priamry">
+      <table class="table table-bordered table-hover">
         <thead>
           <tr class="bg-primary text-light">
             <th>Location</th>
