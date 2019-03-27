@@ -31,6 +31,8 @@ function updateViews()
   else if ($(window).innerWidth() < 381)
     $("#inputGuestName").attr("placeholder", "Type yourname");
   else $("#inputGuestName").attr("placeholder", "Type yourname here");
+
+  $("#map").css("min-height", $(window).innerHeight() - $("#loadContent").position().top - 40);
 }
 
 function reString(str)
@@ -45,7 +47,6 @@ updateViews();
 $(window).resize(function ()
 {
   updateViews();
-  $("#map").css("min-height", $(window).innerHeight() - $("#loadContent").offset().top - 170);
 });
 
 $(".navbar-brand").click(function ()
