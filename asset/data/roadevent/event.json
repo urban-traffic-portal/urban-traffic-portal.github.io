@@ -1,26 +1,26 @@
 [
-    {
-       "location" : "Area 1",
-       "status" : "Pending",
-       "lat":"",
-       "long":""
-    },
-    {
-        "location" : "Area 1",
-       "status" : "Pending",
-       "lat":"",
-       "long":""
-     },
-     {
-        "location" : "Area 1",
-       "status" : "Pending",
-       "lat":"",
-       "long":""
-     },
-     {
-        "location" : "Area 1",
-       "status" : "Pending",
-       "lat":"",
-       "long":""
-     }
- ]
+   {
+      "location": "Area 1",
+      "status": "Pending",
+      "lat": "",
+      "long": ""
+   },
+   {
+      "location": "Area 1",
+      "status": "Pending",
+      "lat": "",
+      "long": ""
+   },
+   {
+      "location": "Area 1",
+      "status": "Pending",
+      "lat": "",
+      "long": ""
+   },
+   {
+      "location": "Area 1",
+      "status": "Pending",
+      "lat": "",
+      "long": ""
+   }
+]

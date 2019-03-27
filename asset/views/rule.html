@@ -1,57 +1,57 @@
 <div ng-app="contentApp" ng-controller="contentController" class="container-fluid mb-4">
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-2">
       <div class="row">
-        <div class="col-6 col-md-12 btn-rules p-2">
-          <a ng-click="load('txt1.txt')" class="text-center shadow border border-dark rounded">
+        <div class="col-6 col-md-12 btn-rules p-2 my-2 shadow border border-dark rounded">
+          <a ng-click="load('txt1.txt')">
             Driving licences and categories of vehicles
           </a>
         </div>
-        <div class="col-6 col-md-12 btn-rules p-2">
-          <a ng-click="load('txt2.txt')" class="text-center my-2 shadow border border-dark rounded">
+        <div class="col-6 col-md-12 btn-rules p-2 my-2 shadow border border-dark rounded">
+          <a ng-click="load('txt2.txt')">
             The learner driver
           </a>
         </div>
-        <div class="col-6 col-md-12 btn-rules p-2">
-          <a ng-click="load('txt3.txt')" class="text-center my-2 shadow border border-dark rounded">
+        <div class="col-6 col-md-12 btn-rules p-2 my-2 shadow border border-dark rounded">
+          <a ng-click="load('txt3.txt')">
             The driving test
           </a>
         </div>
-        <div class="col-6 col-md-12 btn-rules p-2">
-          <a ng-click="load('txt4.txt')" class="text-center my-2 shadow border border-dark rounded">
-            Rulle for motorcyclist
+        <div class="col-6 col-md-12 btn-rules p-2 my-2 shadow border border-dark rounded">
+          <a ng-click="load('txt4.txt')">
+            Rule for motorcyclist
           </a>
         </div>
-        <div class="col-6 col-md-12 btn-rules p-2">
-          <a ng-click="load('txt5.txt')" class="text-center my-2 shadow border border-dark rounded">
+        <div class="col-6 col-md-12 btn-rules p-2 my-2 shadow border border-dark rounded">
+          <a ng-click="load('txt5.txt')">
             Rules for cyclists
           </a>
         </div>
-        <div class="col-6 col-md-12 btn-rules p-2">
-          <a ng-click="load('txt6.txt')" class="text-center my-2 shadow border border-dark rounded">
+        <div class="col-6 col-md-12 btn-rules p-2 my-2 shadow border border-dark rounded">
+          <a ng-click="load('txt6.txt')">
             Rules for pedestrians
           </a>
         </div>
-        <div class="col-6 col-md-12 btn-rules p-2">
-          <a ng-click="load('txt7.txt')" class="text-center my-2 shadow border border-dark rounded">
-            Rules for pedestrians
+        <div class="col-6 col-md-12 btn-rules p-2 my-2 shadow border border-dark rounded">
+          <a ng-click="load('txt7.txt')">
+            Respecting other road users
           </a>
         </div>
-        <div class="col-6 col-md-12 btn-rules p-2">
-          <a ng-click="load('txt8.txt')" class="text-center my-2 shadow border border-dark rounded">
+        <div class="col-6 col-md-12 btn-rules p-2 my-2 shadow border border-dark rounded">
+          <a ng-click="load('txt8.txt')">
             Other road users
           </a>
         </div>
-        <div class="col-6 col-md-12 btn-rules p-2">
-          <a ng-click="load('txt9.txt')" class="text-center my-2 shadow border border-dark rounded">
+        <div class="col-6 col-md-12 btn-rules p-2 my-2 shadow border border-dark rounded">
+          <a ng-click="load('txt9.txt')">
             Regulatory traffic signs
           </a>
         </div>
       </div>
     </div>
-    <div class="col-md-9">
+    <div class="col-md-10">
       <div class="border border-primary shadow rounded my-2">
-        <div class="p-4" ng-bind-html="loadContent"></div>
+        <div id="ruleContent" class="p-4" ng-bind-html="loadContent"></div>
       </div>
     </div>
   </div>

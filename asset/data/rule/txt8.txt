@@ -1,4 +1,4 @@
-﻿<h2><u>Section 8:</u> Other road users</h2>
+﻿<h2>Section 8: Other road users</h2>
 <h3 class="text-danger">Emergency services vehicles</h3>
 <div>
   <p>In the course of their duty, Garda, fire brigade vehicles or ambulances and other emergency vehicles can be exempt from some of the road traffic law as long as this does not put other road users in danger. As a user of the road, if you hear or see a Garda or emergency vehicle approaching under emergency conditions using a siren or flashing lights, you should exercise caution, and give way if it is safe to do so. Never ‘tailgate’ an emergency service vehicle.</p>
@@ -17,7 +17,7 @@
     horse and the traffic, so as to prevent the horse from interfering with the traffic.</p>
   <p>When riding one horse and leading a second horse, you must remain on the left- hand side of the road. You should ensure the led horse is on the left-hand side of the ridden horse, to ensure that you are positioned between the horse and the traffic. This is in order to control the led horse, in the interest of the safety of other users of the road.</p>
   <figure class="text-center">
-    <img class="img-fluid" src="./asset/img/law_content/sec8pic1.png" alt="">
+    <img class="img-fluid" src="./asset/img/law_content/sec8pic1.png" alt=""><br>
   </figure>
   <p>Drivers should take special care when:</p>
   <ul>

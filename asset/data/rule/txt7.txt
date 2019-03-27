@@ -1,5 +1,4 @@
-<p>section7: <h2 class="text-danger">Respecting other road users</h2>
-</p>
+<h2>Section 7: Respecting other road users</h2>
 <p>Your vehicle does not have greater right of way than any other road user, so, for safety reasons, you <span class="text-primary">should</span> drive defensively. This means expecting the unexpected and making way
     for other road users when necessary.</p>
 <p>Some of the actions you might need to take in normal conditions include:</p>
@@ -37,7 +36,7 @@
 <p>You <span class="text-info"></span> also take care near school buses, especially if overtaking a bus that children are boarding or leaving. School buses are clearly marked with stickers.</p>
 <p>Do not leave any room for doubt. If you see school children, particularly young children, you may use your horn to let them know you are there.</p>
 <figure class="text-center">
-    <img class="img-fluid" src="./asset/img/law_content/sec7pic1.png" alt="">
+    <img class="img-fluid" src="./asset/img/law_content/sec7pic1.png" alt=""><br>
 </figure>
 <p>Be careful near children who are cycling. Take extra care near a school, where cyclists may emerge in groups. Remember, it is hard to predict a young cyclist’s balance and behaviour.</p>
 <h4 class="text-primary">School wardens</h4>
@@ -49,13 +48,13 @@
     <li>the school warden has safely returned to the footpath.</li>
 </ul>
 <figure class="text-center">
-    <img class="img-fluid" src="./asset/img/law_content/sec7pic2.png" alt="">
+    <img class="img-fluid" src="./asset/img/law_content/sec7pic2.png" alt=""><br>
 </figure>
 <h4 class="text-primary">Junior school wardens</h4>
 <p>All vehicles <span class="text-danger">must</span> remain stopped until all the junior wardens have returned to the footpath.</p>
 <p>Never park in a place that blocks a warden’s view. School wardens must be able to see the road clearly to do their work properly and safely.</p>
 <figure class="text-center">
-    <img class="img-fluid" src="./asset/img/law_content/sec7pic3.png" alt="">
+    <img class="img-fluid" src="./asset/img/law_content/sec7pic3.png" alt=""><br>
 </figure>
 <h3 class="text-info">Cyclists and motorcyclists</h3>
 <p>Never put a cyclist or motorcyclist at risk and know your duty to be aware of them. They are especially vulnerable if there is a crash.</p>
@@ -81,11 +80,11 @@
 <h3 class="text-info">Cycle tracks and parking</h3>
 <p>Do not park or drive on cycle tracks. Before you open the door of a parked vehicle, use your mirrors to check for cyclists and motorcyclists coming up on your right and give them enough room to pass.</p>
 <figure class="text-center">
-    <img class="img-fluid" src="./asset/img/law_content/sec7pic4.png" alt="">
+    <img class="img-fluid" src="./asset/img/law_content/sec7pic4.png" alt=""><br>
 </figure>
 <h3 class="text-info">Animal traffic</h3>
 <p>Always slow down and be prepared to stop when approaching or overtaking animals. If a person in charge of animals gives a signal to slow down or stop, you <span class="text-danger">must</span> obey it. Avoid using your horn if animals are in front of you, as it might frighten them.</p>
 <p>If you are travelling on a road where animals are common, you will see a warning sign like the ones below.</p>
 <figure class="text-center">
-    <img class="img-fluid" src="./asset/img/law_content/sec7pic5.png" alt="">
+    <img class="img-fluid" src="./asset/img/law_content/sec7pic5.png" alt=""><br>
 </figure>

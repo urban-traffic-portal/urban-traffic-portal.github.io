@@ -1,13 +1,65 @@
 .btn-rules
 {
-  display: block;
-  min-height: 15vh;
+  min-height: 25vh;
   width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f8f9fa !important;
+  font-size: 1.4rem !important;
+  font-weight: 600 !important;
+  text-align: center!important;
 }
 
 .btn-rules>a
 {
-  display: block;
-  min-height: 100%;
+  display: inline-table;
+  text-align: center!important;
+  height: 100%;
   width: 100%;
+  color: #f8f9fa !important;
+  font-size: 1.4rem !important;
+  font-weight: 600 !important;
+}
+
+.btn-rules>a:hover
+{
+  cursor: pointer;
+}
+
+.btn-rules:nth-child(1)
+{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/rule/btn1.jpg");
+}
+.btn-rules:nth-child(2)
+{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/rule/btn2.jpg");
+}
+.btn-rules:nth-child(3)
+{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/rule/btn3.jpg");
+}
+.btn-rules:nth-child(4)
+{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/rule/btn4.jpg");
+}
+.btn-rules:nth-child(5)
+{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/rule/btn5.jpg");
+}
+.btn-rules:nth-child(6)
+{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/rule/btn6.jpg");
+}
+.btn-rules:nth-child(7)
+{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/rule/btn7.jpg");
+}
+.btn-rules:nth-child(8)
+{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/rule/btn8.jpg");
+}
+.btn-rules:nth-child(9)
+{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/rule/btn9.jpg");
 }

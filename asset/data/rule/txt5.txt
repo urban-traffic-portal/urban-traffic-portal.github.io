@@ -13,7 +13,7 @@
 <h4 class="text-danger">REMEMBER</h4>
 <b>Check your gear, be seen, wear a helmet and listen – <span class="text-danger">never</span> listen to music or use radios or mobile phones when cycling.</b>
 <figure class="text-center">
-        <img class="img-fluid" src="./asset/img/law_content/sec5pic1.png" alt="">
+        <img class="img-fluid" src="./asset/img/law_content/sec5pic1.png" alt=""><br>
 </figure>
 <h3 class="text-info">Bicycle checklist</h3>
 <p>Handlebars <span class="text-primary">should</span> be square with the frame and level with the saddle. Movement <span class="text-primary">should</span> be neither too stiff nor too loose.</p>
@@ -45,7 +45,7 @@
 <p>If a cycle track is two-way, meaning bicycles travelling in opposite directions at the same time can use it, cyclists <span class="text-primary">should</span> stay as near as possible to the left- hand side of their track.</p>
 <p>You must obey cycle track lights.</p>
 <figure class="text-center">
-        <img class="img-fluid" src="./asset/img/law_content/sec5pic2.png" alt="">
+        <img class="img-fluid" src="./asset/img/law_content/sec5pic2.png" alt=""><br>
 </figure>
 <h4 class="text-danger">REMEMBER</h4>
 <p>
@@ -60,5 +60,5 @@
 <p>If a driver parks their vehicle in a cycle track that operates for only some of the day (shown on an information plate under the cycle track sign), they <span class="text-danger">must</span> move the vehicle by the time the next operating period starts.</p>
 <p>If there is no information plate, it means the cycle track operates all the time and no parking is allowed.</p>
 <figure class="text-center">
-        <img class="img-fluid" src="./asset/img/law_content/sec5pic3.png" alt="">
+        <img class="img-fluid" src="./asset/img/law_content/sec5pic3.png" alt=""><br>
 </figure>

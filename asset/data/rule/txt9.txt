@@ -6,7 +6,7 @@
     junctions are blue and white.
 </p>
 <figure class="text-center">
-    <img class="img-fluid" src="./asset/img/law_content/sec9pic1.png" alt="">
+    <img class="img-fluid" src="./asset/img/law_content/sec9pic1.png" alt=""><br>
 </figure>
 <p>The following is an alternative design for the 80kmh speed limit sign. This sign may be provided:</p>
 <p>on a local road to indicate that a speed limit of 80kmh applies; or
@@ -14,20 +14,20 @@
     respect of a local road or part of a local road in a built-up area.
 </p>
 <figure class="text-center">
-    <img class="img-fluid" src="./asset/img/law_content/sec9pic2.png" alt="">
-    <img class="img-fluid" src="./asset/img/law_content/sec9pic3.png" alt="">
-    <img class="img-fluid" src="./asset/img/law_content/sec9pic4.png" alt="">
-    <img class="img-fluid" src="./asset/img/law_content/sec9pic5.png" alt="">
-    <img class="img-fluid" src="./asset/img/law_content/sec9pic6.png" alt="">
+    <img class="img-fluid" src="./asset/img/law_content/sec9pic2.png" alt=""><br>
+    <img class="img-fluid" src="./asset/img/law_content/sec9pic3.png" alt=""><br>
+    <img class="img-fluid" src="./asset/img/law_content/sec9pic4.png" alt=""><br>
+    <img class="img-fluid" src="./asset/img/law_content/sec9pic5.png" alt=""><br>
+    <img class="img-fluid" src="./asset/img/law_content/sec9pic6.png" alt=""><br>
 </figure>
 <h3>Appendix 4: Penalty points and fixed charge offences</h3>
 <figure class="text-center">
-    <img class="img-fluid" src="./asset/img/law_content/sec9pic7.png" alt="">
-    <img class="img-fluid" src="./asset/img/law_content/sec9pic8.png" alt="">
-    <img class="img-fluid" src="./asset/img/law_content/sec9pic9.png" alt="">
-    <img class="img-fluid" src="./asset/img/law_content/sec9pic10.png" alt="">
+    <img class="img-fluid" src="./asset/img/law_content/sec9pic7.png" alt=""><br>
+    <img class="img-fluid" src="./asset/img/law_content/sec9pic8.png" alt=""><br>
+    <img class="img-fluid" src="./asset/img/law_content/sec9pic9.png" alt=""><br>
+    <img class="img-fluid" src="./asset/img/law_content/sec9pic10.png" alt=""><br>
 </figure>
-<img src="../asset/img/law_content/sec9pic1.png" alt="">
+<img src="../asset/img/law_content/sec9pic1.png" alt=""><br>
 <h3>Appendix 5: Representative vehicles for the driving test</h3>
 <p>To do the driving test, a person must use a vehicle type that represents the licensing category which they
     want to get a licence for. For example, if you want a licence to drive a truck, then you must come to the
@@ -37,8 +37,8 @@
 <p>Please note that maximum authorised mass (MAM) is also known as design gross vehicle weight (DGVW). Please
     visit www.rsa.ie for further information.</p>
 <figure class="text-center">
-    <img class="img-fluid" src="../asset/img/law_content/sec9pic11.png" alt="">
-    <img class="img-fluid" src="../asset/img/law_content/sec9pic12.png" alt="">
-    <img class="img-fluid" src="../asset/img/law_content/sec9pic13.png" alt="">
-    <img class="img-fluid" src="../asset/img/law_content/sec9pic14.png" alt="">
+    <img class="img-fluid" src="../asset/img/law_content/sec9pic11.png" alt=""><br>
+    <img class="img-fluid" src="../asset/img/law_content/sec9pic12.png" alt=""><br>
+    <img class="img-fluid" src="../asset/img/law_content/sec9pic13.png" alt=""><br>
+    <img class="img-fluid" src="../asset/img/law_content/sec9pic14.png" alt=""><br>
 </figure>

@@ -193,3 +193,10 @@ $("#buttonLogout").click(function ()
 {
   location.reload();
 });
+
+//----------------------------
+
+$("#btn-rules").children("a").click(function ()
+{
+  $("html, body").stop().animate({ scrollTop: $("#ruleContent").offset().top }, 500);
+});

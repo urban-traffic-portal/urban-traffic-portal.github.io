@@ -1,4 +1,4 @@
-﻿<h4> Rulle for motorcyclist </h4>
+﻿<h2>Section 4: Rulle for motorcyclist </h2>
 
 <h3 class="text-info">Licence</h3>
 
@@ -28,7 +28,7 @@
     <span class="text-dager">must</span> sit on a proper seat. They <span class="text-dager">must</span> face forward and be capable of resting both both feet on the
     footrests. Riders <span class="text-dager">must</span> not carry a pillion passenger unless their motorcycle is designed to do so.</p>
 <figure class="text-center">
-    <img class="img-fluid" src="./asset/img/law_content/sec4pic1.png" alt="">
+    <img class="img-fluid" src="./asset/img/law_content/sec4pic1.png" alt=""><br>
 </figure>
 <h4 class="text-info">Daylight riding</h4>
 <p>Make yourself as visible as possible from the side, as well as the front and rear.
@@ -64,7 +64,7 @@
 <p>Wear protective gloves, and footwear that comes above the ankle at least.</p>
 
 <figure class="text-center">
-    <img class="img-fluid" src="./asset/img/law_content/sec4pic2.png" alt="">
+    <img class="img-fluid" src="./asset/img/law_content/sec4pic2.png" alt=""><br>
 </figure>
 
 <h4 class="text-danger">REMEMBER</h4>
@@ -102,7 +102,7 @@
     class="text-info">should</span> always ride within your abilities.</p>
 
 <figure class="text-center">
-    <img class="img-fluid" src="./asset/img/law_content/sec4pic3.png" alt="">
+    <img class="img-fluid" src="./asset/img/law_content/sec4pic3.png" alt=""><br>
 </figure>
 <p>Follow the rules below.</p>
 <p>Avoid riding between traffic lanes.</p>
@@ -117,5 +117,5 @@
 <p>Your motorcycle tyres <span class="text-dager">must</span> have a tread depth of at least 1 mm, but you class="text-info">should</span> replace them before they
     become this worn.</p>
 <figure class="text-center">
-    <img class="img-fluid" src="./asset/img/law_content/sec4pic4.png" alt="">
+    <img class="img-fluid" src="./asset/img/law_content/sec4pic4.png" alt=""><br>
 </figure>
