@@ -2,7 +2,7 @@ window.onload = function ()
 {
   var href = location.href.substr((location.href.lastIndexOf("/") + 1));
   if (href != "home") location.href = "./index.html";
-  sessionStorage.setItem('location', '');
+  sessionStorage.setItem("location", "");
 }
 
 function activeLink(link)
@@ -209,3 +209,5 @@ $("#buttonScrollup").click(function ()
 {
   $("html, body").stop().animate({ scrollTop: 0 }, 600);
 });
+
+//$("#report").modal("show");

@@ -254,18 +254,32 @@
     </div>
     <div class="overlay"></div>
   </div>
-  <div class="modal fade" id="alert" tabindex="-1" role="dialog" aria-labelledby="alertLabel" aria-hidden="true">
+
+  <div class="modal fade" id="report" tabindex="-1" role="dialog" aria-labelledby="alertLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="alertLabel"></h5>
+          <h5 class="modal-title text-primary" id="alertLabel">
+            Report location
+          </h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <i class="fas fa-times"></i>
           </button>
         </div>
-        <div class="modal-body"></div>
+        <div class="modal-body">
+          <form class="was-validated">
+            <div class="form-group">
+              <label for="rpSub">Subject report</label>
+              <input type="text" class="form-control" id="rpSub" placeholder="Enter subject" required pattern="^[\w ]{1,30}$">
+            </div>
+            <div class="form-group">
+              <label for="rpMess">Details</label>
+              <textarea class="form-control" id="rpMess" rows="4" placeholder="Enter message" required></textarea>
+            </div>
+          </form>
+        </div>
         <div class="modal-footer text-center">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" data-dismiss="modal" id="buttonSendReport" class="btn btn-primary">Send</button>
         </div>
       </div>
     </div>
