@@ -8,6 +8,7 @@ $(document).ready(function () {
 function initMap(userlat, userlong, userzoom) {
   // The location of Uluru
   var uluru = { lat: userlat, lng: userlong };
+    sessionStorage.setItem("key","ok");
   // The map, centered at Uluru
   var thisMap = new google.maps.Map(
   document.getElementById('map'), { zoom: userzoom, center: uluru ,mapTypeId: 'roadmap'});
@@ -73,24 +74,39 @@ function initMap(userlat, userlong, userzoom) {
         });
   infoWindow = new google.maps.InfoWindow;
   // Try HTML5 geolocation.
-        if (navigator.geolocation) {
-          navigator.geolocation.getCurrentPosition(function(position) {
-            var pos = {
-              lat: position.coords.latitude,
-              lng: position.coords.longitude
-            };
-            infoWindow.setPosition(pos);
-            infoWindow.setContent('Location found.');
-            infoWindow.open(thisMap);
-            thisMap.setCenter(pos);
-          }, function() {
-            handleLocationError(true, infoWindow, thisMap.getCenter());
-          });
-        } else {
-          // Browser doesn't support Geolocation
-          handleLocationError(false, infoWindow, thisMap.getCenter());
-        }
-
+   var pos = JSON.parse(sessionStorage.getItem("pos"));
+   console.log(pos);
+   if(pos!=null){
+    infoWindow.setPosition(pos);
+    infoWindow.setContent('Location found.');
+    infoWindow.open(thisMap);
+    thisMap.setCenter(pos);
+    var pos = {
+      lat: pos[0]["lat"],
+      lng: pos[0]["long"]
+    };
+   } else{
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function(position) {
+          var pos = {
+            lat: position.coords.latitude,
+            lng: position.coords.longitude
+          };
+          sessionStorage.setItem("pos", JSON.stringify(pos));
+          infoWindow.setPosition(pos);
+          infoWindow.setContent('Location found.');
+          infoWindow.open(thisMap);
+          thisMap.setCenter(pos);
+        }, function() {
+          handleLocationError(true, infoWindow, thisMap.getCenter());
+        });
+      } else {
+        // Browser doesn't support Geolocation
+        handleLocationError(false, infoWindow, thisMap.getCenter());
+        sessionStorage.setItem("pos", JSON.stringify(uluru));
+      }
+   }
+        
   google.maps.event.addListener(thisMap, 'click', function (event) {
     addMarker(event.latLng,thisMap);
   });
