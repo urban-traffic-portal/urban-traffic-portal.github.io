@@ -1,3 +1,4 @@
 /*Main file css, import all partial css*/
 @import url('./welcome.css');
 @import url('./traffic.css');
+@import url('./rule.css');
