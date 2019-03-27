@@ -1,37 +1,44 @@
-        <h2>Section 9: Regulatory traffic signs</h2>
-        <p>Regulatory signs show the course a driver <span class="text-danger">must</span> follow and an action they are
-            required to take or forbidden to
-            take. They are usually circular and have a red border and black symbols or letters on a white background.
-            Mandatory regulatory signs that indicate the direction traffic <span class="text-danger">must</span> take at
-            junctions are blue and white.
-        </p>
-        <img src="./asset/img/law_content/sec9pic1.png" alt="">
-        <p>The following is an alternative design for the 80kmh speed limit sign. This sign may be provided:</p>
-        <p>on a local road to indicate that a speed limit of 80kmh applies; or
-            at a location where special speed limit bye-laws specify that the special speed limit of 80kmh applies in
-            respect of a local road or part of a local road in a built-up area.
-        </p>
-        <img src="./asset/img/law_content/sec9pic2.png" alt="">
-        <img src="./asset/img/law_content/sec9pic3.png" alt="">
-        <img src="./asset/img/law_content/sec9pic4.png" alt="">
-        <img src="./asset/img/law_content/sec9pic5.png" alt="">
-        <img src="./asset/img/law_content/sec9pic6.png" alt="">
-        <h3>Appendix 4: Penalty points and fixed charge offences</h3>
-        <img src="./asset/img/law_content/sec9pic7.png" alt="">
-        <img src="./asset/img/law_content/sec9pic8.png" alt="">
-        <img src="./asset/img/law_content/sec9pic9.png" alt="">
-        <img src="./asset/img/law_content/sec9pic10.png" alt="">
-        <img src="../asset/img/law_content/sec9pic1.png" alt="">
-        <h3>Appendix 5: Representative vehicles for the driving test</h3>
-        <p>To do the driving test, a person must use a vehicle type that represents the licensing category which they
-            want to get a licence for. For example, if you want a licence to drive a truck, then you must come to the
-            test and be tested in a truck. In this way, the test applicant is tested using a vehicle that allows them to
-            show they will be capable of driving any vehicle in the broader licence category if they pass the test. The
-            test requirements reflect a typical vehicle in the mid-range of the particular category.</p>
-        <p>Please note that maximum authorised mass (MAM) is also known as design gross vehicle weight (DGVW). Please
-            visit www.rsa.ie for further information.</p>
-            <img src="../asset/img/law_content/sec9pic11.png" alt="">
-            <img src="../asset/img/law_content/sec9pic12.png" alt="">
-            <img src="../asset/img/law_content/sec9pic13.png" alt="">
-            <img src="../asset/img/law_content/sec9pic14.png" alt="">
-  
+<h2>Section 9: Regulatory traffic signs</h2>
+<p>Regulatory signs show the course a driver <span class="text-danger">must</span> follow and an action they are
+    required to take or forbidden to
+    take. They are usually circular and have a red border and black symbols or letters on a white background.
+    Mandatory regulatory signs that indicate the direction traffic <span class="text-danger">must</span> take at
+    junctions are blue and white.
+</p>
+<figure class="text-center">
+    <img class="img-fluid" src="./asset/img/law_content/sec9pic1.png" alt="">
+</figure>
+<p>The following is an alternative design for the 80kmh speed limit sign. This sign may be provided:</p>
+<p>on a local road to indicate that a speed limit of 80kmh applies; or
+    at a location where special speed limit bye-laws specify that the special speed limit of 80kmh applies in
+    respect of a local road or part of a local road in a built-up area.
+</p>
+<figure class="text-center">
+    <img class="img-fluid" src="./asset/img/law_content/sec9pic2.png" alt="">
+    <img class="img-fluid" src="./asset/img/law_content/sec9pic3.png" alt="">
+    <img class="img-fluid" src="./asset/img/law_content/sec9pic4.png" alt="">
+    <img class="img-fluid" src="./asset/img/law_content/sec9pic5.png" alt="">
+    <img class="img-fluid" src="./asset/img/law_content/sec9pic6.png" alt="">
+</figure>
+<h3>Appendix 4: Penalty points and fixed charge offences</h3>
+<figure class="text-center">
+    <img class="img-fluid" src="./asset/img/law_content/sec9pic7.png" alt="">
+    <img class="img-fluid" src="./asset/img/law_content/sec9pic8.png" alt="">
+    <img class="img-fluid" src="./asset/img/law_content/sec9pic9.png" alt="">
+    <img class="img-fluid" src="./asset/img/law_content/sec9pic10.png" alt="">
+</figure>
+<img src="../asset/img/law_content/sec9pic1.png" alt="">
+<h3>Appendix 5: Representative vehicles for the driving test</h3>
+<p>To do the driving test, a person must use a vehicle type that represents the licensing category which they
+    want to get a licence for. For example, if you want a licence to drive a truck, then you must come to the
+    test and be tested in a truck. In this way, the test applicant is tested using a vehicle that allows them to
+    show they will be capable of driving any vehicle in the broader licence category if they pass the test. The
+    test requirements reflect a typical vehicle in the mid-range of the particular category.</p>
+<p>Please note that maximum authorised mass (MAM) is also known as design gross vehicle weight (DGVW). Please
+    visit www.rsa.ie for further information.</p>
+<figure class="text-center">
+    <img class="img-fluid" src="../asset/img/law_content/sec9pic11.png" alt="">
+    <img class="img-fluid" src="../asset/img/law_content/sec9pic12.png" alt="">
+    <img class="img-fluid" src="../asset/img/law_content/sec9pic13.png" alt="">
+    <img class="img-fluid" src="../asset/img/law_content/sec9pic14.png" alt="">
+</figure>

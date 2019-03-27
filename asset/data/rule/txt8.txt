@@ -1,32 +1,33 @@
-﻿  
-<h2><u>Section 8:</u> Other road users</h2>
+﻿<h2><u>Section 8:</u> Other road users</h2>
 <h3 class="text-danger">Emergency services vehicles</h3>
 <div>
-<p>In the course of their duty, Garda, fire brigade vehicles or ambulances and other emergency vehicles can be exempt from some of the road traffic law as long as this does not put other road users in danger. As a user of the road, if you hear or see a Garda or emergency vehicle approaching under emergency conditions using a siren or flashing lights, you should exercise caution, and give way if it is safe to do so. Never ‘tailgate’ an emergency service vehicle.</p>
+  <p>In the course of their duty, Garda, fire brigade vehicles or ambulances and other emergency vehicles can be exempt from some of the road traffic law as long as this does not put other road users in danger. As a user of the road, if you hear or see a Garda or emergency vehicle approaching under emergency conditions using a siren or flashing lights, you should exercise caution, and give way if it is safe to do so. Never ‘tailgate’ an emergency service vehicle.</p>
 </div>
 <h3 class="text-danger">People in charge of animals</h3>
-<h4 class= "text-primary">Horse-drawn vehicles</h4>
+<h4 class="text-primary">Horse-drawn vehicles</h4>
 <div>
-<p>The normal rules apply, including the general rule to keep left. The hand signals to be given by the driver are the same as those given by a cyclist (see Section 7). A horse-drawn vehicle must be equipped with two red rear reflectors and, at night,must also carry on the right-hand side of the vehicle a lamp showing a white light to the front and a red light to the back.</p>
-<p>You must not drive a horse-drawn vehicle while under the influence of alcohol or drugs.</p>
+  <p>The normal rules apply, including the general rule to keep left. The hand signals to be given by the driver are the same as those given by a cyclist (see Section 7). A horse-drawn vehicle must be equipped with two red rear reflectors and, at night,must also carry on the right-hand side of the vehicle a lamp showing a white light to the front and a red light to the back.</p>
+  <p>You must not drive a horse-drawn vehicle while under the influence of alcohol or drugs.</p>
 </div>
-<h4 class = "text-primary">Riding or leading horses</h4>
+<h4 class="text-primary">Riding or leading horses</h4>
 <div>
-<p>If you are riding or leading a horse, you must remain on the left-hand side of the road and obey all Rules of the Road.</p>
-<p>You should wear a high-visibility vest and an approved riding helmet.
-When leading a horse, you should walk so as to ensure that you are between the
-horse and the traffic, so as to prevent the horse from interfering with the traffic.</p>
-<p>When riding one horse and leading a second horse, you must remain on the left- hand side of the road. You should ensure the led horse is on the left-hand side of the ridden horse, to ensure that you are positioned between the horse and the traffic. This is in order to control the led horse, in the interest of the safety of other users of the road.</p>
-<img src="./asset/img/law_content/sec8pic1.png" alt="">
-<p>Drivers should take special care when:</p>
-<ul>
-<li>approaching riding schools or places where horses are likely to appear</li>
-<li>overtaking horses, especially loose horses or horse-drawn vehicles</li>
-<li>approaching a horse and rider. If appropriate a driver must stop a vehicle and allow them to pass.</li>
-</ul>
+  <p>If you are riding or leading a horse, you must remain on the left-hand side of the road and obey all Rules of the Road.</p>
+  <p>You should wear a high-visibility vest and an approved riding helmet.
+    When leading a horse, you should walk so as to ensure that you are between the
+    horse and the traffic, so as to prevent the horse from interfering with the traffic.</p>
+  <p>When riding one horse and leading a second horse, you must remain on the left- hand side of the road. You should ensure the led horse is on the left-hand side of the ridden horse, to ensure that you are positioned between the horse and the traffic. This is in order to control the led horse, in the interest of the safety of other users of the road.</p>
+  <figure class="text-center">
+    <img class="img-fluid" src="./asset/img/law_content/sec8pic1.png" alt="">
+  </figure>
+  <p>Drivers should take special care when:</p>
+  <ul>
+    <li>approaching riding schools or places where horses are likely to appear</li>
+    <li>overtaking horses, especially loose horses or horse-drawn vehicles</li>
+    <li>approaching a horse and rider. If appropriate a driver must stop a vehicle and allow them to pass.</li>
+  </ul>
 </div>
 <h4 class="text-primary">Driving animals on the road</h4>
 <div>
-<p>If you are in charge of animals on a roadway, you must take reasonable steps to make sure the animals do not block other traffic or pedestrians.</p>
-<p>If you are in charge of animals on the road at night, you should carry a lamp showing a white light to the front and a red light to the back. You should also wear a reflective armband.</p>
+  <p>If you are in charge of animals on a roadway, you must take reasonable steps to make sure the animals do not block other traffic or pedestrians.</p>
+  <p>If you are in charge of animals on the road at night, you should carry a lamp showing a white light to the front and a red light to the back. You should also wear a reflective armband.</p>
 </div>

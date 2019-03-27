@@ -1,83 +1,91 @@
-    <p>section7: <h2 class="text-danger">Respecting other road users</h2>
-    </p>
-    <p>Your vehicle does not have greater right of way than any other road user, so, for safety reasons, you <span
-            class="text-primary">should</span> drive defensively. This means expecting the unexpected and making way
-        for other road users when necessary.</p>
-    <p>Some of the actions you might need to take in normal conditions include:</p>
-    <ul>
-        <li>making way for an ambulance, fire engine or Garda vehicle;</li>
-        <li>watching and stopping for children emerging from between cars; and</li>
-        <li>waiting until a vehicle has started its left-hand turn before you emerge from a side road.</li>
-        <li>To make sure all road users are safe, be aware of your responsibilities towards:</li>
-        <li>pedestrians, children, older people, people with disabilities and wheelchair users;</li>
-        <li>cyclists and motorcyclists; and</li>
-        <li>any animal traffic on the road.</li>
-    </ul>
-    <p>This helps drivers to become safer and more socially responsible, not only to themselves, but to their families
-        and other road users.</p>
-        <h3 class="text-info">Pedestrians</h3>
-        <p>As a driver, you <span class="text-danger">must</span> not put a pedestrian at risk. In particular, you <span class="text-danger">must</span> give way to pedestrians:</p>
-        <ul>
-            <li>on or at a zebra crossing (even if they are only waiting to cross); on or at a pelican crossing, when the amber light is flashing;</li>
-            <li>crossing the road, if you are moving off from a stationary position (for example at a traffic light or a parking space); and</li>
-            <li>at a junction, if they have started crossing the road.</li>
-        </ul> 
-        <h4 class="text-danger">REMEMBER</h4>
-        <b>It is an offence to drive a vehicle partly or fully along or across a footpath, unless you are crossing a footpath to enter or leave a building or other place beside it.</b>
-        <h4 class="text-primary">Children have less experience than other people in using the road, so you <span class="text-info">should</span> make extra allowances for their behaviour.</h4>
-        <ul>
-            <li>Take care when you are:</li>
-            <li>driving beside footpaths where there are young children; coming out from side entrances or driveways;
-                    driving in car parks; and
-                    </li>
-                </ul>
-            <li>reversing, in particular where there are young children. You cannot see a small child behind your vehicle through your mirrors or back window. If in doubt, get out and check.</li>
-            <h4 class="text-primary">School</h4>
-            <p>Do not park at a school entrance. Thoughtless parking can confuse parents and their children or block the entrance or exit of a school. It can also force children onto the road to get around your vehicle.</p>
-            <p>It is an offence if your vehicle blocks a footpath or a cycle track.</p>
-            <p>You <span class="text-info"></span> also take care near school buses, especially if overtaking a bus that children are boarding or leaving. School buses are clearly marked with stickers.</p>
-            <p>Do not leave any room for doubt. If you see school children, particularly young children, you may use your horn to let them know you are there.</p>
-            <img src="./asset/img/law_content/sec7pic1.png" alt="">
-            <p>Be careful near children who are cycling. Take extra care near a school, where cyclists may emerge in groups. Remember, it is hard to predict a young cyclist’s balance and behaviour.</p>
-            <h4 class="text-primary">School wardens</h4>
-            <p>Adult school wardens provide safe road crossing places for children outside or near schools. They wear a hat and an overcoat, which include reflective material. Wardens carry a special sign and are allowed by law to stop traffic.</p>
-            <p>When a warden raises the ‘Stop’ sign (shown below on the left), you must stop and remain stopped until:</p>
-            <ul>
-                <li>the school children have crossed the road;</li>
-                <li>the sign is lowered; and</li>
-                <li>the school warden has safely returned to the footpath.</li>
-            </ul>
-                <img src="./asset/img/law_content/sec7pic2.png" alt="">
-            <h4 class="text-primary">Junior school wardens</h4>
-            <p>All vehicles <span class="text-danger">must</span> remain stopped until all the junior wardens have returned to the footpath.</p>
-            <p>Never park in a place that blocks a warden’s view. School wardens must be able to see the road clearly to do their work properly and safely.</p>
-            <img src="./asset/img/law_content/sec7pic3.png" alt="">
-            <h3 class="text-info">Cyclists and motorcyclists</h3>
-            <p>Never put a cyclist or motorcyclist at risk and know your duty to be aware of them. They are especially vulnerable if there is a crash.</p>
-            <p>In particular, watch for cyclists and motorcyclists: at junctions;</p>
-            <ul>
-                <li>where cycle tracks merge with roads;</li>
-                <li>when you change lanes;</li>
-                <li>when opening your door to get out of a vehicle;</li>
-                <li>when stopping and turning, especially when making a left turn; and when reversing.</li>
-            </ul>
-            <p>The best way to take care near cyclists and motorcyclists is to use your mirrors and recheck blind spots.</p>
-            <h4 class="text-primary">Overtaking</h4>
-            <p>Never cut in front of cyclists or motorcyclists when overtaking them. Give them plenty of space, especially:</p>
-            <p>in wet or windy weather; when road conditions are icy;</p>
-            <p>when they are starting off. Cyclists tend to wobble until they build up their speed; and</p>
-            <p>when the road surface is poor. Cyclists and motorcyclists may need to avoid potholes.</p>
+<p>section7: <h2 class="text-danger">Respecting other road users</h2>
+</p>
+<p>Your vehicle does not have greater right of way than any other road user, so, for safety reasons, you <span class="text-primary">should</span> drive defensively. This means expecting the unexpected and making way
+    for other road users when necessary.</p>
+<p>Some of the actions you might need to take in normal conditions include:</p>
+<ul>
+    <li>making way for an ambulance, fire engine or Garda vehicle;</li>
+    <li>watching and stopping for children emerging from between cars; and</li>
+    <li>waiting until a vehicle has started its left-hand turn before you emerge from a side road.</li>
+    <li>To make sure all road users are safe, be aware of your responsibilities towards:</li>
+    <li>pedestrians, children, older people, people with disabilities and wheelchair users;</li>
+    <li>cyclists and motorcyclists; and</li>
+    <li>any animal traffic on the road.</li>
+</ul>
+<p>This helps drivers to become safer and more socially responsible, not only to themselves, but to their families
+    and other road users.</p>
+<h3 class="text-info">Pedestrians</h3>
+<p>As a driver, you <span class="text-danger">must</span> not put a pedestrian at risk. In particular, you <span class="text-danger">must</span> give way to pedestrians:</p>
+<ul>
+    <li>on or at a zebra crossing (even if they are only waiting to cross); on or at a pelican crossing, when the amber light is flashing;</li>
+    <li>crossing the road, if you are moving off from a stationary position (for example at a traffic light or a parking space); and</li>
+    <li>at a junction, if they have started crossing the road.</li>
+</ul>
+<h4 class="text-danger">REMEMBER</h4>
+<b>It is an offence to drive a vehicle partly or fully along or across a footpath, unless you are crossing a footpath to enter or leave a building or other place beside it.</b>
+<h4 class="text-primary">Children have less experience than other people in using the road, so you <span class="text-info">should</span> make extra allowances for their behaviour.</h4>
+<ul>
+    <li>Take care when you are:</li>
+    <li>driving beside footpaths where there are young children; coming out from side entrances or driveways;
+        driving in car parks; and
+    </li>
+</ul>
+<li>reversing, in particular where there are young children. You cannot see a small child behind your vehicle through your mirrors or back window. If in doubt, get out and check.</li>
+<h4 class="text-primary">School</h4>
+<p>Do not park at a school entrance. Thoughtless parking can confuse parents and their children or block the entrance or exit of a school. It can also force children onto the road to get around your vehicle.</p>
+<p>It is an offence if your vehicle blocks a footpath or a cycle track.</p>
+<p>You <span class="text-info"></span> also take care near school buses, especially if overtaking a bus that children are boarding or leaving. School buses are clearly marked with stickers.</p>
+<p>Do not leave any room for doubt. If you see school children, particularly young children, you may use your horn to let them know you are there.</p>
+<figure class="text-center">
+    <img class="img-fluid" src="./asset/img/law_content/sec7pic1.png" alt="">
+</figure>
+<p>Be careful near children who are cycling. Take extra care near a school, where cyclists may emerge in groups. Remember, it is hard to predict a young cyclist’s balance and behaviour.</p>
+<h4 class="text-primary">School wardens</h4>
+<p>Adult school wardens provide safe road crossing places for children outside or near schools. They wear a hat and an overcoat, which include reflective material. Wardens carry a special sign and are allowed by law to stop traffic.</p>
+<p>When a warden raises the ‘Stop’ sign (shown below on the left), you must stop and remain stopped until:</p>
+<ul>
+    <li>the school children have crossed the road;</li>
+    <li>the sign is lowered; and</li>
+    <li>the school warden has safely returned to the footpath.</li>
+</ul>
+<figure class="text-center">
+    <img class="img-fluid" src="./asset/img/law_content/sec7pic2.png" alt="">
+</figure>
+<h4 class="text-primary">Junior school wardens</h4>
+<p>All vehicles <span class="text-danger">must</span> remain stopped until all the junior wardens have returned to the footpath.</p>
+<p>Never park in a place that blocks a warden’s view. School wardens must be able to see the road clearly to do their work properly and safely.</p>
+<figure class="text-center">
+    <img class="img-fluid" src="./asset/img/law_content/sec7pic3.png" alt="">
+</figure>
+<h3 class="text-info">Cyclists and motorcyclists</h3>
+<p>Never put a cyclist or motorcyclist at risk and know your duty to be aware of them. They are especially vulnerable if there is a crash.</p>
+<p>In particular, watch for cyclists and motorcyclists: at junctions;</p>
+<ul>
+    <li>where cycle tracks merge with roads;</li>
+    <li>when you change lanes;</li>
+    <li>when opening your door to get out of a vehicle;</li>
+    <li>when stopping and turning, especially when making a left turn; and when reversing.</li>
+</ul>
+<p>The best way to take care near cyclists and motorcyclists is to use your mirrors and recheck blind spots.</p>
+<h4 class="text-primary">Overtaking</h4>
+<p>Never cut in front of cyclists or motorcyclists when overtaking them. Give them plenty of space, especially:</p>
+<p>in wet or windy weather; when road conditions are icy;</p>
+<p>when they are starting off. Cyclists tend to wobble until they build up their speed; and</p>
+<p>when the road surface is poor. Cyclists and motorcyclists may need to avoid potholes.</p>
 
-            <h4 class="text-primary">Overtaking</h4>
-            <p>On left turns, watch out for cyclists and motorcycles close to the kerb in front of you or coming up on your left (especially if there is a cycle track on the left). Do not overtake a cyclist as you approach a junction if you are turning left. The cyclist might be continuing straight ahead.</p>
+<h4 class="text-primary">Overtaking</h4>
+<p>On left turns, watch out for cyclists and motorcycles close to the kerb in front of you or coming up on your left (especially if there is a cycle track on the left). Do not overtake a cyclist as you approach a junction if you are turning left. The cyclist might be continuing straight ahead.</p>
 
-            <h4 class="text-primary">Turning right</h4>
-            <p>When turning right through a gap in oncoming traffic (for example at a yellow box junction), watch out for cyclists who might be moving up on the inside or might be travelling in a cycle or bus lane running in the opposite direction at the far side of the road. Also, use your mirrors to check for any motorcyclists who may be overtaking you as you approach the turn.</p>
-            <h3 class="text-info">Cycle tracks and parking</h3>
-            <p>Do not park or drive on cycle tracks. Before you open the door of a parked vehicle, use your mirrors to check for cyclists and motorcyclists coming up on your right and give them enough room to pass.</p>
-            <img src="./asset/img/law_content/sec7pic4.png" alt="">
-            <h3 class="text-info">Animal traffic</h3>
-            <p>Always slow down and be prepared to stop when approaching or overtaking animals. If a person in charge of animals gives a signal to slow down or stop, you <span class="text-danger">must</span> obey it. Avoid using your horn if animals are in front of you, as it might frighten them.</p>
-            <p>If you are travelling on a road where animals are common, you will see a warning sign like the ones below.</p>
-            <img src="./asset/img/law_content/sec7pic5.png" alt="">
-
+<h4 class="text-primary">Turning right</h4>
+<p>When turning right through a gap in oncoming traffic (for example at a yellow box junction), watch out for cyclists who might be moving up on the inside or might be travelling in a cycle or bus lane running in the opposite direction at the far side of the road. Also, use your mirrors to check for any motorcyclists who may be overtaking you as you approach the turn.</p>
+<h3 class="text-info">Cycle tracks and parking</h3>
+<p>Do not park or drive on cycle tracks. Before you open the door of a parked vehicle, use your mirrors to check for cyclists and motorcyclists coming up on your right and give them enough room to pass.</p>
+<figure class="text-center">
+    <img class="img-fluid" src="./asset/img/law_content/sec7pic4.png" alt="">
+</figure>
+<h3 class="text-info">Animal traffic</h3>
+<p>Always slow down and be prepared to stop when approaching or overtaking animals. If a person in charge of animals gives a signal to slow down or stop, you <span class="text-danger">must</span> obey it. Avoid using your horn if animals are in front of you, as it might frighten them.</p>
+<p>If you are travelling on a road where animals are common, you will see a warning sign like the ones below.</p>
+<figure class="text-center">
+    <img class="img-fluid" src="./asset/img/law_content/sec7pic5.png" alt="">
+</figure>
