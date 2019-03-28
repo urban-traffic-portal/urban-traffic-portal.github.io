@@ -1,7 +1,30 @@
-.controls
+.ctr
 {
-  max-width: 200px !important;
   margin-top: 15px !important;
-  font-size: 0.8rem !important;
+  font-size: 1rem !important;
   font-family: 'Noto Sans', sans-serif !important;
+}
+
+#origin-input
+{
+  position: absolute !important;
+  left: 0 !important;
+  top: 60px !important;
+  max-width: 200px !important;
+}
+
+#destination-input
+{
+  position: absolute !important;
+  left: 0 !important;
+  top: 120px !important;
+  max-width: 200px !important;
+}
+
+#pac-input
+{
+  position: absolute !important;
+  left: 0 !important;
+  top: 180px !important;
+  max-width: 200px !important;
 }

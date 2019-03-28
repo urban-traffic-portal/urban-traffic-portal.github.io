@@ -267,16 +267,14 @@
           </button>
         </div>
         <div class="modal-body">
-          <form class="was-validated">
-            <div class="form-group">
-              <label for="rpSub">Subject report</label>
-              <input type="text" class="form-control" id="rpSub" placeholder="Enter subject" required pattern="^[\w ]{1,30}$">
-            </div>
-            <div class="form-group">
-              <label for="rpMess">Details</label>
-              <textarea class="form-control" id="rpMess" rows="4" placeholder="Enter message" required></textarea>
-            </div>
-          </form>
+          <div class="form-group">
+            <label for="rpSub">Subject report</label>
+            <input type="text" class="form-control" id="rpSub" placeholder="Enter subject">
+          </div>
+          <div class="form-group">
+            <label for="rpMess">Details</label>
+            <textarea class="form-control" id="rpMess" rows="4" placeholder="Enter details"></textarea>
+          </div>
         </div>
         <div class="modal-footer text-center">
           <button type="button" data-dismiss="modal" id="buttonSendReport" class="btn btn-primary">Send</button>

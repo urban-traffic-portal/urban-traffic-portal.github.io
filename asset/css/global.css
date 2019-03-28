@@ -306,3 +306,8 @@ span
   font-size: 1.5rem !important;
   font-weight: 600 !important;
 }
+
+#ruleContent
+{
+  min-height: 80vh;
+}

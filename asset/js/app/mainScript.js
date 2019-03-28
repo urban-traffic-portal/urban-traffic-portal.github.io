@@ -32,7 +32,7 @@ function updateViews()
     $("#inputGuestName").attr("placeholder", "Type yourname");
   else $("#inputGuestName").attr("placeholder", "Type yourname here");
 
-  $("#map").css("min-height", $(window).innerHeight() - $("#loadContent").position().top - 40);
+  $("#map").css("min-height", $(window).innerHeight() - $("#loadContent").position().top - 170);
 }
 
 function reString(str)

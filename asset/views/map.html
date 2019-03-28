@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <div ng-app="mapapp" ng-controller="mapcontroller" class="container-fluid">
-  <div class="col-lg-8">
-    <div style="display: none">
-      <input id="origin-input" class="controls form-control" type="text" placeholder="Enter an origin location">
-      <input id="destination-input" class="controls form-control" type="text" placeholder="Enter a destination location">
-      <div id="mode-selector" class="controls form-control">
+  <div class="row">
+    <div class="col-lg-8">
+      <div style="display: none">
+        <input id="origin-input" class="controls form-control ctr" type="text" placeholder="Enter an origin location">
+        <input id="destination-input" class="controls form-control ctr" type="text" placeholder="Enter a destination location">
+        <input id="pac-input" class="controls form-control ctr" type="text" placeholder="Search Box">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-8">
+      <div id="mode-selector" class="controls ctr">
         <input type="radio" name="type" id="changemode-walking" checked="checked">
         <label for="changemode-walking">Walking</label>
         <input type="radio" name="type" id="changemode-transit">
@@ -12,11 +19,6 @@
         <input type="radio" name="type" id="changemode-driving">
         <label for="changemode-driving">Driving</label>
       </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-8">
-      <input id="pac-input" class="controls form-control" type="text" placeholder="Search Box">
       <div id="map" class="border border-primary shadow"></div>
     </div>
     <div class="col-lg-4 table-responsive">
