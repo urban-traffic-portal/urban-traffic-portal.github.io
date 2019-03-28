@@ -211,4 +211,14 @@ $("#buttonScrollup").click(function ()
   $("html, body").stop().animate({ scrollTop: 0 }, 600);
 });
 
-//$("#report").modal("show");
+function showModalMK()
+{
+  $("#report").modal("show");
+}
+
+$('#report').on('shown.bs.modal', function (e)
+{
+  $("#rpSub").val("");
+  $("#rpMess").val("");
+  $("#rpSub").focus();
+});

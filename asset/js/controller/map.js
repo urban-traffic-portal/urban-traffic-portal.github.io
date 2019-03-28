@@ -110,9 +110,9 @@ function initMap(userlat, userlong, userzoom)
         infoWindow.open(thisMap);
         thisMap.setCenter(pos);
       }, function ()
-      {
-        handleLocationError(true, infoWindow, thisMap.getCenter());
-      });
+        {
+          handleLocationError(true, infoWindow, thisMap.getCenter());
+        });
     } else
     {
       // Browser doesn't support Geolocation
@@ -150,12 +150,29 @@ function showPosition(position)
 // Adds a marker to the map and push to the array.
 function addMarker(location, thismap)
 {
-  var marker = new google.maps.Marker({
-    position: location,
-    map: thismap
-  });
-  marker.setMap(thismap);
-  markers.push(marker);
+  $("#report").modal("show");
+  $("#buttonSendReport").click(function ()
+  {
+    var infowindow = new google.maps.InfoWindow({
+      content:
+        '<div>' +
+          '<h4 class="text-primary">' + $("#rpSub").val() + '</h4>' +
+          '<h6>' + $("#rpMess").val() + '</h6>' +
+          '<p><b>Status:</b> Verifying...</p>' +
+        '</div>'
+    });
+
+    var marker = new google.maps.Marker({
+      position: location,
+      map: thismap,
+      title: 'Verifying...'
+    });
+
+    infowindow.open(thismap, marker);
+    marker.setMap(thismap);
+    markers.push(marker);
+  }
+  );
 }
 //
 function Icons(name)
