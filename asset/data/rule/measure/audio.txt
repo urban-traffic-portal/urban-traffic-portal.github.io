@@ -1,9 +1,105 @@
-<div class="container-fluid">
-    <div class="col-md-12">
-            <audio controls>
-                    <source src="horse.ogg" type="audio/ogg">
-                    <source src="horse.mp3" type="audio/mpeg">
-                  Your browser does not support the audio element.
-                  </audio>
+
+    <div class="container-fluid text-center audio_img">
+      <div class="row">
+        <div class="col-md-4">
+          <img class="audio_img" src="./asset/img/audio_img/audiopic1.jpg" alt="" />
+          <audio controls>
+            <source src="./asset/data/audio/1.ogg" type="audio/ogg" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="col-md-4">
+          <img class="audio_img" src="./asset/img/audio_img/audiopic2.jpg" alt="" />
+          <audio controls>
+            <source src="./asset/data/audio/2.ogg" type="audio/ogg" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="col-md-4">
+          <img  class="audio_img" src="./asset/img/audio_img/audiopic3.jpg" alt="" />
+          <audio controls>
+            <source src="./asset/data/audio/3.ogg" type="audio/ogg" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img class="audio_img" src="./asset/img/audio_img/audiopic4.jpg" alt="" />
+          <audio controls>
+            <source src="./asset/data/audio/4.ogg" type="audio/ogg" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="col-md-4">
+          <img class="audio_img" src="./asset/img/audio_img/audiopic5.png" alt="" />
+          <audio controls>
+            <source src="./asset/data/audio/5.ogg" type="audio/ogg" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="col-md-4">
+          <img  class="audio_img" src="./asset/img/audio_img/audiopic6.jpg" alt="" />
+          <audio controls>
+            <source src="./asset/data/audio/6.ogg" type="audio/ogg" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img class="audio_img" src="./asset/img/audio_img/audiopic7.jpg" alt="" />
+          <audio controls>
+            <source src="./asset/data/audio/7.ogg" type="audio/ogg" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="col-md-4">
+          <img  class="audio_img" src="./asset/img/audio_img/audiopic8.jpg" alt="" />
+          <audio controls>
+            <source src="./asset/data/audio/8.ogg" type="audio/ogg" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="col-md-4">
+          <img class="audio_img" src="./asset/img/audio_img/audiopic9.jpg" alt="" />
+          <audio controls>
+            <source src="./asset/data/audio/9.ogg" type="audio/ogg" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img class="audio_img" src="./asset/img/audio_img/audiopic10.jpg" alt="" />
+          <audio controls>
+            <source src="./asset/data/audio/10.ogg" type="audio/ogg" />
+
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="col-md-4">
+          <img  class="audio_img" src="./asset/img/audio_img/audiopic11.jpg" alt="" />
+          <audio controls>
+            <source src="./asset/data/audio/11.ogg" type="audio/ogg" />
+
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="col-md-4">
+          <img class="audio_img" src="./asset/img/audio_img/audiopic11.jpg" alt="" />
+          <audio controls>
+            <source src="./asset/data/audio/horse.ogg" type="audio/ogg" />
+
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
     </div>
-</div>
+    <style>
+      .audio_img {
+        width: 300px;
+        height: 300px;
+    }
+    </style>
+  
