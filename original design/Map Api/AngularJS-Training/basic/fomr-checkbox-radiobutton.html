@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+<body>
+
+<div class="container" ng-app="myApp" ng-controller="myController">
+    <form>
+        Check to show a header:
+        <input type="checkbox" ng-model="myVar">
+    </form>
+    <h1 ng-show="myVar">My Header</h1>
+
+    <form>
+        Pick a topic:
+        <input type="radio" ng-model="selectedValue" value="dogs">Dogs
+        <input type="radio" ng-model="selectedValue" value="tuts">Tutorials
+        <input type="radio" ng-model="selectedValue" value="cars">Cars
+    </form>
+
+
+    <div ng-switch="selectedValue">
+        <div ng-switch-when="dogs">
+            <h1>Dogs</h1>
+            <p>Welcome to a world of dogs.</p>
+        </div>
+        <div ng-switch-when="tuts">
+            <h1>Tutorials</h1>
+            <p>Learn from examples.</p>
+        </div>
+        <div ng-switch-when="cars">
+            <h1>Cars</h1>
+            <p>Read about cars.</p>
+        </div>
+    </div>
+</div>
+
+
+<script src="../js/angular/angular.js"></script>
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('myController', function ($scope) {
+
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+<!-- ng-app directive -->
+<body ng-app="myApp">
+<div class="container" ng-controller="myController">
+    <!-- ng-repeat directive -->
+    <h2>List</h2>
+    <ul class="list-group">
+        <li class="list-group-item" ng-repeat="country in countries">
+            {{ 'Country: ' + country.name + ', Locale: ' + country.locale }}
+        </li>
+    </ul>
+
+    <h2>Table</h2>
+    <!-- ng-repeat directive -->
+    <table class="table">
+        <tr ng-repeat="country in countries">
+            <td>{{ country.name }}</td>
+            <td>{{ country.locale }}</td>
+        </tr>
+    </table>
+</div>
+
+<script type="text/javascript" src="../js/angular/angular.js"></script>
+<script>
+    var app = angular.module("myApp", []);
+    app.controller("myController", function ($scope) {
+        // Khai báo mảng
+        $scope.countries = [
+            {locale: 'en-US', name: 'United States'},
+            {locale: 'en-GB', name: 'United Kingdom'},
+            {locale: 'en-FR', name: 'France'},
+            {locale: 'vi-VN', name: 'Vietnam'}
+        ];
+    });
+</script>
+</body>
+</html>

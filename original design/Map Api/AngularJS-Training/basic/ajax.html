@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+
+<body>
+<div class="container">
+    <h2>AngularJS Ajax</h2>
+
+    <div ng-app="myApp" ng-controller="myController">
+        <h1>{{ myWelcome }}</h1>
+
+        <p>Data : {{content}}</p>
+        <p>Status : {{statuscode}}</p>
+        <p>StatusText : {{statustext}}</p>
+        <p>Content : {{content}}</p>
+
+        <h1>Customers from JSON</h1>
+        <ul>
+            <li ng-repeat="x in customers">
+                {{ x.Name + ', ' + x.Country }}
+            </li>
+        </ul>
+    </div>
+</div>
+<script src="../js/angular/angular.js"></script>
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('myController', function ($scope, $location, $http, $timeout, $interval) {
+
+        // SIMPLE
+        $http.get("welcome.html").then(function (response) {
+            $scope.myWelcome = response.data;
+        });
+
+        // DEFAULT
+        $http({
+            method: "GET",
+            url: "welcome.html"
+        }).then(function mySucces(response) {
+            $scope.myWelcome = response.data;
+        }, function myError(response) {
+            $scope.myWelcome = response.statusText;
+        });
+
+        // STATUS
+        $http.get("welcome.html")
+                .then(function (response) {
+                    $scope.content = response.data;
+                    $scope.statuscode = response.status;
+                    $scope.statustext = response.statustext;
+                });
+
+        // ERROR
+        $http.get("wrongfilename.htm")
+                .then(function (response) {
+                    //First function handles success
+                    $scope.content = response.data;
+                }, function (response) {
+                    //Second function handles error
+                    $scope.content = "Something went wrong";
+                });
+
+        // JSON
+
+        $http.get("http://www.w3schools.com/angular/customers.php").then(function(response) {
+            $scope.customers = response.data.records;
+        });
+
+        /*
+        $http.get("customers.json").then(function(response) {
+            $scope.customers = response.data.records;
+        });
+        */
+    });
+</script>
+
+</body>

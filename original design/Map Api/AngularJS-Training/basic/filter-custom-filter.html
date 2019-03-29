@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+<!-- ng-app directive -->
+<body ng-app="myApp">
+<div class="container" ng-controller="myController">
+    <!-- ng-repeat directive -->
+    <h2>List</h2>
+    <ul class="list-group">
+        <li class="list-group-item" ng-repeat="name in names">
+            {{name | myFormat}}
+        </li>
+    </ul>
+</div>
+
+<script type="text/javascript" src="../js/angular/angular.js"></script>
+<script>
+    var app = angular.module("myApp", []);
+    app.controller("myController", function ($scope) {
+        // Khai báo mảng
+        $scope.names = ['Tung', 'Khanh', 'Nam', 'Hung', 'Duong', 'Khoa', 'Thuy', 'Hong', 'Hoa'];
+    });
+
+    app.filter('myFormat', function () {
+        return function (x) {
+            var i, c, text = "";
+            for (i = 0; i < x.length; i++) {
+                c = x[i];
+                if (i % 2 == 0) {
+                    c = c.toUpperCase();
+                }
+                text += c;
+            }
+            return text;
+        };
+    });
+</script>
+</body>
+</html>

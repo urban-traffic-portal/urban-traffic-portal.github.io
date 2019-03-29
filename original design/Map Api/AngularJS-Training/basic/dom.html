@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+<body>
+
+<div class="container" ng-app="" ng-init="mySwitch=true; hour=11">
+    <p>
+        <button class="btn btn-danger" ng-disabled="mySwitch">Click Me!</button>
+    </p>
+    <p>
+        <input type="checkbox" ng-model="mySwitch"/>Button
+    </p>
+    <p>
+        {{ mySwitch }}
+    </p>
+
+    <p ng-show="hour < 12">Good morning!</p>
+    <p ng-show="hour >= 12">Good afternoon!</p>
+</div>
+
+<script src="../js/angular/angular.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+<body>
+
+<div class="container" ng-app="myApp" ng-controller="myController">
+    <h1>{{ count }}</h1>
+
+    <h2 ng-mousemove="count = count + 1">Mouse Over Me!</h2>
+    <button ng-click="count = count + 1">Click me!</button>
+    <button ng-click="increaseCount()">Click me!</button>
+
+    <br>
+    <button ng-click="showMenu()">Show Menu</button>
+
+    <div ng-show="isDisplay">
+        <h1>Menu:</h1>
+        <div>Pizza</div>
+        <div>Pasta</div>
+        <div>Pesce</div>
+    </div>
+
+
+    <h1 ng-mousemove="myFunc($event)">Mouse Over Me!</h1>
+
+    <p>Coordinates: {{x + ', ' + y}}</p>
+</div>
+
+<script src="../js/angular/angular.js"></script>
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('myController', function($scope) {
+        $scope.count = 0;
+
+        $scope.increaseCount = function() {
+            $scope.count++;
+        }
+
+
+        $scope.isDisplay = false;
+        $scope.showMenu = function() {
+            $scope.isDisplay = !$scope.isDisplay;
+        }
+
+
+        $scope.myFunc = function(myE) {
+            $scope.x = myE.clientX;
+            $scope.y = myE.clientY;
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Angular JS Controller</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+
+<body>
+<div class="container">
+    <h2>AngularJS Data Binding</h2>
+
+    <div ng-app="myApp" ng-controller="myController">
+        Enter first name: <input type="text" class="form-control" ng-model="student.firstName"><br><br>
+        Enter last name: <input type="text" class="form-control" ng-model="student.lastName"><br>
+        <br>
+        <p>
+            You are entering: {{student.fullName()}}
+        </p>
+        <h3>
+            <span ng-bind="student.firstName"></span> <span ng-bind="student.lastName"></span>
+
+        </h3>
+        <h5>
+            <span ng-bind="student.fullName()"></span>
+        </h5>
+    </div>
+
+</div>
+
+<script src="../js/angular/angular.js"></script>
+<script>
+    var app = angular.module("myApp", []);
+    app.controller('myController', function ($scope) {
+        $scope.student = {
+            firstName: "Ngo",
+            lastName: "Tung",
+
+            fullName: function () {
+                return $scope.student.firstName + " " + $scope.student.lastName;
+            }
+        };
+    });
+</script>
+</body>
+</html>

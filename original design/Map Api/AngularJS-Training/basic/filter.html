@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+
+<body>
+<div class="container">
+    <h2>AngularJS Filter</h2>
+
+    <ul>
+        <li>currency: Format a number to a currency format.</li>
+        <li>date: Format a date to a specified format.</li>
+        <li>filter: Select a subset of items from an array.</li>
+        <li>json: Format an object to a JSON string.</li>
+        <li>limitTo: Limits an array/string, into a specified number of elements/characters.</li>
+        <li>lowercase: Format a string to lower case.</li>
+        <li>number: Format a number to a string.</li>
+        <li>orderBy: Orders an array by an expression.</li>
+        <li>uppercase: Format a string to upper case.</li>
+    </ul>
+    <hr/>
+
+    <div ng-app="myApp" ng-controller="myController">
+        <div>
+            <h2>filter: uppercase, lowercase</h2>
+            <!-- uppercase -->
+            <div>
+                uppercase: {{firstName | uppercase}}
+            </div>
+            <div>
+                lowercase: {{firstName | lowercase}}
+            </div>
+        </div>
+
+        <div>
+            <h2>filter: currency</h2>
+            <h1>Price: {{ money | currency }}</h1>
+        </div>
+
+        <div>
+            <h2>filter: orderBy</h2>
+            <ul class="list-group">
+                <li class="list-group-item" ng-repeat="country in countries | orderBy: 'name'">
+                    {{ 'Country: ' + country.name + ', Locale: ' + country.locale }}
+                </li>
+            </ul>
+        </div>
+
+
+
+
+        <div>
+            <h2>filter: filter </h2>
+            <ul class="list-group">
+                <li class="list-group-item" ng-repeat="country in countries | filter : {name: 'United'}">
+                    {{ 'Country: ' + country.name + ', Locale: ' + country.locale }}
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="../js/angular/angular.js"></script>
+<script>
+    var app = angular.module("myApp", []);
+    app.controller('myController', function ($scope) {
+        $scope.firstName = "Ngo";
+        $scope.lastName = "Tung";
+
+        // Khai báo mảng
+        $scope.countries = [
+            {locale: 'en-US', name: 'United States'},
+            {locale: 'en-GB', name: 'United Kingdom'},
+            {locale: 'en-FR', name: 'France'},
+            {locale: 'vi-VN', name: 'Vietnam'}
+        ];
+
+        $scope.money = 15000;
+    });
+</script>
+
+</body>

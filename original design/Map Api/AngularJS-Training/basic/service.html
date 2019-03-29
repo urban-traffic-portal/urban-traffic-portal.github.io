@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+
+<body>
+<div class="container">
+    <h2>AngularJS Service</h2>
+
+    <div ng-app="myApp" ng-controller="myController">
+        <h2>{{ myUrl }}</h2>
+        <h1>{{ myWelcome }}</h1>
+        <h1>{{ myHeader }}</h1>
+        <h1>{{ theTime }}</h1>
+    </div>
+</div>
+<script src="../js/angular/angular.js"></script>
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('myController', function ($scope, $location, $http, $timeout, $interval) {
+        $scope.myUrl = $location.absUrl();
+
+
+        $http.get("welcome.html").then(function (response) {
+            $scope.myWelcome = response.data;
+        });
+
+        // Display a new message after two seconds:
+        $timeout(function () {
+            $scope.myHeader = "How are you today?";
+        }, 2000);
+
+
+        $scope.theTime = new Date().toLocaleTimeString();
+        $interval(function () {
+            $scope.theTime = new Date().toLocaleTimeString();
+        }, 1000);
+    });
+</script>
+
+</body>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+
+<body>
+<div class="container">
+    <h2>AngularJS Controller</h2>
+
+    <div ng-app="myApp" ng-controller="myController">
+        Enter first name: <input type="text" class="form-control" ng-model="student.firstName"><br><br>
+        Enter last name: <input type="text" class="form-control" ng-model="student.lastName"><br>
+        <br>
+
+        You are entering: {{student.fullName()}}
+    </div>
+</div>
+<script src="../js/angular/angular.js"></script>
+<script>
+    var app = angular.module("myApp", []);
+    app.controller('myController', function ($scope) {
+        $scope.student = {
+            firstName: "Ngo",
+            lastName: "Tung",
+
+            fullName: function () {
+                return $scope.student.firstName + " " + $scope.student.lastName;
+            }
+        };
+    });
+</script>
+
+</body>
